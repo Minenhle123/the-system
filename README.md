@@ -5,6 +5,8 @@ real consequences, six attributes that only grow when you do, long-term goals
 fought as boss gates. No account, no server, no fee. Progress lives in your
 browser, with a save file you own.
 
+**Live:** https://minenhle123.github.io/the-system/
+
 ## Run it
 
 It is a static site with no build step and no dependencies. Serve the folder
