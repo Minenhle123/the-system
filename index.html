@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>THE SYSTEM — Level up in real life</title>
+<meta name="description" content="Daily quests with real consequences. Six attributes that only grow when you do. No subscription, no account, no server — your progress lives on your device.">
+<meta property="og:title" content="THE SYSTEM — Level up in real life">
+<meta property="og:description" content="Daily quests with real consequences. No account, no server.">
+<meta property="og:image" content="./assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#04060d">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" href="./assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="./assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/app.css">
+<link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="wrap site-top">
+  <a class="brand" href="./" aria-label="THE SYSTEM — home">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><polygon class="mark-hex" points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5"/><polygon class="mark-tri" points="20,12.5 27.5,26 12.5,26"/></svg>
+    <span>THE SYSTEM</span>
+  </a>
+  <nav class="top-links" aria-label="Site">
+    <a href="./how-it-works.html">How it works</a>
+    <a class="hide-sm" href="./privacy.html">Privacy</a>
+    <a class="btn btn-sm" href="./app/">Begin</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="wrap hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <svg class="hero-mark" viewBox="0 0 40 40" aria-hidden="true"><polygon class="mark-hex" points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5"/><polygon class="mark-tri" points="20,12.5 27.5,26 12.5,26"/></svg>
+      <h1 class="hero-title" id="hero-title">Level up <span>in real life</span></h1>
+      <p class="lede">Daily quests with real consequences. Six attributes that only grow when you do. No subscription, no account, no server — your progress lives on your device and nowhere else.</p>
+      <div class="cta">
+        <a class="btn btn-hot btn-lg" href="./app/">Begin</a>
+        <a class="btn btn-ghost btn-lg" href="./how-it-works.html">How it works</a>
+      </div>
+    </div>
+
+    <div class="hero-demo">
+      <div class="demo-cap"><span class="eyebrow">Live status window</span><span class="demo-try">Tap a quest — it works</span></div>
+      <div class="demo" id="demo" aria-label="Live demo of the status window with a sample hunter">
+        <noscript><p class="demo-fine">The live demo needs JavaScript.</p></noscript>
+      </div>
+      <p class="demo-fine">A sample hunter, running on the same code as the app. Nothing here is saved.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="pillars-title">
+    <div class="wrap">
+      <div class="band-head">
+        <span class="eyebrow">The loop</span>
+        <h2 id="pillars-title">Three things to fight</h2>
+      </div>
+      <div class="pillars">
+        <article class="win pillar">
+          <span class="eyebrow">01 · Quests</span>
+          <h3>Quests</h3>
+          <p>Daily quests repeat and are judged at midnight. Side quests are one-offs. Each trains one attribute and pays XP and gold by difficulty.</p>
+          <div class="chips"><span class="chip d-EASY">Easy</span><span class="chip d-NORMAL">Normal</span><span class="chip d-HARD">Hard</span><span class="chip d-BRUTAL">Brutal</span></div>
+        </article>
+        <article class="win pillar">
+          <span class="eyebrow">02 · Attributes</span>
+          <h3>Attributes</h3>
+          <p>Six stats start at 10 and rise only when you train them. Every point costs more than the last — that curve is the point.</p>
+          <div class="chips"><span class="chip c-str">STR</span><span class="chip c-vit">VIT</span><span class="chip c-agi">AGI</span><span class="chip c-int">INT</span><span class="chip c-per">PER</span><span class="chip c-wil">WIL</span></div>
+        </article>
+        <article class="win pillar">
+          <span class="eyebrow">03 · Gates</span>
+          <h3>Gates</h3>
+          <p>Long goals become bosses. Every session you log drains its health. Clear the gate for a payout sized to its rank.</p>
+          <div class="chips"><span class="chip r-E">E</span><span class="chip r-D">D</span><span class="chip r-C">C</span><span class="chip r-B">B</span><span class="chip r-A">A</span><span class="chip r-S">S</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="penalty-title">
+    <div class="wrap penalty">
+      <div>
+        <span class="eyebrow">The difference</span>
+        <h2 id="penalty-title">The penalty</h2>
+        <p>Most habit apps forgive you. This one does not. Leave a daily quest unfinished at midnight and you lose XP and your streak resets to zero. There is exactly one way out, and you have to earn the gold for it first.</p>
+      </div>
+      <div class="win readout" role="img" aria-label="Example penalty notification: two daily quests left unfinished, minus 50 XP, a 12-day streak reset to zero.">
+        <div class="ntf-eye mono">⚠ Notification</div>
+        <div class="readout-title">PENALTY</div>
+        <p>2 daily quests left unfinished. −50 XP.<br>Your 12-day streak has been reset to zero.</p>
+        <span class="mono">00:00:00 · Local midnight</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="band free" aria-labelledby="free-title">
+    <div class="wrap">
+      <div class="band-head">
+        <span class="eyebrow">Privacy is the product</span>
+        <h2 id="free-title">No account. No server. No fee.</h2>
+      </div>
+      <p>There is no sign-up because there is nothing to sign up to. The app never sends a request to a server. Your save file is yours — export it, back it up, carry it to a new phone.</p>
+      <div class="zeros" aria-label="What this site uses">
+        <div class="zero"><b>0</b><span>Accounts</span></div>
+        <div class="zero"><b>0</b><span>Servers</span></div>
+        <div class="zero"><b>0</b><span>Cookies</span></div>
+        <div class="zero"><b>0</b><span>Trackers</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-row">
+      <a class="btn btn-hot" href="./app/">Begin</a>
+      <a href="./how-it-works.html">How it works</a>
+      <a href="./privacy.html">Privacy</a>
+    </div>
+    <p class="foot-fine">A static website. Runs in your browser; installable if you want it, never required.</p>
+  </div>
+</footer>
+
+<script src="./assets/js/system.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="./assets/js/demo.js"></script>
+<script>
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register('./sw.js').then(null, function () {});
+}
+</script>
+</body>
+</html>
