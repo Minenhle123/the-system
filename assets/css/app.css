@@ -136,8 +136,8 @@ span.q-name{cursor:default}
 }
 .hdr-gear{margin-right:-8px}
 
-#main{padding:16px calc(16px + env(safe-area-inset-right)) 0 calc(16px + env(safe-area-inset-left))}
-#main:focus{outline:none}
+.shell #main{padding:16px calc(16px + env(safe-area-inset-right)) 0 calc(16px + env(safe-area-inset-left))}
+.shell #main:focus{outline:none}
 
 /* bottom navigation */
 .nav{
@@ -274,7 +274,7 @@ span.q-name{cursor:default}
 .sheet-card{
   position:absolute;left:0;right:0;bottom:0;max-height:90vh;overflow:auto;-webkit-overflow-scrolling:touch;
   padding:18px calc(18px + env(safe-area-inset-right)) calc(20px + env(safe-area-inset-bottom)) calc(18px + env(safe-area-inset-left));
-  background:var(--panel-solid);
+  background:var(--panel-solid);scrollbar-width:thin;scrollbar-color:var(--sys-dim) transparent;
   animation:sheet-in .26s cubic-bezier(.2,.9,.3,1);
 }
 @keyframes sheet-in{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
@@ -285,7 +285,7 @@ span.q-name{cursor:default}
 .sheet-acts .btn-danger{margin-right:auto}
 body.has-sheet{overflow:hidden}
 
-.field{display:grid;gap:6px;min-width:0}
+.field{display:grid;gap:6px;min-width:0;align-content:start}
 .field input,.field select{
   width:100%;min-height:44px;padding:9px 12px;margin:0;border:1px solid var(--line);border-radius:0;
   background:var(--deep);color:var(--txt);font-family:var(--f-ui);font-size:17px;font-weight:500;
@@ -347,7 +347,7 @@ body.has-sheet{overflow:hidden}
   .hdr>*{max-width:820px;margin-left:auto;margin-right:auto}
   .hdr-xp{max-width:820px}
   .hdr-gear{display:none}
-  #main{max-width:900px;margin:0 auto;padding:28px 40px 0}
+  .shell #main{max-width:900px;margin:0 auto;padding:28px 40px 0}
 
   .nav{
     top:0;right:auto;width:220px;display:flex;flex-direction:column;
@@ -399,7 +399,7 @@ body.has-sheet{overflow:hidden}
 /* narrow desktop / tablet: keep side by side, tighten the gutters */
 @media (min-width:760px) and (max-width:1099px){
   .hdr{padding-left:24px;padding-right:24px}
-  #main{padding:24px 24px 0}
+  .shell #main{padding:24px 24px 0}
   .status-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
   .cells{grid-template-columns:repeat(2,1fr)}
   .attr-desc,.attr-prog{margin-left:0}
