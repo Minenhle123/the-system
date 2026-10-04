@@ -133,4 +133,5 @@
 .lost .win{max-width:520px;width:100%;padding:34px 26px 28px;text-align:center}
 .lost h1{margin:14px 0 10px;font-size:clamp(34px,8vw,48px);color:var(--sys);text-shadow:0 0 20px var(--sys);text-transform:uppercase;letter-spacing:.04em}
 .lost p{color:var(--muted);font-size:18px}
+.lost-acts{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}
 .lost .mono.code{display:block;margin-bottom:22px;font-size:11px;letter-spacing:.24em;color:var(--danger)}

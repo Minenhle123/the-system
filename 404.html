@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gate not found — THE SYSTEM</title>
+<script>
+/* GitHub Pages serves this page for a missing path at any depth, so relative
+   links would resolve against the wrong folder. Anchor them to the site root:
+   the first path segment on a project site (username.github.io/the-system/). */
+(function () {
+  var host = location.hostname, seg = location.pathname.split('/')[1], root = '/';
+  if (seg && seg !== '404.html' && (/\.github\.io$/.test(host) || host === 'localhost' || host === '127.0.0.1')) root = '/' + seg + '/';
+  var b = document.createElement('base');
+  b.href = root;
+  document.head.appendChild(b);
+})();
+</script>
+<meta name="robots" content="noindex">
+<meta property="og:title" content="THE SYSTEM — Level up in real life">
+<meta property="og:description" content="Daily quests with real consequences. No account, no server.">
+<meta property="og:image" content="./assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#04060d">
+<link rel="icon" type="image/png" href="./assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<main class="wrap lost">
+  <div class="win" role="alert">
+    <div class="eyebrow">⚠ Notification</div>
+    <h1>This gate does not exist.</h1>
+    <span class="mono code">Error 404 · No dungeon at this address</span>
+    <p>The path you followed leads nowhere. Return to the surface.</p>
+    <div class="lost-acts"><a class="btn btn-hot" href="./">Return</a><a class="btn btn-ghost" href="./app/">Open the app</a></div>
+  </div>
+</main>
+</body>
+</html>

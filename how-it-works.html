@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>How it works — THE SYSTEM</title>
+<meta name="description" content="The mechanics of THE SYSTEM: attributes, XP and levels, daily quests and the penalty, rest passes, gates, gold, ranks, titles, and where your data lives.">
+<meta property="og:title" content="THE SYSTEM — Level up in real life">
+<meta property="og:description" content="Daily quests with real consequences. No account, no server.">
+<meta property="og:image" content="./assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#04060d">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" href="./assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="./assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="wrap site-top">
+  <a class="brand" href="./" aria-label="THE SYSTEM — home">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><polygon class="mark-hex" points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5"/><polygon class="mark-tri" points="20,12.5 27.5,26 12.5,26"/></svg>
+    <span>THE SYSTEM</span>
+  </a>
+  <nav class="top-links" aria-label="Site">
+    <a href="./how-it-works.html" aria-current="page">How it works</a>
+    <a class="hide-sm" href="./privacy.html">Privacy</a>
+    <a class="btn btn-sm" href="./app/">Begin</a>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+  <article class="doc">
+    <header class="doc-head">
+      <span class="eyebrow">Mechanics</span>
+      <h1>How it works</h1>
+      <p class="lede">You set quests for your real life. Clearing them earns XP, gold and attribute growth. Missing a daily quest costs you. Everything below is the actual rule the app runs on, with the actual numbers.</p>
+      <nav class="toc" aria-label="On this page">
+        <a href="#attributes">Attributes</a>
+        <a href="#levels">XP &amp; levels</a>
+        <a href="#quests">Quests</a>
+        <a href="#penalty">The penalty</a>
+        <a href="#gates">Gates</a>
+        <a href="#gold">Gold</a>
+        <a href="#ranks">Ranks</a>
+        <a href="#titles">Titles</a>
+        <a href="#data">Your data</a>
+        <a href="#install">Install</a>
+      </nav>
+    </header>
+
+    <section id="attributes" aria-labelledby="t-attributes">
+      <span class="eyebrow">01</span>
+      <h2 id="t-attributes">The six attributes</h2>
+      <p>Every quest trains exactly one attribute. All six start at <strong>10</strong>. They only move when you clear a quest that trains them, or when you spend a point from levelling up.</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Attribute</th><th>Trained by</th></tr></thead>
+          <tbody>
+            <tr><td><span class="swatch c-str"></span>STR · Strength</td><td class="wrap-cell">Resistance: push-ups, lifting, carrying load.</td></tr>
+            <tr><td><span class="swatch c-vit"></span>VIT · Vitality</td><td class="wrap-cell">Recovery: sleep, water, food, rest days kept honestly.</td></tr>
+            <tr><td><span class="swatch c-agi"></span>AGI · Agility</td><td class="wrap-cell">Movement: running, mobility, sport.</td></tr>
+            <tr><td><span class="swatch c-int"></span>INT · Intelligence</td><td class="wrap-cell">Focused work: study, deep work, building skills.</td></tr>
+            <tr><td><span class="swatch c-per"></span>PER · Perception</td><td class="wrap-cell">Attention: reading, journaling, noticing.</td></tr>
+            <tr><td><span class="swatch c-wil"></span>WIL · Willpower</td><td class="wrap-cell">Discipline: quiet time, cold starts, the hard thing first.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Clearing a quest pays attribute XP to its attribute. When that reaches the cost of the next point, the attribute goes up by one and the leftover carries over. Each point costs about 8.5% more than the last:</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>From value</th><th class="num">10</th><th class="num">11</th><th class="num">12</th><th class="num">15</th><th class="num">20</th><th class="num">25</th><th class="num">29</th></tr></thead>
+          <tbody><tr><td>Attribute XP for +1</td><td class="num">45</td><td class="num">48</td><td class="num">52</td><td class="num">67</td><td class="num">101</td><td class="num">152</td><td class="num">212</td></tr></tbody>
+        </table>
+      </div>
+      <p>The curve is deliberate. Getting from 10 to 11 takes one hard quest. Getting from 29 to 30 takes five.</p>
+    </section>
+
+    <section id="levels" aria-labelledby="t-levels">
+      <span class="eyebrow">02</span>
+      <h2 id="t-levels">XP and levels</h2>
+      <p>Every cleared quest also pays character XP. The XP needed for the next level is <code>floor(70 × level<sup>1.32</sup>)</code>:</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Level</th><th class="num">XP to next level</th><th class="num">Total XP to reach it</th></tr></thead>
+          <tbody>
+            <tr><td>1 → 2</td><td class="num">70</td><td class="num">—</td></tr>
+            <tr><td>2 → 3</td><td class="num">174</td><td class="num">70</td></tr>
+            <tr><td>5 → 6</td><td class="num">585</td><td class="num">978</td></tr>
+            <tr><td>10 → 11</td><td class="num">1,462</td><td class="num">5,582</td></tr>
+            <tr><td>20 → 21</td><td class="num">3,651</td><td class="num">29,660</td></tr>
+            <tr><td>30 → 31</td><td class="num">6,235</td><td class="num">77,525</td></tr>
+            <tr><td>50 → 51</td><td class="num">12,238</td><td class="num">257,647</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="list">
+        <li>Each level grants <strong>3 attribute points</strong>. Assign them on the STATUS screen with the <strong>+</strong> buttons. The radar grows as you do.</li>
+        <li>One big reward can carry you through several levels at once. You get every level, and every set of points.</li>
+        <li>Levels are never taken away. Lost XP can empty your progress towards the next level, but not below the level you hold.</li>
+      </ul>
+    </section>
+
+    <section id="quests" aria-labelledby="t-quests">
+      <span class="eyebrow">03</span>
+      <h2 id="t-quests">Quests</h2>
+      <p><strong>Daily quests</strong> repeat every day and are judged at midnight. <strong>Side quests</strong> are one-offs with no penalty. Both pay by difficulty:</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Difficulty</th><th class="num">XP</th><th class="num">Gold</th><th class="num">Attribute XP</th></tr></thead>
+          <tbody>
+            <tr><td>Easy</td><td class="num">15</td><td class="num">5</td><td class="num">10</td></tr>
+            <tr><td>Normal</td><td class="num">35</td><td class="num">12</td><td class="num">22</td></tr>
+            <tr><td>Hard</td><td class="num">70</td><td class="num">28</td><td class="num">45</td></tr>
+            <tr><td>Brutal</td><td class="num">140</td><td class="num">60</td><td class="num">90</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>A quest can have a target, such as 50 reps or 20 pages. Its button steps towards the target: <strong>+1</strong> for targets under 20, <strong>+5</strong> under 100, <strong>+10</strong> above. Reaching the target clears it, or you can press COMPLETE at any time. <strong>UNDO</strong> returns the quest's rewards if you tapped by mistake.</p>
+      <p>Be honest about difficulty. The numbers only mean something if a Hard quest is actually hard for you.</p>
+    </section>
+
+    <section id="penalty" aria-labelledby="t-penalty">
+      <span class="eyebrow">04</span>
+      <h2 id="t-penalty">The daily cycle and the penalty</h2>
+      <p>Daily quests reset at <strong>local midnight</strong> on your device.</p>
+      <ul class="list">
+        <li><strong>Clear every daily quest</strong> in a day: a bonus of <strong>+60 XP and +25 gold</strong>, and your streak goes up by one.</li>
+        <li><strong>Leave any unfinished</strong> at midnight: <strong>−25 XP for each one</strong>, and your streak resets to <strong>zero</strong>.</li>
+        <li>If you are away for several days, the penalty is applied <strong>once</strong>, for the dailies that were open when you left, not once per day.</li>
+      </ul>
+      <div class="win callout">
+        <p><strong>Rest passes</strong> are the only way out. Buy one in the shop for <strong>150 gold</strong>. If a daily quest goes unfinished while you hold one, the System spends it automatically: no XP is lost and your streak holds. You have to earn the gold first, and that is the point.</p>
+      </div>
+    </section>
+
+    <section id="gates" aria-labelledby="t-gates">
+      <span class="eyebrow">05</span>
+      <h2 id="t-gates">Gates</h2>
+      <p>A gate is a long goal: reading twelve books, training for a 10K. You give it a number of sessions, which becomes the boss's health. Each <strong>STRIKE +1</strong> logs a session and drains the bar. <strong>−1</strong> corrects a mistake. Bring the health to zero and the gate pays out by rank:</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Gate rank</th><th class="num">XP</th><th class="num">Gold</th></tr></thead>
+          <tbody>
+            <tr><td><span class="swatch r-E"></span>E</td><td class="num">150</td><td class="num">80</td></tr>
+            <tr><td><span class="swatch r-D"></span>D</td><td class="num">350</td><td class="num">180</td></tr>
+            <tr><td><span class="swatch r-C"></span>C</td><td class="num">700</td><td class="num">350</td></tr>
+            <tr><td><span class="swatch r-B"></span>B</td><td class="num">1,400</td><td class="num">700</td></tr>
+            <tr><td><span class="swatch r-A"></span>A</td><td class="num">2,600</td><td class="num">1,300</td></tr>
+            <tr><td><span class="swatch r-S"></span>S</td><td class="num">5,000</td><td class="num">2,500</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Pick the rank that matches the effort. An S-rank gate should be something you would be proud of in a year.</p>
+    </section>
+
+    <section id="gold" aria-labelledby="t-gold">
+      <span class="eyebrow">06</span>
+      <h2 id="t-gold">Gold and the shop</h2>
+      <p>Gold comes from quests, the daily bonus and cleared gates. You spend it in the shop on rewards <strong>you define, at prices you set</strong>: an episode of something good, a takeaway night, gear for a hobby. Price each one by what it is worth to you. A cheap reward you never earn is better than an expensive one you buy without thinking.</p>
+      <p>The rest pass is the one item with an effect in the app. Everything else is a promise you make to yourself, kept with gold.</p>
+    </section>
+
+    <section id="ranks" aria-labelledby="t-ranks">
+      <span class="eyebrow">07</span>
+      <h2 id="t-ranks">Hunter rank</h2>
+      <p>Your rank follows from your level. It is never stored, so it cannot be bought or edited.</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Rank</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td><span class="swatch r-E"></span>E</td><td>1–9</td></tr>
+            <tr><td><span class="swatch r-D"></span>D</td><td>10–19</td></tr>
+            <tr><td><span class="swatch r-C"></span>C</td><td>20–29</td></tr>
+            <tr><td><span class="swatch r-B"></span>B</td><td>30–44</td></tr>
+            <tr><td><span class="swatch r-A"></span>A</td><td>45–59</td></tr>
+            <tr><td><span class="swatch r-S"></span>S</td><td>60–79</td></tr>
+            <tr><td><span class="swatch r-NATIONAL"></span>National</td><td>80+</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="titles" aria-labelledby="t-titles">
+      <span class="eyebrow">08</span>
+      <h2 id="t-titles">Titles</h2>
+      <p>Ten titles unlock as you go. Locked ones show their requirement, so you always know what is next. Equipping a title is cosmetic: it shows under your name.</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Title</th><th>Requirement</th></tr></thead>
+          <tbody>
+            <tr><td>The Awakened</td><td>Granted at start</td></tr>
+            <tr><td>First Blood</td><td>Clear 1 quest</td></tr>
+            <tr><td>Relentless</td><td>7-day best streak</td></tr>
+            <tr><td>Rising Hunter</td><td>Reach level 10</td></tr>
+            <tr><td>Gate Breaker</td><td>Clear 3 gates</td></tr>
+            <tr><td>The Grinder</td><td>Clear 100 quests</td></tr>
+            <tr><td>Specialist</td><td>Any attribute at 30</td></tr>
+            <tr><td>Unbroken</td><td>30-day best streak</td></tr>
+            <tr><td>Shadow Aspirant</td><td>Reach level 25</td></tr>
+            <tr><td>Monarch’s Vessel</td><td>Reach level 50</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="data" aria-labelledby="t-data">
+      <span class="eyebrow">09</span>
+      <h2 id="t-data">Where your data lives</h2>
+      <p>Everything is stored <strong>in your browser, on your device</strong>. Nothing is sent anywhere. There is no account, so there is nothing to log in to and nothing to recover. That makes your save file important.</p>
+      <ul class="list">
+        <li><strong>Save to file</strong> (Settings) downloads <code>the-system-save.json</code>. Open it in any text editor and the first lines tell you where you stand: name, level, rank, streak and attributes.</li>
+        <li><strong>Load file</strong> restores a save. A file that is not a valid save is rejected and your current progress is left alone.</li>
+        <li>In Chrome and Edge on a computer you can <strong>link a save file</strong>. The System then writes to it after every change and reads it on your next visit, keeping whichever is newer.</li>
+      </ul>
+      <h3>Moving to a new phone</h3>
+      <ol class="steps">
+        <li>On the old device: Settings → <strong>Save to file</strong>. Send the file to yourself however you like.</li>
+        <li>On the new device: open the app and choose <strong>Load an existing save file</strong> on the first screen, or Settings → <strong>Load file</strong>.</li>
+      </ol>
+      <p>Clearing your browser's site data erases your progress unless you have a save file. Keep one.</p>
+    </section>
+
+    <section id="install" aria-labelledby="t-install">
+      <span class="eyebrow">10</span>
+      <h2 id="t-install">Install (optional)</h2>
+      <p>THE SYSTEM is a website, and it works fully in a browser tab. You can also put it on your home screen, where it opens full screen and works offline. It is the same app either way.</p>
+      <h3>iPhone and iPad (Safari)</h3>
+      <ol class="steps">
+        <li>Open the app in <strong>Safari</strong>.</li>
+        <li>Tap the <strong>Share</strong> button (the square with an arrow).</li>
+        <li>Choose <strong>Add to Home Screen</strong>, then <strong>Add</strong>.</li>
+      </ol>
+      <h3>Android (Chrome)</h3>
+      <ol class="steps">
+        <li>After your first cleared quest, the app offers an <strong>Install</strong> button once.</li>
+        <li>Or open Chrome's menu (⋮) and choose <strong>Add to Home screen</strong> or <strong>Install app</strong>.</li>
+      </ol>
+      <h3>Desktop (Chrome or Edge)</h3>
+      <ol class="steps">
+        <li>Click the install icon at the right of the address bar, or use the browser menu → <strong>Install THE SYSTEM</strong>.</li>
+      </ol>
+      <p>Installed or not, your progress lives in the browser it was made in. An installed app on iPhone keeps its own storage, separate from Safari, so move progress across with a save file.</p>
+    </section>
+  </article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-row">
+      <a class="btn btn-hot" href="./app/">Begin</a>
+      <a href="./">Home</a>
+      <a href="./privacy.html">Privacy</a>
+    </div>
+    <p class="foot-fine">A static website. Runs in your browser; installable if you want it, never required.</p>
+  </div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register('./sw.js').then(null, function () {});
+}
+</script>
+</body>
+</html>

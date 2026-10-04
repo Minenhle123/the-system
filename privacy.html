@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacy — THE SYSTEM</title>
+<meta name="description" content="THE SYSTEM collects no data. No accounts, no cookies, no analytics. Your progress is stored only in your browser.">
+<meta property="og:title" content="THE SYSTEM — Level up in real life">
+<meta property="og:description" content="Daily quests with real consequences. No account, no server.">
+<meta property="og:image" content="./assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#04060d">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" href="./assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="./assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="wrap site-top">
+  <a class="brand" href="./" aria-label="THE SYSTEM — home">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><polygon class="mark-hex" points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5"/><polygon class="mark-tri" points="20,12.5 27.5,26 12.5,26"/></svg>
+    <span>THE SYSTEM</span>
+  </a>
+  <nav class="top-links" aria-label="Site">
+    <a href="./how-it-works.html">How it works</a>
+    <a class="hide-sm" href="./privacy.html" aria-current="page">Privacy</a>
+    <a class="btn btn-sm" href="./app/">Begin</a>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+  <article class="doc">
+    <header class="doc-head">
+      <span class="eyebrow">Privacy</span>
+      <h1>We collect nothing</h1>
+      <p class="lede">Not “nothing personal”. Nothing. There is no server for your data to go to.</p>
+    </header>
+
+    <section aria-labelledby="p-collect">
+      <h2 id="p-collect">What we collect</h2>
+      <p>None. THE SYSTEM is a set of static files: HTML, CSS and JavaScript. Once they load, the app runs entirely in your browser. There are no accounts, no cookies, no analytics, no tracking pixels, no advertising and no third-party scripts. The app never sends your quests, progress or name anywhere.</p>
+      <p>The only outside request is for the two typefaces, which load from <strong>Google Fonts</strong>. That request tells Google your IP address and that a page asked for those fonts, as any website using Google Fonts does. It does not include anything about you or your progress.</p>
+    </section>
+
+    <section aria-labelledby="p-store">
+      <h2 id="p-store">Where your progress is stored</h2>
+      <p>Your hunter is saved in your browser's local storage on your device. If you use the save-file feature, it is also in a file on your device that you chose. If you install the app, a copy of the site's files is cached so it works offline. That is everything.</p>
+      <p>Local storage belongs to this exact web address. If the site ever moves to a different address, your progress will not follow it. Before that happened you would need to <strong>save to a file</strong> at the old address and <strong>load</strong> it at the new one. A save file is a good habit anyway.</p>
+    </section>
+
+    <section aria-labelledby="p-control">
+      <h2 id="p-control">Exporting and deleting</h2>
+      <ul class="list">
+        <li><strong>Export:</strong> in the app, Settings → <strong>Save to file</strong>. The file is readable JSON and yours to keep.</li>
+        <li><strong>Delete:</strong> Settings → <strong>Erase all data</strong> removes everything this site has stored in your browser. Clearing this site's data in your browser settings does the same.</li>
+      </ul>
+      <p>We cannot recover a hunter you erase, because we never had a copy.</p>
+    </section>
+  </article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-row">
+      <a class="btn btn-hot" href="./app/">Begin</a>
+      <a href="./">Home</a>
+      <a href="./how-it-works.html">How it works</a>
+    </div>
+    <p class="foot-fine">A static website. Runs in your browser; installable if you want it, never required.</p>
+  </div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register('./sw.js').then(null, function () {});
+}
+</script>
+</body>
+</html>
