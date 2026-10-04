@@ -1,0 +1,176 @@
+/* ==========================================================================
+   THE SYSTEM — design tokens and shared primitives.
+   Every page imports this first. Colours are defined here and nowhere else.
+   ========================================================================== */
+
+:root{
+  /* surface */
+  --void:#04060d;
+  --deep:#070c18;
+  --panel:rgba(10,22,44,.72);
+  --panel-solid:#0a1020;
+
+  /* system cyan */
+  --sys:#4fc3ff;
+  --sys-dim:#1d5c86;
+  --line:rgba(79,195,255,.28);
+  --line-hot:rgba(79,195,255,.75);
+
+  /* semantic */
+  --mana:#8b6cff;
+  --gold:#f5b942;
+  --danger:#ff3556;
+  --good:#3ddc97;
+  --warn:#ff8f4d;
+
+  /* text */
+  --txt:#dbeeff;
+  --muted:#6d8bab;
+
+  /* attributes */
+  --str:#ff4d6d;
+  --vit:#3ddc97;
+  --agi:#f5b942;
+  --int:#4fc3ff;
+  --per:#8b6cff;
+  --wil:#ff8f4d;
+
+  /* hunter ranks */
+  --rank-e:#7fa3c4;
+  --rank-d:#3ddc97;
+  --rank-c:#4fc3ff;
+  --rank-b:#8b6cff;
+  --rank-a:#ff8f4d;
+  --rank-s:#f5b942;
+  --rank-national:#ff3556;
+
+  /* washes, tracks and atmosphere — derived from the palette above */
+  --sys-wash:rgba(79,195,255,.08);
+  --sys-wash-2:rgba(79,195,255,.18);
+  --chip-wash:rgba(4,10,22,.55);
+  --track:rgba(79,195,255,.10);
+  --glow-top:rgba(31,90,160,.30);
+  --glow-bottom:rgba(80,50,160,.18);
+  --scan:rgba(79,195,255,.07);
+  --panel-inset:rgba(4,10,22,.9);
+  --panel-glow:rgba(20,80,150,.18);
+  --veil:rgba(2,4,10,.80);
+  --radar-fill:rgba(79,195,255,.20);
+  --danger-wash:rgba(255,53,86,.10);
+  --gold-wash:rgba(245,185,66,.10);
+
+  /* type */
+  --f-ui:'Rajdhani',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'Share Tech Mono',ui-monospace,'SFMono-Regular',Consolas,monospace;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{background:var(--void);color-scheme:dark;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{
+  margin:0;min-height:100vh;color:var(--txt);
+  font-family:var(--f-ui);font-size:17px;font-weight:500;line-height:1.5;
+  -webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;
+}
+/* atmosphere: cyan bloom from the top, violet from the bottom */
+body::before{
+  content:"";position:fixed;top:0;right:0;bottom:0;left:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(ellipse 120% 70% at 50% 0%,var(--glow-top),transparent 65%),
+    radial-gradient(ellipse 120% 60% at 50% 100%,var(--glow-bottom),transparent 65%),
+    var(--void);
+}
+/* scanlines */
+body::after{
+  content:"";position:fixed;top:0;right:0;bottom:0;left:0;z-index:1000;pointer-events:none;opacity:.30;
+  background:repeating-linear-gradient(to bottom,var(--scan) 0,var(--scan) 1px,transparent 1px,transparent 3px);
+}
+
+h1,h2,h3,h4{margin:0;font-family:var(--f-ui);font-weight:700;line-height:1.1;letter-spacing:.02em}
+p{margin:0 0 1em}
+a{color:var(--sys);text-decoration:none}
+a:hover{text-shadow:0 0 8px var(--sys)}
+button,input,select,textarea{font:inherit;color:inherit}
+img,svg{display:block}
+ul,ol{margin:0;padding:0;list-style:none}
+[hidden]{display:none!important}
+
+.mono{font-family:var(--f-mono);font-weight:400}
+.eyebrow{font-family:var(--f-mono);font-weight:400;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--sys)}
+.muted{color:var(--muted)}
+.glow{text-shadow:0 0 14px var(--sys)}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:-1px;padding:0;border:0}
+
+/* ---------- focus ---------- */
+:focus:not(:focus-visible){outline:none}
+:focus-visible{outline:2px solid var(--txt);outline-offset:3px}
+/* clip-path cuts outlines off, so clipped elements draw their ring inside */
+.win:focus-visible,.btn:focus-visible,.chip:focus-visible{outline:none;box-shadow:inset 0 0 0 2px var(--txt),0 0 18px var(--sys)}
+
+.skip{position:absolute;left:16px;top:-60px;z-index:1001;padding:10px 14px;background:var(--sys);color:var(--void);font-family:var(--f-mono);font-size:12px;letter-spacing:.18em}
+.skip:focus{top:12px}
+
+/* ---------- the panel motif ---------- */
+.win{
+  background:var(--panel);
+  border:1px solid var(--line);
+  clip-path:polygon(14px 0, 100% 0, 100% calc(100% - 14px),
+                    calc(100% - 14px) 100%, 0 100%, 0 14px);
+  -webkit-backdrop-filter:blur(6px);
+  backdrop-filter:blur(6px);
+  box-shadow:0 0 0 1px var(--panel-inset) inset, 0 0 24px var(--panel-glow);
+}
+
+/* ---------- buttons (7px cut) ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-height:40px;padding:0 16px;margin:0;
+  font-family:var(--f-mono);font-weight:400;font-size:12px;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;
+  color:var(--sys);background:var(--sys-wash);border:1px solid var(--line-hot);border-radius:0;cursor:pointer;
+  clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px);
+  transition:background-color .15s,color .15s,text-shadow .15s,box-shadow .15s;
+  -webkit-appearance:none;appearance:none;text-decoration:none;
+}
+.btn:hover{background:var(--sys-wash-2);text-shadow:0 0 8px var(--sys)}
+.btn:active{transform:translateY(1px)}
+.btn-hot{color:var(--void);background:var(--sys);border-color:var(--sys)}
+.btn-hot:hover{background:var(--txt);border-color:var(--txt);text-shadow:none}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--muted)}
+.btn-ghost:hover{color:var(--sys);border-color:var(--line-hot);background:var(--sys-wash)}
+.btn-gold{color:var(--gold);border-color:var(--gold);background:var(--gold-wash)}
+.btn-gold:hover{text-shadow:0 0 8px var(--gold);background:var(--gold-wash)}
+.btn-danger{color:var(--danger);border-color:var(--danger);background:var(--danger-wash)}
+.btn-danger:hover{text-shadow:0 0 8px var(--danger);background:var(--danger-wash)}
+.btn[disabled],.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed;transform:none;text-shadow:none}
+.btn-sm{min-height:34px;padding:0 12px;font-size:11px;letter-spacing:.14em}
+.btn-lg{min-height:52px;padding:0 30px;font-size:14px;letter-spacing:.26em}
+
+/* ---------- chips (6px cut) ---------- */
+.chip{
+  display:inline-flex;align-items:center;gap:4px;padding:2px 8px 1px;
+  font-family:var(--f-mono);font-weight:400;font-size:10px;line-height:1.6;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;
+  color:var(--c,var(--sys));border:1px solid currentColor;background:var(--chip-wash);
+  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
+}
+
+/* colour hooks: set --c, components read it */
+.c-sys{--c:var(--sys)}.c-gold{--c:var(--gold)}.c-mana{--c:var(--mana)}
+.c-good{--c:var(--good)}.c-warn{--c:var(--warn)}.c-danger{--c:var(--danger)}.c-muted{--c:var(--muted)}
+.c-str{--c:var(--str)}.c-vit{--c:var(--vit)}.c-agi{--c:var(--agi)}
+.c-int{--c:var(--int)}.c-per{--c:var(--per)}.c-wil{--c:var(--wil)}
+.r-E{--c:var(--rank-e)}.r-D{--c:var(--rank-d)}.r-C{--c:var(--rank-c)}
+.r-B{--c:var(--rank-b)}.r-A{--c:var(--rank-a)}.r-S{--c:var(--rank-s)}.r-NATIONAL{--c:var(--rank-national)}
+.d-EASY{--c:var(--good)}.d-NORMAL{--c:var(--sys)}.d-HARD{--c:var(--warn)}.d-BRUTAL{--c:var(--danger)}
+
+/* ---------- bars ---------- */
+.bar{position:relative;height:6px;background:var(--track);overflow:hidden}
+.bar>i{
+  position:absolute;left:0;top:0;bottom:0;width:0;
+  background:var(--c,var(--sys));box-shadow:0 0 10px var(--c,var(--sys));
+  transition:width .6s cubic-bezier(.2,.8,.2,1);
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
