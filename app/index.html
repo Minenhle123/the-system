@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>THE SYSTEM — Status Window</title>
+<meta name="description" content="Your status window. Daily quests with real consequences, six attributes, boss gates. No account, no server.">
+<meta property="og:title" content="THE SYSTEM — Level up in real life">
+<meta property="og:description" content="Daily quests with real consequences. No account, no server.">
+<meta property="og:image" content="../assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#04060d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="THE SYSTEM">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" type="image/png" href="../assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="../assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body class="is-app">
+<a class="skip" href="#main">Skip to content</a>
+
+<div id="app-root" class="shell" hidden>
+  <nav class="nav" aria-label="Screens">
+    <a class="nav-brand" href="../" aria-label="THE SYSTEM — home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><polygon class="mark-hex" points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5"/><polygon class="mark-tri" points="20,12.5 27.5,26 12.5,26"/></svg>
+      <span class="mono">THE SYSTEM</span>
+    </a>
+    <div class="nav-hunter" id="nav-hunter"></div>
+    <div class="nav-items">
+      <button type="button" class="nav-btn" data-act="nav" data-screen="status" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,2.8 20,7.4 20,16.6 12,21.2 4,16.6 4,7.4"/><polygon points="12,7.5 16.2,10 15,15.6 9,15.6 7.8,10"/></svg>
+        <span>Status</span>
+      </button>
+      <button type="button" class="nav-btn" data-act="nav" data-screen="quests">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5l2 2 3.5-3.5M3.5 13l2 2 3.5-3.5M3.5 19.5l2 2 3.5-3.5M12 7h8.5M12 13.5h8.5M12 20h8.5"/></svg>
+        <span>Quests</span>
+      </button>
+      <button type="button" class="nav-btn" data-act="nav" data-screen="gates">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 21V10.5a7.5 7.5 0 0 1 15 0V21M3 21h18M9 21v-7.5a3 3 0 0 1 6 0V21"/></svg>
+        <span>Gates</span>
+      </button>
+      <button type="button" class="nav-btn" data-act="nav" data-screen="shop">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,3 20.5,12 12,21 3.5,12"/><path d="M12 8v8M9.5 12h5"/></svg>
+        <span>Shop</span>
+      </button>
+      <button type="button" class="nav-btn" data-act="nav" data-screen="log">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM8.5 8h7M8.5 12h7M8.5 16h4"/></svg>
+        <span>Log</span>
+      </button>
+    </div>
+    <div class="nav-foot">
+      <button type="button" class="nav-link mono" data-act="settings">Settings</button>
+      <a class="nav-link mono" href="../how-it-works.html">How it works</a>
+    </div>
+  </nav>
+
+  <div class="stage">
+    <header class="hdr" id="hdr"></header>
+
+    <main id="main" tabindex="-1">
+
+      <!-- STATUS -->
+      <section class="screen" data-screen="status" aria-labelledby="h-status">
+        <h1 class="sr" id="h-status">Status</h1>
+        <div class="status-grid">
+          <div class="win panel radar-panel">
+            <div class="panel-head"><span class="eyebrow">Status window</span></div>
+            <div class="radar" id="radar"></div>
+            <div class="cells" id="cells"></div>
+          </div>
+          <div class="win panel">
+            <div class="panel-head"><span class="eyebrow">Attributes</span><span class="pts mono" id="pts" hidden></span></div>
+            <ul class="attrs" id="attrs"></ul>
+          </div>
+        </div>
+        <div class="win panel">
+          <button type="button" class="fold" data-act="fold" data-target="titles" aria-expanded="false" aria-controls="titles">
+            <span class="eyebrow">Titles</span><span class="mono fold-count" id="titles-count"></span><span class="fold-ico" aria-hidden="true"></span>
+          </button>
+          <ul class="titles" id="titles" hidden></ul>
+        </div>
+      </section>
+
+      <!-- QUESTS -->
+      <section class="screen" data-screen="quests" aria-labelledby="h-quests" hidden>
+        <h1 class="sr" id="h-quests">Quests</h1>
+        <div class="win panel daily" id="daily"></div>
+        <div class="install" id="install" hidden></div>
+
+        <div class="list-head">
+          <div><h2>Daily quests</h2><span class="list-sub mono">Repeat every day · penalised on miss</span></div>
+          <button type="button" class="btn btn-sm" data-act="new-quest" data-type="daily">+ New</button>
+        </div>
+        <ul class="qlist" id="q-daily"></ul>
+        <p class="empty" id="q-daily-empty" hidden>No daily quests. Register one — the daily cycle needs something to hold you to.</p>
+
+        <div class="list-head">
+          <div><h2>Side quests</h2><span class="list-sub mono">One-off · no penalty</span></div>
+          <button type="button" class="btn btn-sm" data-act="new-quest" data-type="side">+ New</button>
+        </div>
+        <ul class="qlist" id="q-side"></ul>
+        <p class="empty" id="q-side-empty" hidden>No side quests.</p>
+
+        <p class="note">The starter quests are placeholders. Tap a quest’s name to edit or remove it, or register your own.</p>
+      </section>
+
+      <!-- GATES -->
+      <section class="screen" data-screen="gates" aria-labelledby="h-gates" hidden>
+        <div class="list-head">
+          <div><h1 class="h-screen" id="h-gates">Gates</h1><span class="list-sub mono">Long goals, fought one session at a time</span></div>
+          <button type="button" class="btn btn-sm" data-act="new-gate">+ Open gate</button>
+        </div>
+        <ul class="gates" id="gates"></ul>
+        <p class="empty" id="gates-empty" hidden>No active gates. Open one for a goal that takes weeks, not minutes.</p>
+        <div class="win panel" id="cleared-panel" hidden>
+          <button type="button" class="fold" data-act="fold" data-target="cleared" aria-expanded="false" aria-controls="cleared">
+            <span class="eyebrow">Cleared gates</span><span class="mono fold-count" id="cleared-count"></span><span class="fold-ico" aria-hidden="true"></span>
+          </button>
+          <ul class="cleared" id="cleared" hidden></ul>
+        </div>
+        <p class="note">Each strike logs one session. The boss loses health as you go — use −1 to correct a mistake.</p>
+      </section>
+
+      <!-- SHOP -->
+      <section class="screen" data-screen="shop" aria-labelledby="h-shop" hidden>
+        <h1 class="sr" id="h-shop">Shop</h1>
+        <div class="win panel gold-panel">
+          <span class="eyebrow">Gold</span>
+          <div class="gold-big mono" id="gold-big">0</div>
+          <div class="mono gold-sub" id="passes"></div>
+        </div>
+        <div class="list-head">
+          <div><h2>Rewards</h2><span class="list-sub mono">Yours to define · your own prices</span></div>
+          <button type="button" class="btn btn-sm" data-act="new-reward">+ New</button>
+        </div>
+        <ul class="shop" id="shop"></ul>
+        <p class="note">Price a reward by what it is worth to you. Tap a reward’s name to change it.</p>
+      </section>
+
+      <!-- LOG -->
+      <section class="screen" data-screen="log" aria-labelledby="h-log" hidden>
+        <div class="list-head">
+          <div><h1 class="h-screen" id="h-log">System log</h1><span class="list-sub mono" id="log-count"></span></div>
+        </div>
+        <ol class="win panel log" id="log"></ol>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<div class="firstrun" id="firstrun" hidden></div>
+<div class="sheet" id="sheet" hidden></div>
+<div class="ntf" id="ntf" role="alertdialog" aria-modal="true" aria-labelledby="ntf-title" hidden></div>
+<div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="file-in" accept=".json,application/json" hidden>
+
+<noscript><p class="noscript">THE SYSTEM needs JavaScript to run. Nothing is sent anywhere — it all runs in this tab.</p></noscript>
+
+<script src="../assets/js/system.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
