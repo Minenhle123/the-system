@@ -41,7 +41,8 @@ file, or returning visitors will keep the old version.
 | `assets/js/app.js` | Application UI; also exports the renderers the demo uses |
 | `assets/js/demo.js` | Landing-page demo, driven by the real logic and renderers |
 | `assets/css/tokens.css` | Design system, the only place colours are defined |
-| `sw.js` | Service worker: cache-first with background revalidation |
+| `sw.js` | Service worker: cache-first with background revalidation (network-first for `news/`) |
+| `news/` | Morning briefing editions: `latest.json`, one `YYYY-MM-DD.json` per day, and `index.json` listing the dates newest first. Written by a scheduled job; opt-in via Settings or `app/?briefing=on` |
 
 `BUILD.md` is the full specification.
 

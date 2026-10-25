@@ -57,6 +57,7 @@
       </button>
     </div>
     <div class="nav-foot">
+      <button type="button" class="nav-link mono" data-act="briefing" id="nav-brief" hidden>Briefing</button>
       <button type="button" class="nav-link mono" data-act="settings">Settings</button>
       <a class="nav-link mono" href="../how-it-works.html">How it works</a>
     </div>
@@ -92,6 +93,7 @@
       <!-- QUESTS -->
       <section class="screen" data-screen="quests" aria-labelledby="h-quests" hidden>
         <h1 class="sr" id="h-quests">Quests</h1>
+        <button type="button" class="brief-strip" data-act="briefing" id="brief-strip" hidden></button>
         <div class="win panel daily" id="daily"></div>
         <div class="install" id="install" hidden></div>
 
@@ -159,6 +161,7 @@
 
 <div class="firstrun" id="firstrun" hidden></div>
 <div class="sheet" id="sheet" hidden></div>
+<div class="brief" id="brief" hidden></div>
 <div class="ntf" id="ntf" role="alertdialog" aria-modal="true" aria-labelledby="ntf-title" hidden></div>
 <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
 <input type="file" id="file-in" accept=".json,application/json" hidden>

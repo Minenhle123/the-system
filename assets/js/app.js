@@ -74,7 +74,8 @@
 
   var ICON = {
     gear: '<svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,3 19.8,7.5 19.8,16.5 12,21 4.2,16.5 4.2,7.5"/><circle cx="12" cy="12" r="3.2"/></svg>',
-    close: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+    close: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    news: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h13V18a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2zM17 8.5h3V18a1 1 0 0 1-2 0M7.5 8.5h6M7.5 12h6M7.5 15.5h4"/></svg>'
   };
 
   /* ======================================================================
@@ -370,14 +371,30 @@
   Notifier.prototype.push = function (notes) {
     if (!notes || !notes.length) return;
     this.queue = this.queue.concat(notes);
-    if (!this.busy) {
+    if (!this.busy && !this.held) {
+      if (!this.opts.inline) this.prev = doc.activeElement;
+      this.next();
+    }
+  };
+
+  /* Hold notifications back while something else has the screen (the
+     morning briefing), then play whatever queued up in the meantime. */
+  Notifier.prototype.hold = function (on) {
+    this.held = !!on;
+    if (!this.held && !this.busy && this.queue.length) {
       if (!this.opts.inline) this.prev = doc.activeElement;
       this.next();
     }
   };
 
   Notifier.prototype.next = function () {
-    var self = this, n = self.queue.shift();
+    var self = this;
+    if (self.held && self.queue.length) {
+      self.busy = false;
+      self.host.hidden = true;
+      return;
+    }
+    var n = self.queue.shift();
     if (!n) {
       self.busy = false;
       self.host.hidden = true;
@@ -414,6 +431,7 @@
     clearTimeout(this.timer);
     this.queue = [];
     this.busy = false;
+    this.held = false;
     this.host.classList.remove('is-in');
     this.host.hidden = true;
   };
@@ -516,8 +534,17 @@
     el.toast = qs('#toast');
     el.file = qs('#file-in');
     el.navHunter = qs('#nav-hunter');
+    el.brief = qs('#brief');
+    el.navBrief = qs('#nav-brief');
+    el.briefStrip = qs('#brief-strip');
 
     A.notifier = new Notifier(qs('#ntf'), { refocus: function () { restoreFocus(A.lastFocus, true); } });
+
+    briefFromUrl();
+    el.brief.addEventListener('keydown', onBriefKey);
+    /* registered before adopt() adds its own listener, so a returning
+       morning holds rollover notices until the briefing has had its turn */
+    doc.addEventListener('visibilitychange', function () { if (!doc.hidden && A.state) briefCheck(true); });
 
     doc.addEventListener('click', onClick);
     doc.addEventListener('keydown', onKey);
@@ -538,6 +565,7 @@
     };
 
     var local = Store.readLocal();
+    if (local) briefCheck(false);   // holds notices first, so it runs before adopt()
     if (local) adopt(local.state);
     else showFirstRun();
 
@@ -610,6 +638,7 @@
     var k = focusKey();
     if (k) A.lastFocus = k;
     renderHeader(el.hdr, s, { settings: true });
+    renderBriefEntry();
     renderNavHunter();
     renderStatus();
     renderQuests();
@@ -1091,6 +1120,10 @@
           '<button type="button" class="btn btn-sm' + (s.sound ? ' btn-hot' : ' btn-ghost') + '" data-act="toggle-sound" aria-pressed="' + (s.sound ? 'true' : 'false') + '">' + (s.sound ? 'On' : 'Off') + '</button></div>' +
       '</div>' +
       '<div class="set-group">' +
+        '<div class="set-line"><span><span class="eyebrow">Morning briefing</span><span class="set-sub">A daily news recap, South Africa first, opens before your quests each morning. Reopen it any time from QUESTS.</span></span>' +
+          '<button type="button" class="btn btn-sm' + (Brief.on() ? ' btn-hot' : ' btn-ghost') + '" data-act="toggle-briefing" aria-pressed="' + (Brief.on() ? 'true' : 'false') + '">' + (Brief.on() ? 'On' : 'Off') + '</button></div>' +
+      '</div>' +
+      '<div class="set-group">' +
         '<span class="eyebrow">Save file</span>' +
         (Store.memoryOnly ? '<p class="set-note c-danger">This browser is blocking storage. Progress will be lost when the tab closes unless you save it to a file.</p>' : '') +
         '<p class="set-note">Progress saves automatically in this browser. Keep a file as a backup, or to carry your hunter to another device.</p>' +
@@ -1203,11 +1236,318 @@
     Store.clearLocal();
     Store.unlink();
     try { root.localStorage.removeItem(INSTALL_FLAG); } catch (e) { /* nothing to clear */ }
+    Brief.set(false);
+    Brief.markSeen(null);
     closeSheet();
     A.notifier.clear();
     A.state = null;
     lastWidth = {};
     showFirstRun();
+  }
+
+  /* ======================================================================
+     morning briefing — an opt-in daily news recap. A scheduled job writes
+     news/latest.json (plus a dated copy and news/index.json) into this
+     same site. On the first launch after a new edition the briefing opens
+     before anything else; closing it marks that edition seen and lands on
+     QUESTS. The header button reopens it, with past editions on a picker.
+     ====================================================================== */
+
+  var BRIEF_ON = 'arise:briefing:on';
+  var BRIEF_SEEN = 'arise:briefing:seen';
+  var BRIEF_DIR = '../news/';
+  var DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+  var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var SECTION_TONE = { sa: 'gold', kzn: 'gold', world: 'sys', markets: 'good', business: 'good', sport: 'warn', tech: 'mana', science: 'mana' };
+
+  var Brief = {
+    latest: null,     // newest edition fetched this session
+    shown: null,      // edition on screen
+    open: false,
+    morning: false,   // opened by the daily check rather than the header button
+    lastCheck: 0,
+    returnTo: null,
+    index: null,
+
+    on: function () { try { return root.localStorage.getItem(BRIEF_ON) === '1'; } catch (e) { return false; } },
+    set: function (v) {
+      try { if (v) root.localStorage.setItem(BRIEF_ON, '1'); else root.localStorage.removeItem(BRIEF_ON); } catch (e) { /* in-memory only */ }
+    },
+    seen: function () { try { return root.localStorage.getItem(BRIEF_SEEN) || ''; } catch (e) { return ''; } },
+    markSeen: function (key) {
+      try { if (key) root.localStorage.setItem(BRIEF_SEEN, key); else root.localStorage.removeItem(BRIEF_SEEN); } catch (e) { /* in-memory only */ }
+    }
+  };
+
+  /* an edition is identified by its date and when it was written, so a
+     fresher edition later the same day still opens */
+  function editionKey(d) { return d.date + '@' + (d.generatedAt || ''); }
+
+  /* ?briefing=on / ?briefing=off switches the feature from a link */
+  function briefFromUrl() {
+    var m = /[?&]briefing=(on|off|1|0)\b/.exec(root.location.search || '');
+    if (!m) return;
+    Brief.set(m[1] === 'on' || m[1] === '1');
+    try { root.history.replaceState(null, '', root.location.pathname + (root.location.hash || '')); } catch (e) { /* file:// */ }
+  }
+
+  function getJSON(url, cb) {
+    var x, done = false;
+    function finish(err, data) { if (done) return; done = true; cb(err, data); }
+    try {
+      x = new XMLHttpRequest();
+      x.open('GET', url, true);
+      x.timeout = 8000;
+      x.setRequestHeader('Cache-Control', 'no-cache');
+      x.onload = function () {
+        if (x.status < 200 || x.status >= 300) return finish(new Error('HTTP ' + x.status));
+        var d;
+        try { d = JSON.parse(x.responseText); } catch (e) { return finish(e); }
+        finish(null, d);
+      };
+      x.onerror = function () { finish(new Error('network')); };
+      x.ontimeout = function () { finish(new Error('timeout')); };
+      x.send();
+    } catch (e) { finish(e); }
+  }
+
+  function validEdition(d) {
+    return d && typeof d === 'object' && DATE_RE.test(String(d.date)) && Object.prototype.toString.call(d.sections) === '[object Array]' ? d : null;
+  }
+
+  function safeUrl(u) { return /^https:\/\/[^\s"'<>]+$/i.test(String(u || '')) ? String(u) : ''; }
+
+  function dateParts(key) {
+    var p = String(key).split('-');
+    return new Date(+p[0], +p[1] - 1, +p[2]);
+  }
+  function longDate(key) {
+    var d = dateParts(key);
+    return DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()] + ' ' + d.getFullYear();
+  }
+  function shortDate(key) {
+    var d = dateParts(key);
+    return DAYS[d.getDay()].slice(0, 3) + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3);
+  }
+  function editionTime(d) {
+    var t = d.generatedAt ? new Date(d.generatedAt) : null;
+    return t && !isNaN(t.getTime()) ? pad2(t.getHours()) + ':' + pad2(t.getMinutes()) : '';
+  }
+
+  /* Daily check. Holds notices, fetches the newest edition, and opens it
+     if it is today's and has not been seen. throttled: skip if checked
+     in the last two minutes (tab switching). */
+  function briefCheck(throttled) {
+    if (!Brief.on() || Brief.open) return;
+    var now = new Date().getTime();
+    if (throttled && now - Brief.lastCheck < 120000) return;
+    Brief.lastCheck = now;
+    var released = false;
+    function release() {
+      if (released) return;
+      released = true;
+      clearTimeout(guard);
+      if (!Brief.open) A.notifier.hold(false);
+    }
+    var guard = setTimeout(release, 9000);
+    A.notifier.hold(true);
+    getJSON(BRIEF_DIR + 'latest.json', function (err, d) {
+      d = err ? null : validEdition(d);
+      if (d) { Brief.latest = d; if (A.state) renderBriefEntry(); }
+      if (!released && d && A.state && d.date === SYS.localDateKey() && Brief.seen() !== editionKey(d)) {
+        released = true;
+        clearTimeout(guard);
+        openBrief(d, true);
+      } else {
+        release();
+      }
+    });
+  }
+
+  /* the ways back in: a strip on QUESTS and, on desktop, the sidebar */
+  function renderBriefEntry() {
+    var on = Brief.on(), d = Brief.latest;
+    el.navBrief.hidden = !on;
+    el.briefStrip.hidden = !on;
+    if (!on) return;
+    el.briefStrip.innerHTML = ICON.news +
+      '<span class="bs-txt"><span class="eyebrow">Morning briefing</span>' +
+        '<span class="bs-date mono">' + (d ? esc(shortDate(d.date)) + (editionTime(d) ? ' · ' + editionTime(d) : '') : 'Today’s news recap') + '</span></span>' +
+      '<span class="bs-go mono" aria-hidden="true">Open ›</span>';
+  }
+
+  /* reopen: show what we have at once, then swap in a fresher edition if
+     one has been published since */
+  function openBriefManual() {
+    var prev = Brief.latest;
+    if (prev) openBrief(prev, false);
+    getJSON(BRIEF_DIR + 'latest.json', function (err, d) {
+      d = err ? null : validEdition(d);
+      if (!d) {
+        if (!prev) toast('No briefing could be loaded. Check your connection.');
+        return;
+      }
+      Brief.latest = d;
+      renderBriefEntry();
+      if (!prev) { if (!Brief.open) openBrief(d, false); return; }
+      if (Brief.open && Brief.shown === prev && editionKey(d) !== editionKey(prev)) showEdition(d);
+    });
+  }
+
+  function briefItem(it) {
+    var url = safeUrl(it.url), src = esc(it.source || 'Source');
+    return '<li class="brief-item">' +
+      '<h4 class="brief-it-t">' + esc(it.title) + '</h4>' +
+      (it.summary ? '<p class="brief-it-s">' + esc(it.summary) + '</p>' : '') +
+      '<div class="brief-it-m mono">' +
+        (it.tag ? '<span class="chip c-gold">' + esc(it.tag) + '</span>' : '') +
+        (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + src + ' <span aria-hidden="true">↗</span></a>' : (it.source ? '<span>' + src + '</span>' : '')) +
+      '</div>' +
+    '</li>';
+  }
+
+  function briefBody(d) {
+    var out = '', tick = d.ticker, secs = d.sections, i, j;
+    if (Object.prototype.toString.call(tick) === '[object Array]' && tick.length) {
+      out += '<ul class="brief-tick" aria-label="Markets">';
+      for (i = 0; i < tick.length; i++) {
+        var t = tick[i];
+        if (!t || !t.label || t.value == null) continue;
+        var ch = t.change ? String(t.change) : '';
+        var dir = /^[+▲]/.test(ch) ? ' is-up' : /^[-−▼]/.test(ch) ? ' is-down' : '';
+        out += '<li class="mono"><span>' + esc(t.label) + '</span><b>' + esc(t.value) + '</b>' +
+          (ch ? '<i class="' + dir + '">' + esc(ch) + '</i>' : '') + '</li>';
+      }
+      out += '</ul>';
+    }
+    if (d.lead) out += '<p class="brief-lead">' + esc(d.lead) + '</p>';
+    for (i = 0; i < secs.length; i++) {
+      var s = secs[i], items = [];
+      if (!s || Object.prototype.toString.call(s.items) !== '[object Array]') continue;
+      for (j = 0; j < s.items.length; j++) if (s.items[j] && s.items[j].title) items.push(briefItem(s.items[j]));
+      if (!items.length) continue;
+      out += '<section class="brief-sec c-' + (SECTION_TONE[s.id] || 'sys') + '">' +
+        '<h3 class="brief-sec-h"><span class="eyebrow">' + esc(s.label || s.id) + '</span><span class="brief-rule"></span><span class="mono">' + items.length + '</span></h3>' +
+        '<ol>' + items.join('') + '</ol>' +
+      '</section>';
+    }
+    return out || '<p class="brief-empty">This edition has no stories.</p>';
+  }
+
+  function briefDateLine(d) {
+    var tm = editionTime(d);
+    return longDate(d.date) + (tm ? ' · ' + tm : '');
+  }
+
+  function openBrief(d, morning) {
+    if (!Brief.open) Brief.returnTo = doc.activeElement;
+    Brief.open = true;
+    Brief.morning = !!morning || Brief.morning;
+    A.notifier.hold(true);
+    el.brief.innerHTML =
+      '<div class="brief-veil" data-act="brief-close"></div>' +
+      '<div class="brief-card win" role="dialog" aria-modal="true" aria-labelledby="brief-title" tabindex="-1">' +
+        '<div class="brief-head">' +
+          '<div class="brief-eye mono">⚠ Notification · Daily intel</div>' +
+          '<h2 class="brief-title" id="brief-title">Morning briefing</h2>' +
+          '<div class="brief-date mono" id="brief-date"></div>' +
+          '<button type="button" class="icon-btn brief-x" data-act="brief-close" aria-label="Close briefing">' + ICON.close + '</button>' +
+        '</div>' +
+        '<div class="brief-body" id="brief-body"></div>' +
+        '<div class="brief-foot">' +
+          '<label class="brief-arch" id="brief-arch-wrap" hidden><span class="sr">Past briefings</span><select id="brief-arch"></select></label>' +
+          '<button type="button" class="btn btn-hot" data-act="brief-close">' + (Brief.morning ? 'Begin today’s quests' : 'Close') + '</button>' +
+        '</div>' +
+      '</div>';
+    showEdition(d);
+    el.brief.hidden = false;
+    doc.body.classList.add('has-brief');
+    void el.brief.offsetWidth;
+    el.brief.classList.add('is-in');
+    qs('.brief-card', el.brief).focus();
+    qs('#brief-arch').addEventListener('change', onArchivePick);
+    loadArchive();
+  }
+
+  function showEdition(d) {
+    Brief.shown = d;
+    var body = qs('#brief-body', el.brief);
+    if (!body) return;
+    qs('#brief-date', el.brief).textContent = briefDateLine(d);
+    body.innerHTML = briefBody(d);
+    body.scrollTop = 0;
+    var sel = qs('#brief-arch', el.brief);
+    if (sel && sel.value !== d.date) sel.value = d.date;
+  }
+
+  function loadArchive() {
+    function fill(idx) {
+      var sel = qs('#brief-arch', el.brief), wrap = qs('#brief-arch-wrap', el.brief);
+      if (!sel || !idx) return;
+      var dates = [], i, cur = Brief.shown ? Brief.shown.date : '';
+      for (i = 0; i < idx.length && dates.length < 60; i++) if (DATE_RE.test(idx[i])) dates.push(idx[i]);
+      if (cur && dates.indexOf(cur) === -1) dates.unshift(cur);
+      if (dates.length < 2) { wrap.hidden = true; return; }
+      sel.innerHTML = dates.map(function (k) {
+        return '<option value="' + k + '"' + (k === cur ? ' selected' : '') + '>' + esc(shortDate(k)) + '</option>';
+      }).join('');
+      wrap.hidden = false;
+    }
+    if (Brief.index) fill(Brief.index);
+    getJSON(BRIEF_DIR + 'index.json', function (err, d) {
+      if (err || !d || Object.prototype.toString.call(d.dates) !== '[object Array]') return;
+      Brief.index = d.dates;
+      fill(d.dates);
+    });
+  }
+
+  function onArchivePick(e) {
+    var key = e.target.value;
+    if (!DATE_RE.test(key) || (Brief.shown && Brief.shown.date === key)) return;
+    if (Brief.latest && Brief.latest.date === key) { showEdition(Brief.latest); return; }
+    getJSON(BRIEF_DIR + key + '.json', function (err, d) {
+      d = err ? null : validEdition(d);
+      if (!Brief.open) return;
+      if (d) showEdition(d);
+      else {
+        toast('That briefing could not be loaded.');
+        if (Brief.shown) e.target.value = Brief.shown.date;
+      }
+    });
+  }
+
+  function closeBrief() {
+    if (!Brief.open) return;
+    var morning = Brief.morning, today = SYS.localDateKey(), r = Brief.returnTo;
+    if (Brief.latest && Brief.latest.date === today) Brief.markSeen(editionKey(Brief.latest));
+    Brief.open = false;
+    Brief.morning = false;
+    Brief.returnTo = null;
+    el.brief.classList.remove('is-in');
+    el.brief.hidden = true;
+    el.brief.innerHTML = '';
+    doc.body.classList.remove('has-brief');
+    if (morning) {
+      show('quests');
+      Sound.play('tap');
+      el.main.focus();
+    } else if (r && r !== doc.body && doc.body.contains(r)) {
+      r.focus();
+    }
+    A.notifier.hold(false);
+  }
+
+  function onBriefKey(e) {
+    if (!Brief.open) return;
+    if (e.key === 'Escape') { e.preventDefault(); closeBrief(); return; }
+    if (e.key === 'Tab') {             // keep focus inside the briefing
+      var f = qsa('a[href], select, button', el.brief).filter(function (n) { return !n.disabled && n.offsetParent !== null; });
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && (doc.activeElement === first || doc.activeElement === qs('.brief-card', el.brief))) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && doc.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
   }
 
   /* ======================================================================
@@ -1317,7 +1657,18 @@
         p.userChoice.then(function () { setInstallFlag(); renderInstall(); }, function () { renderInstall(); });
       } catch (e) { renderInstall(); }
     },
-    'install-dismiss': function () { setInstallFlag(); renderInstall(); }
+    'install-dismiss': function () { setInstallFlag(); renderInstall(); },
+    briefing: function () { openBriefManual(); },
+    'brief-close': function () { closeBrief(); },
+    'toggle-briefing': function () {
+      var on = !Brief.on();
+      Brief.set(on);
+      render();
+      openSettings();
+      qs('[data-act="toggle-briefing"]').focus();
+      Sound.play('tap');
+      if (on) toast('Morning briefing on. It opens first each morning.');
+    }
   };
 
   function onClick(e) {

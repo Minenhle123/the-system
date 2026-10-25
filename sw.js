@@ -5,9 +5,10 @@
 
    BUMP VERSION ON EVERY DEPLOY THAT CHANGES A CACHED FILE.
    ========================================================================== */
-var VERSION = 'v1';
+var VERSION = 'v2';
 var SHELL_CACHE = 'the-system-shell-' + VERSION;
 var FONT_CACHE = 'the-system-fonts';
+var NEWS_CACHE = 'the-system-news';
 
 var SHELL = [
   './',
@@ -42,7 +43,7 @@ self.addEventListener('activate', function (event) {
   event.waitUntil(
     caches.keys().then(function (keys) {
       return Promise.all(keys.map(function (key) {
-        if (key !== SHELL_CACHE && key !== FONT_CACHE) return caches.delete(key);
+        if (key !== SHELL_CACHE && key !== FONT_CACHE && key !== NEWS_CACHE) return caches.delete(key);
         return null;
       }));
     }).then(function () {
@@ -76,6 +77,23 @@ function staleWhileRevalidate(event, cacheName) {
   });
 }
 
+/* The morning briefing changes daily: always try the network first and
+   fall back to the last copy only when offline. */
+function isNews(url) { return /\/news\/[^\/]+\.json$/.test(url.pathname); }
+
+function networkFirst(event, cacheName) {
+  var key = event.request.url;
+  return fetch(key, { cache: 'no-store' }).then(function (res) {
+    if (res && res.ok) {
+      var copy = res.clone();
+      event.waitUntil(caches.open(cacheName).then(function (cache) { return cache.put(key, copy); }).then(null, function () {}));
+    }
+    return res;
+  }, function () {
+    return caches.match(key).then(function (hit) { return hit || Response.error(); });
+  });
+}
+
 self.addEventListener('fetch', function (event) {
   var req = event.request;
   if (req.method !== 'GET') return;
@@ -86,6 +104,11 @@ self.addEventListener('fetch', function (event) {
     return;
   }
   if (url.origin !== self.location.origin) return;
+
+  if (isNews(url)) {
+    event.respondWith(networkFirst(event, NEWS_CACHE));
+    return;
+  }
 
   event.respondWith(staleWhileRevalidate(event, SHELL_CACHE));
 });

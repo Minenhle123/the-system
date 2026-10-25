@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T01:05:00+02:00",
+  "lead": "Nine days to the 4 November local elections. Durban is still tense after a week of attacks on foreign nationals, the mini-budget's fuel levy cut lands on election day, and abroad, Serbia's president has conceded defeat to a student-led movement.",
+  "ticker": [
+    { "label": "USD/ZAR", "value": "16.51", "change": "Fri am" },
+    { "label": "R2035 yield", "value": "8.62%", "change": "flat" }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Five held after deadly attacks on foreign nationals in Durban",
+          "summary": "KZN police took in five men for questioning on Friday after a foreign national was beaten to death in the CBD on Thursday and others were assaulted in Berea. The unrest traces back to a Home Affairs asylum directive, issued after a Constitutional Court ruling and withdrawn on 9 October.",
+          "source": "TimesLIVE",
+          "url": "https://timeslive.co.za/news/south-africa/2026-10-23-five-men-held-over-murder-and-attacks-on-foreign-nationals-in-durban",
+          "tag": "KZN"
+        },
+        {
+          "title": "Mini-budget: growth cut to 1.2%, fuel levy relief from 4 November",
+          "summary": "Treasury lowered its 2026 growth forecast from 1.6% to 1.2%. A further R10bn funds a temporary levy cut of R3/litre on diesel and R1.50/litre on petrol from 4 November to 1 December, with a smaller cut running to 5 January. R5.1bn was reprioritised for gender-based violence services.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/10/21/treasury-cuts-2026-growth-forecast-to-12-unveils-r51bn-for-gbv-and-temporary-fuel-relief",
+          "tag": "Budget"
+        },
+        {
+          "title": "IEC turns down MK party's request to change its candidate list",
+          "summary": "The Electoral Commission rejected MK's bid to alter its list for the 4 November local elections; the party said some councillors were left off and others had died, and says it distrusts the IEC.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/mk-party-expresses-distrust-in-iec-after-candidate-list-alteration-request-denied/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Pretoria CBD tap water declared safe again",
+          "summary": "Tshwane lifted its precautionary boil-water advisory for the CBD on Saturday. A probe into contamination at the Bronkhorstspruit supply continues.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/city-of-tshwane-pretoria-cbd-tap-water-bronkhorstspruit/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Serbia's Vucic concedes defeat to student protest movement",
+          "summary": "After Sunday's parliamentary election, Vucic said his party had lost; his own sample put the Students' List at 135 to 140 seats against about 105 for his party. Turnout was reported at 70%, the highest since 1992.",
+          "source": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-friendly-vucic-concedes-defeat-to-student-protest-movement-in-serbian-election/"
+        },
+        {
+          "title": "Israel votes on Tuesday with neither bloc near a majority",
+          "summary": "Polls put an opposition bloc around Gadi Eisenkot at about 52 seats and Netanyahu's camp at about 50, both short of 61. Arab-led parties could decide who governs.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes"
+        },
+        {
+          "title": "Russian strikes kill 8 across Ukraine as talks are pencilled in for after 4 November",
+          "summary": "A drone hit a residential building in Vinnytsia during an overnight wave of more than 150 drones. The Kremlin says trilateral talks with Ukraine and the US could resume after its 4 November holiday.",
+          "source": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/"
+        },
+        {
+          "title": "Cost-of-living protests turn violent across Europe",
+          "summary": "France reported close to 1,000 arrests over the weekend, Italy deployed soldiers in Milan and other cities, and police used tear gas in Tirana.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/25/latest-news-bulletin-october-25th-2026-midday"
+        },
+        {
+          "title": "China's Communist Party opens a four-day plenum today",
+          "summary": "The Fifth Plenum runs 26 to 29 October in Beijing. Markets are watching for signals on consumer demand, fiscal support and local-government debt.",
+          "source": "investingLive",
+          "url": "https://investinglive.com/news/china-s-fifth-plenum-set-for-october-26-29-as-markets-watch-for-economic-signals/"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Rand steady near R16.50 after an oil-driven slide",
+          "summary": "The rand traded around 16.51 to the dollar on Friday morning after falling sharply on Thursday as high oil prices weighed. Local data this week: leading indicator (Tue), private credit and producer inflation (Thu), trade balance (Fri).",
+          "source": "CNBC Africa",
+          "url": "https://www.cnbcafrica.com/2026/south-african-rand-steady-as-traders-await-month-end-data"
+        },
+        {
+          "title": "Big central bank week: Fed on Wednesday, ECB Thursday",
+          "summary": "The Fed is widely expected to hold at 3.75 to 4.00% on Wednesday. Microsoft and Alphabet report Wednesday and Amazon Thursday, with AI spending in focus.",
+          "source": "Week Ahead (Substack)",
+          "url": "https://bkobog.substack.com/p/week-ahead-26-october-2026-central"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Bok injury worries ahead of the November tour",
+          "summary": "Eben Etzebeth is awaiting assessment on a lower-limb injury and Cheslin Kolbe is doubtful after breaking his jaw; RG Snyman and Kwagga Smith are not expected back. The four-Test tour opens against Italy in Turin on 7 November.",
+          "source": "Briefly",
+          "url": "https://briefly.co.za/sports/rugby/256502-rassie-erasmus-faces-injury-concerns-key-springboks-stars-doubts-year-tour/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Premier League: Villa beat City, United thrashed at home",
+          "summary": "Aston Villa beat Manchester City 2-1, Spurs won 2-0 at Chelsea, and Bournemouth won 3-0 at Old Trafford. Arsenal and Liverpool both won 2-0 ahead of next Sunday's meeting at Anfield.",
+          "source": "Premier League",
+          "tag": "Football"
+        }
+      ]
+    }
+  ]
+}
