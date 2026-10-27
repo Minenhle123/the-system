@@ -1,10 +1,27 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T01:05:00+02:00",
-  "lead": "Nine days to the 4 November local elections. Durban is still tense after a week of attacks on foreign nationals, the mini-budget's fuel levy cut lands on election day, and abroad, Serbia's president has conceded defeat to a student-led movement.",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:14:34+02:00",
+  "lead": "About 510 soldiers are heading to Durban to back police after violent anti-immigration protests, as KZN braces for severe storms and the country enters the final week before the 4 November local elections.",
   "ticker": [
-    { "label": "USD/ZAR", "value": "16.51", "change": "Fri am" },
-    { "label": "R2035 yield", "value": "8.62%", "change": "flat" }
+    {
+      "label": "USD/ZAR",
+      "value": "16.64",
+      "change": "+0.3%"
+    },
+    {
+      "label": "Brent",
+      "value": "$115.41",
+      "change": "-0.2%"
+    },
+    {
+      "label": "Petrol 95 (Nov est.)",
+      "value": "+R1.84/l"
+    },
+    {
+      "label": "R2035 yield",
+      "value": "8.62%",
+      "change": "flat (Fri)"
+    }
   ],
   "sections": [
     {
@@ -12,31 +29,60 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "Five held after deadly attacks on foreign nationals in Durban",
-          "summary": "KZN police took in five men for questioning on Friday after a foreign national was beaten to death in the CBD on Thursday and others were assaulted in Berea. The unrest traces back to a Home Affairs asylum directive, issued after a Constitutional Court ruling and withdrawn on 9 October.",
-          "source": "TimesLIVE",
-          "url": "https://timeslive.co.za/news/south-africa/2026-10-23-five-men-held-over-murder-and-attacks-on-foreign-nationals-in-durban",
+          "title": "Ramaphosa sends 510 soldiers to KZN after violent Durban protests",
+          "summary": "The SANDF deployment will support police in Durban until 30 November under Operation Prosper, at a cost of about R34 million, following anti-immigration marches that turned violent in the CBD.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/10/26/ramaphosa-approves-deployment-of-510-soldiers-to-kzn",
           "tag": "KZN"
         },
         {
-          "title": "Mini-budget: growth cut to 1.2%, fuel levy relief from 4 November",
-          "summary": "Treasury lowered its 2026 growth forecast from 1.6% to 1.2%. A further R10bn funds a temporary levy cut of R3/litre on diesel and R1.50/litre on petrol from 4 November to 1 December, with a smaller cut running to 5 January. R5.1bn was reprioritised for gender-based violence services.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/10/21/treasury-cuts-2026-growth-forecast-to-12-unveils-r51bn-for-gbv-and-temporary-fuel-relief",
-          "tag": "Budget"
+          "title": "Severe storms and flooding warning for KwaZulu-Natal today",
+          "summary": "The Weather Service has yellow warnings for eastern and western KZN, with heavy rain, hail and damaging winds that could flood roads and low-lying areas. The Eastern Cape coast also faces disruptive rain.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-27-october-2026/",
+          "tag": "KZN"
         },
         {
-          "title": "IEC turns down MK party's request to change its candidate list",
-          "summary": "The Electoral Commission rejected MK's bid to alter its list for the 4 November local elections; the party said some councillors were left off and others had died, and says it distrusts the IEC.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/south-africa/elections/mk-party-expresses-distrust-in-iec-after-candidate-list-alteration-request-denied/",
+          "title": "Final week of campaigning before 4 November local elections",
+          "summary": "Special votes take place on 2 and 3 November, and polls open 7am to 9pm on election day. Metro voters get two ballots, other municipalities three; only an SA ID or temporary ID certificate is accepted.",
+          "source": "allAfrica",
+          "url": "https://allafrica.com/stories/202610260550.html",
           "tag": "Elections"
         },
         {
-          "title": "Pretoria CBD tap water declared safe again",
-          "summary": "Tshwane lifted its precautionary boil-water advisory for the CBD on Saturday. A probe into contamination at the Bronkhorstspruit supply continues.",
+          "title": "Poll puts MK well ahead in eThekwini as Ramaphosa brushes off surveys",
+          "summary": "An eNCA-MarkData poll has MK on 48% in eThekwini, the DA on 25% and the ANC on 14.5%. Ramaphosa, campaigning in Mamelodi, said the ANC is heading for outright wins regardless of polling.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/on-the-campaign-trail/2026-10-26-ramaphosa-dismisses-positive-da-polling-saying-we-are-on-the-ground/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Water restrictions across large parts of eThekwini",
+          "summary": "The city limited supply from the Durban Heights works after heavy demand drained reservoirs, affecting areas including Pinetown South, Folweni and KwaSanti. Residents are asked to use water sparingly; no end date was given.",
+          "source": "Inside Metros",
+          "url": "https://insidemetros.co.za/2026/10/24/ethekwini-imposes-water-restrictions-as-reservoir-levels-drop/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Zuma-Sambudla trial: police found no money trail to July 2021 unrest",
+          "summary": "A detective told the Durban High Court that bank and phone records showed no financial links between the former MK MP and groups behind the unrest. Her incitement trial continues today.",
           "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/city-of-tshwane-pretoria-cbd-tap-water-bronkhorstspruit/"
+          "url": "https://www.citizen.co.za/news/south-africa/courts/duduzile-zuma-sambudla-funded-july-2021-unrest/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Bronkhorstspruit stomach-illness cases climb past 800",
+          "summary": "Water and Sanitation Minister Pemmy Majodina said 833 people have now fallen ill in the outbreak linked to contaminated municipal water east of Pretoria.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/10/26/the-day-that-was-bronkhorstspruit-gastro-cases-surpass-800-sandf-deployed-to-kzn-eugene-de-kock-answers-to-trc",
+          "tag": "Health"
+        },
+        {
+          "title": "Eugene de Kock testifies at inquiry into stalled apartheid-era prosecutions",
+          "summary": "The former Vlakplaas commander told the commission he was never asked to give evidence against senior politicians and generals, and questioned why he alone was prosecuted.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/10/26/the-day-that-was-bronkhorstspruit-gastro-cases-surpass-800-sandf-deployed-to-kzn-eugene-de-kock-answers-to-trc",
+          "tag": "TRC"
         }
       ]
     },
@@ -45,34 +91,46 @@
       "label": "World",
       "items": [
         {
-          "title": "Serbia's Vucic concedes defeat to student protest movement",
-          "summary": "After Sunday's parliamentary election, Vucic said his party had lost; his own sample put the Students' List at 135 to 140 seats against about 105 for his party. Turnout was reported at 70%, the highest since 1992.",
-          "source": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-friendly-vucic-concedes-defeat-to-student-protest-movement-in-serbian-election/"
-        },
-        {
-          "title": "Israel votes on Tuesday with neither bloc near a majority",
-          "summary": "Polls put an opposition bloc around Gadi Eisenkot at about 52 seats and Netanyahu's camp at about 50, both short of 61. Arab-led parties could decide who governs.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes"
-        },
-        {
-          "title": "Russian strikes kill 8 across Ukraine as talks are pencilled in for after 4 November",
-          "summary": "A drone hit a residential building in Vinnytsia during an overnight wave of more than 150 drones. The Kremlin says trilateral talks with Ukraine and the US could resume after its 4 November holiday.",
-          "source": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/"
-        },
-        {
-          "title": "Cost-of-living protests turn violent across Europe",
-          "summary": "France reported close to 1,000 arrests over the weekend, Italy deployed soldiers in Milan and other cities, and police used tear gas in Tirana.",
+          "title": "Lula wins fourth term in Brazil; Trump calls vote 'rigged' without evidence",
+          "summary": "Lula da Silva beat Flávio Bolsonaro in Sunday's runoff. Bolsonaro initially rejected the result and says he will now lead the opposition; Trump questioned the outcome without offering proof.",
           "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/25/latest-news-bulletin-october-25th-2026-midday"
+          "url": "https://www.euronews.com/2026/10/26/trump-says-brazil-election-looked-rigged-without-giving-evidence",
+          "tag": "Brazil"
         },
         {
-          "title": "China's Communist Party opens a four-day plenum today",
-          "summary": "The Fifth Plenum runs 26 to 29 October in Beijing. Markets are watching for signals on consumer demand, fiscal support and local-government debt.",
-          "source": "investingLive",
-          "url": "https://investinglive.com/news/china-s-fifth-plenum-set-for-october-26-29-as-markets-watch-for-economic-signals/"
+          "title": "Serbia's student-led list wins parliament as Vučić concedes",
+          "summary": "Preliminary projections give the Student List roughly 135-140 of 250 seats in the snap election, a majority, ending the long dominance of Aleksandar Vučić's SNS.",
+          "source": "Britannica",
+          "url": "https://www.britannica.com/question/Who-won-the-2026-Serbian-parliamentary-elections",
+          "tag": "Europe"
+        },
+        {
+          "title": "Jordan strikes southern Syria after deadly church attack",
+          "summary": "Following Friday's gun attack on a church funeral in Karak that killed at least nine, Jordan's military hit targets in Syria's Daraa and Suwayda provinces and arrested three suspects.",
+          "source": "Foreign Exchanges",
+          "url": "https://www.foreignexchanges.news/p/world-roundup-october-26-2026",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Mass arrests at French cost-of-living and schools protests",
+          "summary": "Police detained more than 1,300 people during weekend demonstrations, with organisers estimating 250,000 marched in Paris despite a decree limiting protests.",
+          "source": "Democracy Now!",
+          "url": "https://democracynow.org/2026/10/26/headlines",
+          "tag": "Europe"
+        },
+        {
+          "title": "Israeli demolitions in Hebron days before Israel's election",
+          "summary": "After an attack killed two soldiers at a checkpoint, Israeli forces razed or marked buildings across part of Hebron, displacing about 1,500 people, with Israel's national vote days away.",
+          "source": "Democracy Now!",
+          "url": "https://democracynow.org/2026/10/26/headlines",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Algeria orders troops into neighbouring Niger",
+          "summary": "Algeria's president ordered a deployment to Niger after the upper house of parliament approved it at the weekend.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/africa/",
+          "tag": "Africa"
         }
       ]
     },
@@ -81,16 +139,25 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "Rand steady near R16.50 after an oil-driven slide",
-          "summary": "The rand traded around 16.51 to the dollar on Friday morning after falling sharply on Thursday as high oil prices weighed. Local data this week: leading indicator (Tue), private credit and producer inflation (Thu), trade balance (Fri).",
-          "source": "CNBC Africa",
-          "url": "https://www.cnbcafrica.com/2026/south-african-rand-steady-as-traders-await-month-end-data"
+          "title": "Rand slips towards R16.64 to the dollar",
+          "summary": "The rand weakened about 0.3% on Monday and is down roughly 1.4% over the past month, pressured by high oil prices and softer metals after briefly touching R16.40 around the mid-term budget.",
+          "source": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-africa/currency",
+          "tag": "Rand"
         },
         {
-          "title": "Big central bank week: Fed on Wednesday, ECB Thursday",
-          "summary": "The Fed is widely expected to hold at 3.75 to 4.00% on Wednesday. Microsoft and Alphabet report Wednesday and Amazon Thursday, with AI spending in focus.",
-          "source": "Week Ahead (Substack)",
-          "url": "https://bkobog.substack.com/p/week-ahead-26-october-2026-central"
+          "title": "Another big fuel hike looms for November",
+          "summary": "Mid-month Central Energy Fund data pointed to petrol rising about R1.84-R1.88 a litre and diesel about R1.25-R1.29, with Brent near $115 driving the increase. The official adjustment is due on 4 November.",
+          "source": "Stuff",
+          "url": "https://stuff.co.za/2026/10/19/sa-motorists-face-a-r1-88-l-petrol-price-hike-this-november/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Busy data week: PPI on Thursday, trade figures Friday",
+          "summary": "Stats SA releases September producer inflation on Thursday alongside credit data, followed by budget and trade balance numbers on Friday. Treasury briefs on Operation Vulindlela the same day.",
+          "source": "The South Africa Brief",
+          "url": "https://thesouthafricabrief.substack.com/p/the-week-ahead-26-30-october-2026",
+          "tag": "Data"
         }
       ]
     },
@@ -99,17 +166,38 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Bok injury worries ahead of the November tour",
-          "summary": "Eben Etzebeth is awaiting assessment on a lower-limb injury and Cheslin Kolbe is doubtful after breaking his jaw; RG Snyman and Kwagga Smith are not expected back. The four-Test tour opens against Italy in Turin on 7 November.",
-          "source": "Briefly",
-          "url": "https://briefly.co.za/sports/rugby/256502-rassie-erasmus-faces-injury-concerns-key-springboks-stars-doubts-year-tour/",
-          "tag": "Rugby"
+          "title": "Proteas and Australia start Newlands decider level at 1-1",
+          "summary": "The third Test begins today in Cape Town. Gerald Coetzee replaces the injured Anrich Nortje in an otherwise unchanged Proteas side after the innings win in Gqeberha.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-10-26-proteas-show-early-hand-riding-the-winning-momentum-into-newlands-decider/",
+          "tag": "Cricket"
         },
         {
-          "title": "Premier League: Villa beat City, United thrashed at home",
-          "summary": "Aston Villa beat Manchester City 2-1, Spurs won 2-0 at Chelsea, and Bournemouth won 3-0 at Old Trafford. Arsenal and Liverpool both won 2-0 ahead of next Sunday's meeting at Anfield.",
-          "source": "Premier League",
+          "title": "Sundowns and Chiefs out of Africa; Pirates and Durban City advance",
+          "summary": "Holders Sundowns fell to Angola's Wiliete on away goals and Chiefs lost on penalties to Red Arrows. Pirates beat African Stars 5-0 on aggregate and Durban City won 6-1 to reach the group stages.",
+          "source": "Flashscore",
+          "url": "https://www.flashscore.com/news/holders-sundowns-stunned-in-caf-champions-league-pirates-advance/2uHRGj2e/",
           "tag": "Football"
+        },
+        {
+          "title": "Arsenal level with Man City at the top of the Premier League",
+          "summary": "Arsenal beat Everton 2-0 while City lost 2-1 at Aston Villa, leaving both on 21 points; Tottenham won 2-0 at Chelsea.",
+          "source": "Football Web Pages",
+          "url": "https://www.footballwebpages.co.uk/premier-league/20261024",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Microsoft offers voluntary buyouts to about 60,000 staff",
+          "summary": "The time-limited exit offer covers employees on selected teams in the US, Canada, India and the UK, following around 4,800 job cuts in July.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/10/26/microsoft-offers-around-60000-employees-voluntary-buyouts",
+          "tag": "Big Tech"
         }
       ]
     }
