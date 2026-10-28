@@ -1,205 +1,45 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T05:14:34+02:00",
-  "lead": "About 510 soldiers are heading to Durban to back police after violent anti-immigration protests, as KZN braces for severe storms and the country enters the final week before the 4 November local elections.",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T05:14:32+02:00",
+  "lead": "A week before the 4 November local elections, Durban is still gripped by anti-migrant attacks as the army's deployment nears its end, and a KZN councillor candidate has been arrested with an unlicensed gun. Abroad, Israel's election ended without a clear winner.",
   "ticker": [
-    {
-      "label": "USD/ZAR",
-      "value": "16.64",
-      "change": "+0.3%"
-    },
-    {
-      "label": "Brent",
-      "value": "$115.41",
-      "change": "-0.2%"
-    },
-    {
-      "label": "Petrol 95 (Nov est.)",
-      "value": "+R1.84/l"
-    },
-    {
-      "label": "R2035 yield",
-      "value": "8.62%",
-      "change": "flat (Fri)"
-    }
+    { "label": "USD/ZAR", "value": "16.66", "change": "+0.1%" },
+    { "label": "JSE All Share", "value": "109,820", "change": "+0.6%" },
+    { "label": "Brent", "value": "$115.35", "change": "+1.3%" },
+    { "label": "Petrol 95 (Nov est.)", "value": "-R0.23/l" },
+    { "label": "R2035 yield", "value": "8.62%", "change": "flat" }
   ],
   "sections": [
-    {
-      "id": "sa",
-      "label": "South Africa",
-      "items": [
-        {
-          "title": "Ramaphosa sends 510 soldiers to KZN after violent Durban protests",
-          "summary": "The SANDF deployment will support police in Durban until 30 November under Operation Prosper, at a cost of about R34 million, following anti-immigration marches that turned violent in the CBD.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/10/26/ramaphosa-approves-deployment-of-510-soldiers-to-kzn",
-          "tag": "KZN"
-        },
-        {
-          "title": "Severe storms and flooding warning for KwaZulu-Natal today",
-          "summary": "The Weather Service has yellow warnings for eastern and western KZN, with heavy rain, hail and damaging winds that could flood roads and low-lying areas. The Eastern Cape coast also faces disruptive rain.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-27-october-2026/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Final week of campaigning before 4 November local elections",
-          "summary": "Special votes take place on 2 and 3 November, and polls open 7am to 9pm on election day. Metro voters get two ballots, other municipalities three; only an SA ID or temporary ID certificate is accepted.",
-          "source": "allAfrica",
-          "url": "https://allafrica.com/stories/202610260550.html",
-          "tag": "Elections"
-        },
-        {
-          "title": "Poll puts MK well ahead in eThekwini as Ramaphosa brushes off surveys",
-          "summary": "An eNCA-MarkData poll has MK on 48% in eThekwini, the DA on 25% and the ANC on 14.5%. Ramaphosa, campaigning in Mamelodi, said the ANC is heading for outright wins regardless of polling.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/politics/on-the-campaign-trail/2026-10-26-ramaphosa-dismisses-positive-da-polling-saying-we-are-on-the-ground/",
-          "tag": "Elections"
-        },
-        {
-          "title": "Water restrictions across large parts of eThekwini",
-          "summary": "The city limited supply from the Durban Heights works after heavy demand drained reservoirs, affecting areas including Pinetown South, Folweni and KwaSanti. Residents are asked to use water sparingly; no end date was given.",
-          "source": "Inside Metros",
-          "url": "https://insidemetros.co.za/2026/10/24/ethekwini-imposes-water-restrictions-as-reservoir-levels-drop/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Zuma-Sambudla trial: police found no money trail to July 2021 unrest",
-          "summary": "A detective told the Durban High Court that bank and phone records showed no financial links between the former MK MP and groups behind the unrest. Her incitement trial continues today.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/south-africa/courts/duduzile-zuma-sambudla-funded-july-2021-unrest/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Bronkhorstspruit stomach-illness cases climb past 800",
-          "summary": "Water and Sanitation Minister Pemmy Majodina said 833 people have now fallen ill in the outbreak linked to contaminated municipal water east of Pretoria.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/10/26/the-day-that-was-bronkhorstspruit-gastro-cases-surpass-800-sandf-deployed-to-kzn-eugene-de-kock-answers-to-trc",
-          "tag": "Health"
-        },
-        {
-          "title": "Eugene de Kock testifies at inquiry into stalled apartheid-era prosecutions",
-          "summary": "The former Vlakplaas commander told the commission he was never asked to give evidence against senior politicians and generals, and questioned why he alone was prosecuted.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/10/26/the-day-that-was-bronkhorstspruit-gastro-cases-surpass-800-sandf-deployed-to-kzn-eugene-de-kock-answers-to-trc",
-          "tag": "TRC"
-        }
-      ]
-    },
-    {
-      "id": "world",
-      "label": "World",
-      "items": [
-        {
-          "title": "Lula wins fourth term in Brazil; Trump calls vote 'rigged' without evidence",
-          "summary": "Lula da Silva beat Flávio Bolsonaro in Sunday's runoff. Bolsonaro initially rejected the result and says he will now lead the opposition; Trump questioned the outcome without offering proof.",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/trump-says-brazil-election-looked-rigged-without-giving-evidence",
-          "tag": "Brazil"
-        },
-        {
-          "title": "Serbia's student-led list wins parliament as Vučić concedes",
-          "summary": "Preliminary projections give the Student List roughly 135-140 of 250 seats in the snap election, a majority, ending the long dominance of Aleksandar Vučić's SNS.",
-          "source": "Britannica",
-          "url": "https://www.britannica.com/question/Who-won-the-2026-Serbian-parliamentary-elections",
-          "tag": "Europe"
-        },
-        {
-          "title": "Jordan strikes southern Syria after deadly church attack",
-          "summary": "Following Friday's gun attack on a church funeral in Karak that killed at least nine, Jordan's military hit targets in Syria's Daraa and Suwayda provinces and arrested three suspects.",
-          "source": "Foreign Exchanges",
-          "url": "https://www.foreignexchanges.news/p/world-roundup-october-26-2026",
-          "tag": "Middle East"
-        },
-        {
-          "title": "Mass arrests at French cost-of-living and schools protests",
-          "summary": "Police detained more than 1,300 people during weekend demonstrations, with organisers estimating 250,000 marched in Paris despite a decree limiting protests.",
-          "source": "Democracy Now!",
-          "url": "https://democracynow.org/2026/10/26/headlines",
-          "tag": "Europe"
-        },
-        {
-          "title": "Israeli demolitions in Hebron days before Israel's election",
-          "summary": "After an attack killed two soldiers at a checkpoint, Israeli forces razed or marked buildings across part of Hebron, displacing about 1,500 people, with Israel's national vote days away.",
-          "source": "Democracy Now!",
-          "url": "https://democracynow.org/2026/10/26/headlines",
-          "tag": "Middle East"
-        },
-        {
-          "title": "Algeria orders troops into neighbouring Niger",
-          "summary": "Algeria's president ordered a deployment to Niger after the upper house of parliament approved it at the weekend.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/africa/",
-          "tag": "Africa"
-        }
-      ]
-    },
-    {
-      "id": "markets",
-      "label": "Business & Markets",
-      "items": [
-        {
-          "title": "Rand slips towards R16.64 to the dollar",
-          "summary": "The rand weakened about 0.3% on Monday and is down roughly 1.4% over the past month, pressured by high oil prices and softer metals after briefly touching R16.40 around the mid-term budget.",
-          "source": "Trading Economics",
-          "url": "https://tradingeconomics.com/south-africa/currency",
-          "tag": "Rand"
-        },
-        {
-          "title": "Another big fuel hike looms for November",
-          "summary": "Mid-month Central Energy Fund data pointed to petrol rising about R1.84-R1.88 a litre and diesel about R1.25-R1.29, with Brent near $115 driving the increase. The official adjustment is due on 4 November.",
-          "source": "Stuff",
-          "url": "https://stuff.co.za/2026/10/19/sa-motorists-face-a-r1-88-l-petrol-price-hike-this-november/",
-          "tag": "Fuel"
-        },
-        {
-          "title": "Busy data week: PPI on Thursday, trade figures Friday",
-          "summary": "Stats SA releases September producer inflation on Thursday alongside credit data, followed by budget and trade balance numbers on Friday. Treasury briefs on Operation Vulindlela the same day.",
-          "source": "The South Africa Brief",
-          "url": "https://thesouthafricabrief.substack.com/p/the-week-ahead-26-30-october-2026",
-          "tag": "Data"
-        }
-      ]
-    },
-    {
-      "id": "sport",
-      "label": "Sport",
-      "items": [
-        {
-          "title": "Proteas and Australia start Newlands decider level at 1-1",
-          "summary": "The third Test begins today in Cape Town. Gerald Coetzee replaces the injured Anrich Nortje in an otherwise unchanged Proteas side after the innings win in Gqeberha.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-10-26-proteas-show-early-hand-riding-the-winning-momentum-into-newlands-decider/",
-          "tag": "Cricket"
-        },
-        {
-          "title": "Sundowns and Chiefs out of Africa; Pirates and Durban City advance",
-          "summary": "Holders Sundowns fell to Angola's Wiliete on away goals and Chiefs lost on penalties to Red Arrows. Pirates beat African Stars 5-0 on aggregate and Durban City won 6-1 to reach the group stages.",
-          "source": "Flashscore",
-          "url": "https://www.flashscore.com/news/holders-sundowns-stunned-in-caf-champions-league-pirates-advance/2uHRGj2e/",
-          "tag": "Football"
-        },
-        {
-          "title": "Arsenal level with Man City at the top of the Premier League",
-          "summary": "Arsenal beat Everton 2-0 while City lost 2-1 at Aston Villa, leaving both on 21 points; Tottenham won 2-0 at Chelsea.",
-          "source": "Football Web Pages",
-          "url": "https://www.footballwebpages.co.uk/premier-league/20261024",
-          "tag": "Football"
-        }
-      ]
-    },
-    {
-      "id": "tech",
-      "label": "Tech & Science",
-      "items": [
-        {
-          "title": "Microsoft offers voluntary buyouts to about 60,000 staff",
-          "summary": "The time-limited exit offer covers employees on selected teams in the US, Canada, India and the UK, following around 4,800 job cuts in July.",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/microsoft-offers-around-60000-employees-voluntary-buyouts",
-          "tag": "Big Tech"
-        }
-      ]
-    }
+    { "id": "sa", "label": "South Africa", "items": [
+      { "title": "Durban anti-migrant attacks go on despite army and police presence", "summary": "Daily protests and assaults on foreign nationals continue in the CBD, Berea and Morningside. Four men have been charged, civic groups say the police response falls short, and the SANDF deployment is due to end on Saturday.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-10-27-army-and-police-face-criticism-amid-continuing-durban-unrest/", "tag": "KZN" },
+      { "title": "Councillor candidate arrested with unlicensed firearm near Durban", "summary": "Police arrested a 49-year-old candidate in the coming local elections at a home in Dassenhoek on Tuesday. He faces charges of illegally possessing a firearm and ammunition and is due in the Pinetown Magistrate's Court. His party was not named.", "source": "The Citizen", "url": "https://www.citizen.co.za/news/south-africa/crime/election-candidate-nabbed-unlicensed-firearm-kzn/", "tag": "KZN" },
+      { "title": "At least 43 suspected political killings this year, KZN worst hit", "summary": "A GI-TOC count shows at least 43 suspected politically motivated killings in the first nine months of 2026 and 10 more in October. KwaZulu-Natal recorded the most incidents, ahead of Gauteng. Analysts link the attacks to fights over council control and contracts.", "source": "EWN", "url": "https://www.ewn.co.za/2026/10/27/lge-2026-politically-motivated-killings-threaten-democracy-warns-expert", "tag": "Elections" },
+      { "title": "Six killed in head-on crash on the N3 at Van Reenen's Pass", "summary": "A light delivery vehicle, reportedly carrying workers in its back, collided with a truck on Tuesday afternoon, and that truck then hit a second one. The RTMC is investigating the cause.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-10-27-six-killed-in-n3-crash-involving-two-trucks-and-delivery-vehicle/", "tag": "KZN" },
+      { "title": "Election preparations on track, says Cogta minister Hlabisa", "summary": "Velenkosini Hlabisa said voting stations, staffing and security are ready for 4 November, with the ConCourt dispute over ANC candidate lists now settled. Separately, Cape Town mayor Geordin Hill-Lewis warned that smaller parties could push the city into a coalition.", "source": "EWN", "url": "https://www.ewn.co.za/2026/10/27/nov-4-elections-preparations-on-track-says-cogta-minister", "tag": "Elections" },
+      { "title": "uMshwathi villagers share river water with cattle", "summary": "Families in Swayimane in the KZN midlands say they have no taps and rely on a stream also used by livestock, while tankers seldom reach them. The municipality did not respond to EWN's questions.", "source": "EWN", "url": "https://www.ewn.co.za/2026/10/27/lge-2026-umshwathi-residents-drink-water-from-the-same-river-as-animals", "tag": "KZN" },
+      { "title": "De Kock blames prosecutors for failing to pursue apartheid crimes", "summary": "Testifying at the Khampepe inquiry, Eugene de Kock said the NPA never asked him for information, and he named former apartheid-era politicians he claims were involved in bombings. His claims have not been tested.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-10-27-prime-evil-blames-npa-for-failing-to-prosecute-apartheid-crimes/" },
+      { "title": "Ramaphosa weighing report on Iran's role in BRICS naval drills", "summary": "The Presidency says a panel has been investigating since February why Iran's participation in January's exercise off the west coast went beyond the observer role the president had set. The report remains confidential.", "source": "EWN", "url": "https://www.ewn.co.za/2026/10/27/ramaphosa-considering-report-into-iran-s-unauthorised-naval-participation" }
+    ] },
+    { "id": "world", "label": "World", "items": [
+      { "title": "Israel's election ends without a clear winner, exit polls show", "summary": "Exit polls put Netanyahu's bloc and Eisenkot's bloc at about 51 seats each, with Arab parties near 18. Coalition talks are expected to take weeks, and a repeat election next year is possible.", "source": "OPB / AP", "url": "https://www.opb.org/article/2026/10/27/exit-polls-suggest-a-rebuke-of-netanyahu-but-no-clear-winner-in-israel-s-election/" },
+      { "title": "Congo's Ebola outbreak passes 10,000 cases", "summary": "The DRC has recorded 10,060 confirmed cases and 4,887 deaths in its worst outbreak yet. Kenya and Nigeria have also reported cases, and the WHO has started a first vaccine trial.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak", "tag": "Africa" },
+      { "title": "Egypt approves military help for Saudi Arabia against Houthi attacks", "summary": "Egypt's parliament authorised President Sisi to give Saudi Arabia military support after the Saudi-led coalition said it shot down Houthi missiles and drones fired at the kingdom.", "source": "Just Security", "url": "https://www.justsecurity.org/162113/early-edition-october-27-2026/" },
+      { "title": "Limited ceasefire holds in occupied Oleshky as Russia hits Kyiv", "summary": "Ukrainian and Russian officials say a local truce in Oleshky is allowing aid deliveries and evacuations. Only about 6,000 of its 24,000 former residents remain. Russian strikes hit infrastructure in Kyiv.", "source": "Just Security", "url": "https://www.justsecurity.org/162113/early-edition-october-27-2026/" },
+      { "title": "Gunmen kill at least 62 in north-eastern Nigeria", "summary": "An attack on a community last Friday left 62 dead and 52 wounded, and displaced thousands. In Ethiopia, the Orthodox Church says at least 60 people died in two attacks in Oromia over the past week.", "source": "Just Security", "url": "https://www.justsecurity.org/162113/early-edition-october-27-2026/", "tag": "Africa" }
+    ] },
+    { "id": "markets", "label": "Business & Markets", "items": [
+      { "title": "JSE rises 0.6% while the rand hovers near R16.66", "summary": "The All Share closed at 109,820 on Tuesday, led by Naspers and AngloGold Ashanti. The rand is at its weakest since early October, weighed down by a firmer dollar and higher oil prices.", "source": "Trading Economics", "url": "https://tradingeconomics.com/south-africa/stock-market" },
+      { "title": "Fuel levy relief points to small petrol cut and bigger diesel cut in November", "summary": "Treasury's temporary levy cut of R1.50/l on petrol and R3/l on diesel outweighs under-recoveries. Data to 23 October pointed to 95 petrol about 23c cheaper and diesel about R1.70 lower, although the petrol margin is thin.", "source": "BusinessTech", "url": "https://businesstech.co.za/news/energy/881142/complete-u-turn-for-petrol-prices-in-november/" },
+      { "title": "Kilometres-long truck queues at Durban port after storm", "summary": "Traffic to the port crawled on Tuesday as a severe thunderstorm added to existing backlogs at the Durban Gateway Terminal, which has struggled since a new operating system went live in August. Transnet had not commented.", "source": "The Witness", "url": "https://witness.co.za/news/2026/10/27/watch-kilometres-of-trucks-queue-outside-durban-port-after-severe-storm/", "tag": "KZN" },
+      { "title": "Brent near $115 as Gulf tensions mount; Fed decides today", "summary": "Oil rose on reports the US asked Gulf states to prepare for possible new action against Iran, and on attacks on Saudi energy sites and Hormuz tankers. Markets see little chance of a Fed hike tonight but price one in December.", "source": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil" }
+    ] },
+    { "id": "sport", "label": "Sport", "items": [
+      { "title": "Starc's six wickets bowl Proteas out for 329 at Newlands", "summary": "After a 140-run opening stand, Marques Ackerman fell for 95 and Aiden Markram made 78, but Mitchell Starc took 6-72 to end South Africa's innings on day one of the series decider.", "source": "Daily Maverick", "url": "https://www.dailymaverick.co.za/article/2026-10-27-starc-masterclass-and-proteas-mistakes-give-australia-an-edge-at-newlands/", "tag": "Cricket" },
+      { "title": "Harry Kane wins the Ballon d'Or", "summary": "The Bayern Munich striker became the first Englishman to win in 25 years, ahead of Kylian Mbappé and Lamine Yamal. Alexia Putellas took the women's award for a third time.", "source": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50236983/harry-kane-2026-ballon-dor-kylian-mbappe-lamine-yamal", "tag": "Football" },
+      { "title": "Bulls hold off Ulster 34-26 at Loftus", "summary": "A late Curwin Bosch penalty denied Ulster a bonus point. Coach Johan Ackermann wants answers on refereeing calls, and Handré Pollard picked up a hamstring injury.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/sport/rugby/2026-10-26-ackermann-will-seek-clarity-on-refereeing-decisions-in-bulls-win-against-ulster/", "tag": "Rugby" }
+    ] },
+    { "id": "tech", "label": "Tech & Science", "items": [
+      { "title": "Anthropic files for a stock market listing", "summary": "The AI company filed its prospectus on 26 October under the ticker ANT. It reported fast revenue growth and a large first-half loss driven mainly by a noncash charge. Reports suggest a valuation of $1.5-2 trillion.", "source": "Forbes", "url": "https://www.forbes.com/sites/petercohan/2026/10/27/thinking-about-buying-anthropic-stock-consider-these-risks-first/", "tag": "AI" }
+    ] }
   ]
 }
