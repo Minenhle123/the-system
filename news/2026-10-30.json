@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T05:14:59+02:00",
+  "lead": "Ramaphosa is sending 510 soldiers to KwaZulu-Natal after looting and violence in eThekwini, with local elections five days away; Acting Police Minister Cachalia wants KZN commissioner Mkhwanazi to head the Hawks.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "16.65",
+      "change": "+0.3%"
+    },
+    {
+      "label": "JSE Top-40",
+      "value": "+0.1%"
+    },
+    {
+      "label": "SA 2035 bond",
+      "value": "8.555%",
+      "change": "-3bp"
+    },
+    {
+      "label": "SA PPI (Sep)",
+      "value": "6.2%"
+    },
+    {
+      "label": "Platinum",
+      "value": "-2.9%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Ramaphosa deploys 510 soldiers to KZN after eThekwini looting",
+          "summary": "Speaking at the Durban Chamber of Commerce gala, the President said looting of small businesses and a killing in the Durban CBD would not be tolerated. SANDF members will back Operation Prosper in the province until the end of November.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/violence-and-looting-ethekwini-cannot-be-tolerated-president-ramaphosa",
+          "tag": "KZN"
+        },
+        {
+          "title": "Cachalia moves to make KZN's Mkhwanazi the new Hawks head",
+          "summary": "The acting police minister has sent Cabinet a memorandum seeking its agreement to appoint Lt-Gen Nhlanhla Mkhwanazi, now KZN police commissioner, as national DPCI head. Lt-Gen Siphesihle Nkosi is currently acting in the post.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/cachalia-seeks-concurrence-appoint-mkhwanazi-dpci-head",
+          "tag": "Policing"
+        },
+        {
+          "title": "Durban named centre of SA's bid for the 2036 or 2040 Olympics",
+          "summary": "Sascoc picked Durban over Johannesburg and Cape Town, with Moses Mabhida Stadium as the main venue in a likely multi-city bid. The IOC deadline to declare interest is 31 October; no cost estimate has been given yet.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/29/olympic-games-south-africa-bid-to-make-durban-host-city-for-2036-or-2040",
+          "tag": "KZN"
+        },
+        {
+          "title": "Election week: matric exams pause and Sassa shifts grant dates",
+          "summary": "NSC exams stop from 3 to 5 November around Wednesday's local elections and resume on 6 November. Sassa pays older persons' grants today, disability grants on 2 November and child grants on 3 November.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/matric-exams-pause-during-election-week",
+          "tag": "Elections"
+        },
+        {
+          "title": "Ramaphosa brushes off polls predicting ANC slump in local elections",
+          "summary": "Campaigning in KwaZulu-Natal, the ANC leader said the party would do well on 4 November despite forecasts of losses. eThekwini is among several metros expected to see close races, with the MK Party challenging the ANC in the province.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-29-october-2026/",
+          "tag": "Elections"
+        },
+        {
+          "title": "2022 flood victims receive homes at Cornubia",
+          "summary": "Houses were handed over to families displaced by the 2022 floods, and Ramaphosa said all 460 planned homes should be done by mid-2027. A second phase of 145 houses is under way.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/flood-victims-receive-homes-cornubia-mid-2027",
+          "tag": "KZN"
+        },
+        {
+          "title": "KZN cuts projected overspending by R7.2bn",
+          "summary": "The province's expected year-end overrun has dropped from about R9.7bn to around R2.5bn after tighter controls and a recovery plan. Finance MEC Francois Rodgers said pressure remains in health, education and public works.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/kzn-reduces-projected-over-expenditure-r72bn",
+          "tag": "KZN"
+        },
+        {
+          "title": "Sars searches home of Tshwane finance chief",
+          "summary": "The City of Tshwane confirmed the revenue service executed a search warrant at the home of CFO Gareth Mnisi on Thursday morning.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-29-october-2026/",
+          "tag": "Gauteng"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Spain high-speed train crash kills at least 68",
+          "summary": "A Madrid-Seville train ran into the back of a stationary train near Urda in Toledo province on Wednesday after a signalling failure. PM Pedro Sánchez declared three days of mourning; it is Spain's second major rail disaster this year.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+          "tag": "Europe"
+        },
+        {
+          "title": "Israel election ends in deadlock",
+          "summary": "Final results give Netanyahu's Likud 27 seats and Gadi Eisenkot's Yashar 21, with neither bloc reaching the 61 needed. Arab-led parties won 19 seats, and coalition talks could take weeks.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Tankers hit mines near Hormuz as oil slick reaches UAE",
+          "summary": "Iranian officials say three tankers caught fire after striking sea mines, and a spill over 20 miles long has reached northern UAE beaches. Iran's foreign minister says he is in touch with mediators on a seven-day plan to reopen the strait.",
+          "source": "Havana Times / Democracy Now",
+          "url": "https://havanatimes.org/news/international-news-briefs-for-thursday-october-29-2026/",
+          "tag": "Iran war"
+        },
+        {
+          "title": "Putin hosts African leaders at Russia-Africa summit",
+          "summary": "Delegations from 48 African countries, 22 led by heads of state, met in Moscow. Putin said Russia would not pursue neo-colonialism and offered to widen grain and food exports to the continent.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/28/putin-tells-african-leaders-moscow-will-not-pursue-neo-colonialism",
+          "tag": "Africa"
+        },
+        {
+          "title": "Ethiopia takes delivery of 12 Russian Su-35 jets",
+          "summary": "PM Abiy Ahmed said the fighters arrived a year early and that four S-400 air defence batteries will follow. Fighting continues in Tigray and Amhara.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/28/ethiopia-receives-12-russian-su-35-jets-plans-s-400-acquisition",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Producer inflation jumps to 6.2% in September",
+          "summary": "Factory-gate inflation rose from 5% in August, ahead of the roughly 5.7% economists expected. The rand eased about 0.3% to around R16.65 per dollar as gold and platinum fell after the US Fed held rates.",
+          "source": "IndexBox / Reuters",
+          "url": "https://www.indexbox.io/blog/south-african-rand-weakens-as-gold-and-platinum-prices-fall-after-fed-holds-rates/",
+          "tag": "Rand"
+        },
+        {
+          "title": "Big petrol hike looms for 4 November",
+          "summary": "Mid-month Central Energy Fund data pointed to petrol rising about R1.84-R1.88 a litre and diesel about R1.25-R1.29, driven by oil near $100 a barrel. Official prices are still to be announced.",
+          "source": "Stuff",
+          "url": "https://stuff.co.za/2026/10/19/sa-motorists-face-a-r1-88-l-petrol-price-hike-this-november/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Credit and money growth slow; month-end data due today",
+          "summary": "Private-sector credit growth eased to 6.23% in September and M3 money supply to 7.93%. Trade and budget balance figures are scheduled for release today.",
+          "source": "CNBC Africa",
+          "url": "https://www.cnbcafrica.com/2026/south-african-rand-weakens-ahead-of-producer-inflation-data",
+          "tag": "Data"
+        },
+        {
+          "title": "Motsepe earned over R28m in final months as ARM executive chair",
+          "summary": "African Rainbow Minerals' annual report shows his pay for the 2026 financial year before he became non-executive chair in February. ARM's headline earnings rose 19% to R3.2bn.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-29-october-2026/",
+          "tag": "Companies"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Proteas 40 ahead with six wickets left in Newlands Test",
+          "summary": "After Australia made 429 for a 100-run first-innings lead, South Africa reached 140/4 at stumps on day three. Marques Ackerman scored 62 and Simon Harmer took 4/104; day four starts today.",
+          "source": "The Herald",
+          "url": "https://theherald.co.za/sport/cricket/2026-10-29-proteas-take-slender-newlands-lead",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Springboks open November tour against Italy on 7 November",
+          "summary": "The Boks play Italy in Turin, France in Paris on 13 November and Ireland in Dublin on 21 November, before the Nations Championship finals weekend in London.",
+          "source": "Briefly",
+          "url": "https://briefly.co.za/sports/rugby/257487-springboks-november-2026-test-fixtures-dates-kick-times/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Liverpool and Man City through in Carabao Cup on penalties",
+          "summary": "Liverpool beat Chelsea 6-5 on penalties after a 1-1 draw, and City edged Brighton in a shootout. In Serie A, Genoa beat Juventus 2-0 and Bologna won 4-2 at Milan.",
+          "source": "Sporting Life",
+          "url": "https://www.sportinglife.com/football/fixtures-results/2026-10-28",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Google unveils Gemini 4 Carbon for cyber-defence work",
+          "summary": "The model targets finding and fixing software vulnerabilities and is restricted to selected security teams at first. Alphabet also reported quarterly revenue of $127.6bn, up 25%.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-29-2026/",
+          "tag": "AI"
+        }
+      ]
+    }
+  ]
+}
