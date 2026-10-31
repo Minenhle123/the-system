@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T05:14:36+02:00",
+  "lead": "Four days before Wednesday's local elections, a new Ipsos poll puts the ANC at a record-low 30% nationally and shows MK's eThekwini lead shrinking, while police pressed the Durban High Court to curb March and March protests.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "16.71",
+      "change": "+0.6%"
+    },
+    {
+      "label": "SA 2035 bond (Fri early)",
+      "value": "8.53%",
+      "change": "-2.5bp"
+    },
+    {
+      "label": "SA trade surplus (Sep)",
+      "value": "R19.8bn"
+    },
+    {
+      "label": "Brent",
+      "value": "$112.33",
+      "change": "+1.4%"
+    },
+    {
+      "label": "Nasdaq (midday Fri)",
+      "value": "25,534",
+      "change": "-2.5%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Ipsos poll: ANC at record low, MK slips in eThekwini",
+          "summary": "The latest Ipsos survey has the ANC on 30% nationally. In eThekwini, MK support fell to 47% from 55% in the earlier wave as Jacob Zuma stayed off the campaign trail; the DA leads narrowly in Johannesburg and Tshwane.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-10-30-mk-support-down-as-zuma-disappears-from-stump-new-big-poll/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Police ask Durban High Court to make March and March ban final",
+          "summary": "Acting Police Minister Cachalia and KZN commissioner Mkhwanazi want the interim order barring the group's marches in eThekwini confirmed, citing an alleged plan to torch the Home Affairs refugee centre. The movement calls the claims false.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-10-30-we-see-you-meets-abahambe-in-durban-high-court/",
+          "tag": "KZN"
+        },
+        {
+          "title": "KZN has the most high-risk voting stations, most of them in eThekwini",
+          "summary": "SAPS says it is ready for the vote, with special voting starting Monday. KwaZulu-Natal has 165 high-risk stations, 124 of them in eThekwini; police link two deaths and 16 damaged vehicles to recent Durban marches.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/saps-ready-ensure-safe-elections",
+          "tag": "KZN"
+        },
+        {
+          "title": "US leaves SA out of G20 foreign ministers' meeting; China objects",
+          "summary": "Washington, which holds the G20 presidency, excluded South Africa from the Atlanta ministerial on 30-31 October. Beijing said it supports South Africa's continued participation in G20 work.",
+          "source": "Social News XYZ",
+          "url": "https://www.socialnews.xyz/2026/10/30/china-backs-south-africa-after-us-leaves-it-out-of-g20-ministerial-in-atlanta/",
+          "tag": "G20"
+        },
+        {
+          "title": "AGOA verdict due Monday; Tau says SA is ready either way",
+          "summary": "The US is expected to rule on 2 November on South Africa's 2027 AGOA eligibility. Trade minister Parks Tau said exporters will keep trading regardless, and SA would get 60 days to address any US concerns.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/sa-ready-agoa-eligibility-decision",
+          "tag": "Trade"
+        },
+        {
+          "title": "Zuma-Sambudla to learn next Friday if terrorism charges are dropped",
+          "summary": "The Durban High Court will rule on the former MK MP's bid to be discharged on incitement charges linked to her posts during the July 2021 unrest.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-10-29-zuma-sambudla-to-hear-fate-over-terrorism-case-next-week/",
+          "tag": "KZN"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran says tankers hit mines in Hormuz as Qatar mediates",
+          "summary": "Iran's Revolutionary Guard claimed three tankers caught fire after using unauthorised routes; the US denies mines remain on main lanes. Qatari mediators were back in Tehran after a letter from US Vice President Vance.",
+          "source": "AP via Audacy",
+          "url": "https://www.audacy.com/newsradiowrva/news/world/mideast-news-october-30-2026-7f7f34ceb62f294a450e48ace0bd56e0",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Israel's election ends without a majority",
+          "summary": "Netanyahu's bloc took 53 seats against 48 for Gadi Eisenkot's camp, with Arab-led parties on 19, setting up long coalition talks.",
+          "source": "AP via Audacy",
+          "url": "https://www.audacy.com/newsradiowrva/news/world/mideast-news-october-30-2026-7f7f34ceb62f294a450e48ace0bd56e0",
+          "tag": "Israel"
+        },
+        {
+          "title": "Flávio Bolsonaro leaves Brazil via Argentina after losing runoff",
+          "summary": "The defeated presidential candidate, ordered to surrender his passports amid corruption probes he denies, crossed into Argentina and flew to Ecuador, reportedly heading for the US. Lula called it shameful.",
+          "source": "Ynet",
+          "url": "https://www.ynetnews.com/article/bjq5bbjtfg",
+          "tag": "Brazil"
+        },
+        {
+          "title": "Binance hit by $6.3bn hack linked to North Korea",
+          "summary": "The world's largest crypto exchange suffered a breach worth about $6.3 billion, with investigators pointing to North Korean hackers; the news weighed on crypto-linked shares.",
+          "source": "SBS News",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008824047",
+          "tag": "Crypto"
+        },
+        {
+          "title": "CAF restores two-year AFCON cycle",
+          "summary": "Africa's football body reversed its plan for a four-year cycle. Kenya, Tanzania and Uganda host in 2027, with further editions set for 2028, 2031 and 2033.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/30/afcon-returns-to-2-year-cycle-after-caf-reverses-quadrennial-decision",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "SA trade surplus widens to R19.8bn in September",
+          "summary": "Sars data showed exports of R190.6bn against imports of R170.8bn, beating the R16.4bn surplus analysts expected.",
+          "source": "The Rio Times",
+          "url": "https://www.riotimesonline.com/south-africa-trade-surplus-september-2026/",
+          "tag": "Trade"
+        },
+        {
+          "title": "Rand cautious ahead of AGOA ruling and elections",
+          "summary": "The rand weakened to about R16.71 to the dollar on Friday as traders avoided big bets before Monday's AGOA decision and Wednesday's vote.",
+          "source": "CNBC Africa",
+          "url": "https://www.cnbcafrica.com/2026/south-african-rand-steady-ahead-of-budget-trade-data",
+          "tag": "Rand"
+        },
+        {
+          "title": "Intel's record plunge drags Wall Street lower",
+          "summary": "Intel shares fell nearly 29% after warning of cash burn, and Amazon slipped on higher spending plans, pulling the Nasdaq down about 2.5% by midday Friday amid worries over AI costs.",
+          "source": "Honolulu Star-Advertiser",
+          "url": "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
+          "tag": "Global"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Australia need 288 on final day at Newlands to win series",
+          "summary": "Centuries from Wiaan Mulder (115) and Ryan Rickelton (101) lifted the Proteas to 387, setting up a decider with the series level at 1-1.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-10-30-south-africas-day-sets-up-thrilling-third-test-and-series-finale-against-australia/",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Soweto derby today at FNB Stadium",
+          "summary": "Champions Orlando Pirates, in strong form, host Kaizer Chiefs in the Betway Premiership at 3:30pm; Chiefs arrive with mixed form after a 3-0 midweek win over TS Galaxy.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/sport/soccer/2026-10-30-ouaddou-and-da-cruz-urge-pirates-and-chiefs-to-shake-off-derby-pressure/",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Mistral releases open weights for trillion-parameter model",
+          "summary": "Mistral Large 4, a multimodal model aimed at coding and cyber-defence, can be run on organisations' own infrastructure.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "Canada to take stake in AI firm Cohere",
+          "summary": "Ottawa committed up to C$1.6bn for equity in the Toronto company, which must stay headquartered in Canada and invest in local computing capacity.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
+          "tag": "AI"
+        }
+      ]
+    }
+  ]
+}
