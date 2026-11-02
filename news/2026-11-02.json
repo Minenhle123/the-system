@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T05:14:53+02:00",
+  "lead": "Special voting opens today and tomorrow for 2.6 million South Africans ahead of Wednesday's local government elections, after Zuma's return at a KwaMashu rally capped campaigning. The US is expected to rule on South Africa's AGOA status today.",
+  "ticker": [
+    {
+      "label": "USD/ZAR (Fri)",
+      "value": "16.62"
+    },
+    {
+      "label": "Brent (Fri close)",
+      "value": "~$118",
+      "change": "+2%"
+    },
+    {
+      "label": "Petrol 95 (forecast, 4 Nov)",
+      "value": "-49c/l"
+    },
+    {
+      "label": "Diesel 0.005% (forecast, 4 Nov)",
+      "value": "-168c/l"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Special voting for 2.6 million begins today ahead of Wednesday's poll",
+          "summary": "The IEC says about 2.6 million of 29.2 million registered voters will cast special ballots on Monday and Tuesday, with 678,000 home visits. KZN has the most home visits, at 143,000. Stations open 8am to 5pm.",
+          "source": "Sowetan",
+          "url": "https://www.sowetan.co.za/politics/elections-2026/2026-11-01-26-million-people-to-vote-on-monday-and-tuesday-iec/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Zuma returns at KwaMashu rally, attacks the GNU and predicts MK gains",
+          "summary": "At Princess Magogo Stadium, Zuma, 84 and recently out of hospital, told MK supporters he was back, criticised the unity government and said the party would run many municipalities. He also said he would remain an ANC member.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/ill-die-an-anc-member-zuma-stuns-mk-party-rally-attacks-gnu-ahead-voting/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Poll puts MK near a majority in eThekwini",
+          "summary": "An eNCA MarkData survey of six metros suggests the MK Party is close to a majority in eThekwini, with IFP and ANC voters both naming MK as their preferred coalition partner.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/shows-top-stories/enca-markdata-election-survey-its-all-about-coalition-preferences",
+          "tag": "KZN"
+        },
+        {
+          "title": "Ramaphosa tells Mdantsane rally the ANC has heard voters",
+          "summary": "Closing the ANC campaign in the Eastern Cape, Ramaphosa said the party had listened to concerns on working conditions, gender-based violence and support for people with disabilities, and pledged to act on them.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news/weve-heard-very-clearly-anc-president-tells-ec-supporters",
+          "tag": "Elections"
+        },
+        {
+          "title": "Durban court limits March and March protests to 9am-3pm",
+          "summary": "The Durban High Court allowed the group to keep marching only on set routes and hours, an interim order after the acting police minister sought to stop protests that turned violent. The case returns in January.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news-top-stories/march-and-march-ordered-march-between-9am-3pm",
+          "tag": "KZN"
+        },
+        {
+          "title": "Malema closes EFF campaign in Soweto with pledge on hijacked buildings",
+          "summary": "At the EFF's final rally at Orlando Stadium, Julius Malema promised action against hijacked buildings and criticised municipal service failures.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/on-the-campaign-trail/2026-11-01-malema-vows-action-against-hijacked-buildings-slams-municipal-service-delivery-failures/",
+          "tag": "Elections"
+        },
+        {
+          "title": "McKenzie says the DA's future lies in the ANC's hands",
+          "summary": "Patriotic Alliance leader Gayton McKenzie argued the DA has alienated possible coalition partners with its campaign tactics, as parties position for post-election deals.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-01-future-of-da-in-ancs-hands-mckenzie-warns-of-shifting-coalition-politics-before-elections/",
+          "tag": "Elections"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran and US test diplomacy over Hormuz as both brace for more fighting",
+          "summary": "Through Qatari mediation, Iran cut its proposed wait before partly reopening the Strait of Hormuz to two days, but set conditions including lifting the US blockade. Trump hinted at further strikes after Tuesday's midterms.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war"
+        },
+        {
+          "title": "US midterms on Tuesday with Democrats ahead in national polls",
+          "summary": "More than 51 million Americans have already voted. Polling averages give Democrats a lead of about eight points on the generic ballot, while Trump held final rallies in Iowa and Kansas.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail"
+        },
+        {
+          "title": "Iotova set to become Bulgaria's first elected woman president",
+          "summary": "Exit polls gave acting president Iliana Iotova about 51% against Andrey Gyurov's 44% in Sunday's run-off, on a turnout below 30%. Official results are due Monday.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show"
+        },
+        {
+          "title": "Ukraine war's longest truce, in Kherson, set to expire",
+          "summary": "The US-brokered pause around Kherson, which allowed evacuations from occupied Oleshky, was due to end Sunday evening with no extension. Strikes continued elsewhere, and US-mediated talks are due to resume this month.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news/longest-truce-ukraine-war-kherson-region-set-end"
+        },
+        {
+          "title": "UN Western Sahara mission ends after Security Council deadlock",
+          "summary": "MINURSO began winding down on 1 November after Russia vetoed a US renewal draft and a rival Russian text failed. Guterres urged restraint; Morocco welcomed the outcome and Algeria voiced regret.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "US decision on South Africa's AGOA eligibility expected today",
+          "summary": "Washington is due to rule on SA's 2027 AGOA status. Minister Parks Tau says exporters will keep trading regardless and SA would get 60 days to address concerns before any suspension took effect.",
+          "source": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/sa-ready-agoa-eligibility-decision",
+          "tag": "Trade"
+        },
+        {
+          "title": "Fuel prices set to dip on Wednesday thanks to levy relief",
+          "summary": "Central Energy Fund data point to petrol 95 falling about 49c a litre and diesel up to R1.68 cheaper from 4 November, but only because the temporary fuel levy cut offsets underlying increases.",
+          "source": "Stuff South Africa",
+          "url": "https://stuff.co.za/2026/11/01/november-fuel-price-forecast-diesel-down-a-r1-68-l-price-cut/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "OPEC+ holds December output steady as Brent nears $118",
+          "summary": "Seven core OPEC+ members kept December targets unchanged, with the harder 2027 quota decision due on 29 November. Brent settled near $118 on Friday, its highest since April.",
+          "source": "GV Wire (Reuters)",
+          "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/",
+          "tag": "Oil"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Havertz goal gives Arsenal 1-0 win at Anfield",
+          "summary": "Kai Havertz scored in the 16th minute as champions Arsenal beat Liverpool, handing Andoni Iraola his second defeat as Liverpool coach. Florian Wirtz hit the woodwork.",
+          "source": "Liverpool FC",
+          "url": "https://www.liverpoolfc.com/news/match-report-liverpool-arsenal-premier-league-november-2026",
+          "tag": "Football"
+        },
+        {
+          "title": "Antonelli becomes F1's youngest champion as Verstappen wins in Mexico",
+          "summary": "Kimi Antonelli clinched the title at 20 with four races left by finishing third, behind winner Max Verstappen and Lewis Hamilton.",
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/f1/news/13606682/kimi-antonelli-crowned-2026-f1-world-champion-as-max-verstappen-wins-wild-mexico-city-grand-prix-from-lewis-hamilton",
+          "tag": "F1"
+        },
+        {
+          "title": "AmaZulu edge Golden Arrows 1-0 in KZN derby",
+          "summary": "AmaZulu won at Princess Magogo on Saturday, while Sundowns beat Durban City 4-1 and Pirates took the Soweto derby 2-1.",
+          "source": "SuperSport",
+          "url": "https://supersport.com/football/tour/882fc52f-14b7-4e7c-a259-5ff5d18bde67/results",
+          "tag": "KZN"
+        },
+        {
+          "title": "Springboks open November tour against Italy in Turin on Saturday",
+          "summary": "The Boks face Italy on 7 November, then France in Paris on 13 November and Ireland in Dublin on 21 November in the Nations Championship.",
+          "source": "SA Rugby Magazine",
+          "url": "https://www.sarugbymag.co.za/springboks-2026-schedule/",
+          "tag": "Rugby"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "DeepSeek open-sources coding agent prototype",
+          "summary": "Chinese AI lab DeepSeek released Super-Agent, a research coding agent that can monitor group chats for coding problems, as it competes with US rivals.",
+          "source": "Techmeme (Bloomberg)",
+          "url": "https://techmeme.com/river",
+          "tag": "AI"
+        },
+        {
+          "title": "Binance to resume withdrawals after recovering most of $6bn hack",
+          "summary": "The exchange plans phased withdrawals after covering about 95% of the stolen funds; the FBI has blamed North Korea's TraderTraitor group for the attack.",
+          "source": "Techmeme (Reuters)",
+          "url": "https://techmeme.com/river",
+          "tag": "Crypto"
+        }
+      ]
+    }
+  ]
+}
