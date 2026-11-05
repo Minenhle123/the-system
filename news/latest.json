@@ -1,47 +1,207 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T05:15:05+02:00",
-  "lead": "South Africa votes in local government elections today, with 29.2 million registered voters and polls open from 7am to 9pm. Overnight in the US, Democrats flipped North Carolina's Senate seat as midterm results came in.",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T05:14:40+02:00",
+  "lead": "Counting is under way after Wednesday's local government elections, with very early results showing the ANC and DA neck and neck nationally and Durban still to report; final results are expected on Sunday. Abroad, Democrats have taken both houses of the US Congress.",
   "ticker": [
-    { "label": "USD/ZAR (Tue)", "value": "16.64", "change": "+0.3%" },
-    { "label": "JSE Top 40 (Tue)", "value": "-0.7%", "change": "-0.7%" },
-    { "label": "Brent (Tue early)", "value": "$106.61", "change": "+$1.84" },
-    { "label": "R2035 bond yield (Tue)", "value": "8.52%", "change": "-1.5bp" },
-    { "label": "Petrol 95 coastal (from today)", "value": "R29.37/l", "change": "-1c" },
-    { "label": "Diesel 50ppm (from today)", "value": "-R1.20/l", "change": "-R1.20" }
+    {
+      "label": "USD/ZAR (Wed)",
+      "value": "16.42",
+      "change": "-1.1%"
+    },
+    {
+      "label": "Gold (Wed)",
+      "value": "4,060",
+      "change": "+3.3%"
+    },
+    {
+      "label": "Brent (Thu)",
+      "value": "$93.63"
+    }
   ],
   "sections": [
-    { "id": "sa", "label": "South Africa", "items": [
-      { "title": "South Africans head to the polls in local government elections today", "summary": "About 29.2 million registered voters can cast ballots at 23,696 stations from 7am to 9pm. Bring a smart ID, green barcoded ID book or temporary ID certificate, and vote where you are registered.", "source": "SAnews", "url": "https://www.sanews.gov.za/south-africa/all-systems-go-election-day", "tag": "Elections" },
-      { "title": "Over 1.4 million special votes cast, KZN second-highest", "summary": "Preliminary IEC figures show 1,425,942 people voted early over two days, about 451,000 of them through home visits. KwaZulu-Natal recorded 208,846 special votes, behind only Gauteng.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/politics/2026-11-03-iec-concludes-special-voting-as-14-million-south-africans-cast-ballots-ahead-of-election-day/", "tag": "Elections" },
-      { "title": "IEC condemns attempts to enter KZN election storage sites", "summary": "The commission says MK Party supporters tried to access voting-material warehouses, including one in eThekwini where police intervened, and sites in Richmond and Pietermaritzburg. It plans legal action against those involved.", "source": "Sunday World", "url": "https://sundayworld.co.za/politics/elections-2026-mkp-members-in-kzn-implicated-in-election-misconduct/", "tag": "KZN" },
-      { "title": "MK Party regional organiser killed at his Umzumbe home", "summary": "Lastborn Shazi, an MK regional organiser on the KZN south coast, was shot dead on Monday. The party has called for calm and swift justice while police investigate.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-03-mk-party-organiser-shot-dead-at-kwazulu-natal-home/", "tag": "KZN" },
-      { "title": "GO!Durban C3 route between KwaMashu and Pinetown targeted for December", "summary": "eThekwini signed a process agreement with taxi and bus operators that will run services on the Bridge City to Pinetown corridor. Contracts and system testing must be completed before passengers can ride.", "source": "SAnews", "url": "https://www.sanews.gov.za/south-africa/ethekwini-signs-agreement-ahead-godurban-c3-launch", "tag": "KZN" },
-      { "title": "Joburg Water says supply system is at a critical stage", "summary": "Residents are asked to cut use by 15% after weekend outages and low pressure. The utility is throttling supply so reservoirs can recover and says fixing infrastructure will need over R30 billion.", "source": "EWN", "url": "https://www.ewn.co.za/joburg-water-crisis-residents-urged-to-cut-consumption-by-15" },
-      { "title": "Court sets aside National Lottery licence award to Sizekhaya", "summary": "The Pretoria High Court sent the decision back to Trade Minister Parks Tau to reconsider, suspending its order for two six-month periods. Ithuba, the reserve bidder, is studying the ruling.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-11-03-ithuba-welcomes-high-court-ruling-overturning-lottery-licence-award/" },
-      { "title": "Limpopo voter arrested for photographing his marked ballot", "summary": "A 32-year-old man was arrested after allegedly photographing his special-vote ballot in Lulekani; police are seeking a second man. The IEC reminds voters that photographing a marked ballot is prohibited.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-11-03-police-arrest-limpopo-voter-for-taking-photo-of-marked-ballot/", "tag": "Elections" }
-    ] },
-    { "id": "world", "label": "World", "items": [
-      { "title": "Democrats flip North Carolina Senate seat in US midterms", "summary": "Fox News projected former governor Roy Cooper will beat Trump ally Michael Whatley for retiring Republican Thom Tillis's seat, boosting Democrats' push for the Senate. Counting continues across the country.", "source": "Fox News", "url": "https://www.foxnews.com/politics/democrats-flip-key-senate-seat-battleground-north-carolina-cooper-defeats-trump-backed-republican", "tag": "US" },
-      { "title": "US strikes Iranian targets near Qeshm Island in the Strait of Hormuz", "summary": "US officials described them as defensive strikes after Iran fired at a US aircraft. Tehran says it could reopen Hormuz within two days if Washington lifts its blockade, and oil rose on the news.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz" },
-      { "title": "Russian bombing of Ukrainian aid centre kills at least 26", "summary": "Guided bombs hit an aid distribution site and shelter in Komyshuvakha, Zaporizhzhia region, with about 20 people missing. Zelensky said the attack shows Russia does not want de-escalation.", "source": "RTÉ", "url": "https://www.rte.ie/news/ukraine/2026/1102/1597579-ukraine-russia/" },
-      { "title": "US, Russia and Ukraine to hold talks in Abu Dhabi next week", "summary": "Delegations are due to meet on 10 and 11 November to discuss post-war security, de-escalation and humanitarian issues, while Zelensky warns of possible Russian strikes on energy targets.", "source": "Just Security", "url": "https://www.justsecurity.org/163177/early-edition-november-3-2026/" },
-      { "title": "Houthis advance to within 80km of Yemen's Aden", "summary": "It is the rebels' closest approach to the government's temporary seat since 2015, threatening the main Aden-Taiz road. The government has reshuffled its cabinet, naming three new ministers.", "source": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/11/03/yemen-reshuffles-cabinet-as-houthis-advance-towards-aden/" },
-      { "title": "Ebola deaths pass 5,370 as DR Congo outbreak continues", "summary": "Africa CDC data show about 10,444 infections across DR Congo, Uganda and Kenya. There is no approved vaccine or treatment for the Bundibugyo strain, though trials are under way.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo", "tag": "Africa" }
-    ] },
-    { "id": "markets", "label": "Business & Markets", "items": [
-      { "title": "Rand softens and JSE slips ahead of election day", "summary": "The rand traded near R16.64 to the dollar on Tuesday, about 0.3% weaker, and the Top 40 fell about 0.7%. Analysts say the US decision to suspend SA from AGOA from January was largely priced in.", "source": "CNBC Africa", "url": "https://www.cnbcafrica.com/2026/south-african-rand-softens-ahead-of-local-elections-weigh-agoa-decision" },
-      { "title": "Diesel down by up to R1.20 a litre from today, petrol flat", "summary": "Petrol drops just 1c a litre, while paraffin rises R2.75 and LPG R1.83/kg. A fuel levy cut was largely offset by a new slate levy to recover a R15.9 billion shortfall.", "source": "Stuff", "url": "https://stuff.co.za/2026/11/03/november-2026-official-fuel-prices-diesel-r1-20-l-cut/", "tag": "Fuel" },
-      { "title": "Gold eases as US bond yields climb", "summary": "Gold fell on Tuesday as the US 10-year Treasury yield rose to about 4.97% and the dollar firmed slightly, with reports of softer jewellery demand in India.", "source": "Rio Times", "url": "https://www.riotimesonline.com/gold-silver-precious-metals-tuesday-november-3-2026/" }
-    ] },
-    { "id": "sport", "label": "Sport", "items": [
-      { "title": "PSG hit Villarreal for six; Bayern and Barcelona win in Champions League", "summary": "PSG won 6-0 in Spain, Bayern beat Atlético 2-0 in Madrid, Barcelona swept past Aston Villa 3-0 and Inter won 3-0 at Feyenoord on Tuesday.", "source": "The Sports Encounter", "url": "https://thesportsencounter.com/2026/11/03/champions-league-results-november-3-2026-psg-bayern-man-utd/", "tag": "Football" },
-      { "title": "Cunha double completes Man United comeback against Roma", "summary": "United came from behind to win 3-2 at Old Trafford, with Bruno Fernandes scoring a retaken penalty before Matheus Cunha struck twice.", "source": "The Sports Encounter", "url": "https://thesportsencounter.com/2026/11/03/champions-league-results-november-3-2026-psg-bayern-man-utd/", "tag": "Football" },
-      { "title": "Moerat returns as Boks prepare for Italy in Turin on Saturday", "summary": "Salmaan Moerat partners Ruan Nortje at lock in place of the injured Eben Etzebeth, with Siya Kolisi captaining a settled side in the Nations Championship.", "source": "OFM", "url": "https://www.ofm.co.za/article/rugby/343864/erasmus-backs-settled-springboks-against-italy", "tag": "Rugby" }
-    ] },
-    { "id": "tech", "label": "Tech & Science", "items": [
-      { "title": "Investigation finds 400-plus apps hiding abusive deepfake tools", "summary": "WIRED found a network of AI apps and sites, some disguised as harmless services and listed in major app stores. Apple removed 19 apps after being contacted.", "source": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-3-2026/", "tag": "AI" },
-      { "title": "New York Times and other publishers sue Brave over AI scraping", "summary": "The suit alleges Brave scraped journalism, bypassed paywalls and supplied content to AI companies. The claims have not yet been tested in court.", "source": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-3-2026/", "tag": "AI" }
-    ] }
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Early local election count shows ANC and DA running close",
+          "summary": "With only around 4% of voting districts counted by 2:35am, the ANC had about 34.8% of the PR vote and the DA 32.4%, with turnout near 48%. These figures are provisional and will shift sharply as counting continues.",
+          "source": "ESP",
+          "url": "https://esp.info/elections/local/2026?ballot=pr",
+          "tag": "Elections"
+        },
+        {
+          "title": "What's at stake: 29.2 million voters, 257 councils, results due Sunday",
+          "summary": "Voters chose 8 metro, 44 district and 205 local councils, which will then elect mayors. The vote is seen as a test for the ANC, and it is MK's first municipal election; final results are expected on Sunday.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc",
+          "tag": "Elections"
+        },
+        {
+          "title": "eThekwini: about 2 million voters in a key MK-versus-ANC contest",
+          "summary": "Sixty-nine parties and 14 independents contested Durban, where the ANC has relied on smaller partners since losing its majority in 2021. MK fielded Mxolisi Phakathi for mayor; the DA's candidate is Hanif Hoosen and ActionSA's is Zwakele Mncwango.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/04/2-million-people-set-to-vote-in-ethekwini",
+          "tag": "KZN"
+        },
+        {
+          "title": "Small parties could decide who governs Durban's 224-seat council",
+          "summary": "A majority needs 113 seats, and analysts expect around ten small parties to determine whether an MK-led or DA-led bloc takes control. Water supply was the dominant campaign issue in the metro.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-03-smaller-parties-in-ethekwini-set-their-sights-on-holding-the-balance-of-power/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Ballots and security stamp stolen from Botha's Hill voting station",
+          "summary": "Unmarked ballots and a ward stamp were taken from Mnyameni Secondary School the night before the vote. The IEC issued a new stamp with a different code so any stolen ballots can be identified at counting, and police are investigating.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/04/security-stamp-and-ballots-reported-stolen-from-kzn-voting-station",
+          "tag": "KZN"
+        },
+        {
+          "title": "Rain-damaged roads kept two Umzumbe voting stations closed",
+          "summary": "Heavy rain washed away access roads to stations in Umzumbe on the KZN South Coast, and police and the SANDF worked to reach them. One of three affected stations had been reached by the time of the IEC briefing.",
+          "source": "Mail & Guardian",
+          "url": "https://mg.co.za/news/south-africa/2026-11-04-two-kzn-voting-stations-closed-ballot-papers-stolen-iec/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Severe thunderstorm warning for most of KZN today",
+          "summary": "The Weather Service has a yellow level 4 warning for severe storms across KZN except the far northeast, with risks of flooding, hail and power outages. Eastern areas are also expected to be hot and very humid.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-5-november-2026/",
+          "tag": "KZN"
+        },
+        {
+          "title": "ANC leadership to decide coalition deals centrally",
+          "summary": "The ANC has signalled that its national leadership, not regional structures, will pick coalition partners after the results. Coalition decisions are due within about three weeks across several metros and many councils.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-04-anc-on-the-rack-coalition-minefield-could-unleash-biggest-internal-ructions-yet/",
+          "tag": "Elections"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Democrats win control of both the US Senate and House",
+          "summary": "Democrats flipped Senate seats including Texas, Maine, Ohio and North Carolina, securing at least 54 seats, and are projected to take the House. Alaska and Mississippi were still undecided on Wednesday.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+          "tag": "US"
+        },
+        {
+          "title": "Vance blames the Iran war for Republican midterm losses",
+          "summary": "Vice President JD Vance publicly questioned whether the war with Iran was worth it and linked it to the defeat. Trump accepted the war was a factor but said he would make the same decision again.",
+          "source": "Daily Maverick / Reuters",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-04-vance-repudiates-iran-war-after-us-electoral-defeat/",
+          "tag": "US"
+        },
+        {
+          "title": "Iran claims four tankers hit mines near Hormuz; Trump says no immediate strikes",
+          "summary": "Iran's Revolutionary Guards said four tankers struck mines south of the Strait of Hormuz, a claim not independently verified. Trump later said there were no immediate plans to strike Iran, and Brent slid to about $93.",
+          "source": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-warns-of-heavy-hit-as-iran-says-americans-voted-no-to-war-1.500735100",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Israel certifies election result, rejecting Likud fraud claims",
+          "summary": "The election committee found no irregularities that changed the outcome. Netanyahu's bloc has 53 seats and Gadi Eisenkot's 48, both short of 61, so President Herzog will now consult parties on who should try to form a government.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims",
+          "tag": "Middle East"
+        },
+        {
+          "title": "DR Congo Ebola outbreak passes 10,000 confirmed cases",
+          "summary": "By 28 October the outbreak had 10,305 confirmed cases and 4,996 deaths, making it the second-largest on record. The US now requires air passengers to confirm they have not been in the DRC in the past 21 days.",
+          "source": "Rio Times",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-4-2026",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Rand firms about 1% as US midterm result weighs on the dollar",
+          "summary": "The rand traded near R16.42 to the dollar on Wednesday, about 1.1% stronger on the day. Gold rose more than 3%, and US stocks opened higher after the Democratic sweep.",
+          "source": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-africa/currency",
+          "tag": "Rand"
+        },
+        {
+          "title": "What losing AGOA means for South African exporters",
+          "summary": "The US plans to drop SA from AGOA from 2027. Citrus, macadamias and sorbet exporters are most exposed, but minerals are unaffected, and only about 10% of US-bound exports used AGOA in 2025. Minister Parks Tau says SA has 60 days to appeal.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-03-what-now-experts-weigh-in-after-trump-boots-sa-from-agoa/",
+          "tag": "Trade"
+        },
+        {
+          "title": "Oil drops as Democrats sweep Congress",
+          "summary": "Brent fell about 3% to roughly $100 a barrel on Wednesday morning, while the Dow, S&P 500 and Nasdaq all opened higher.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections",
+          "tag": "Oil"
+        },
+        {
+          "title": "David Jones, once owned by Woolworths, enters administration",
+          "summary": "The 188-year-old Australian department store chain went into voluntary administration, and a sale process will start. Woolworths sold it in 2022 to Anchorage Capital, so the SA retailer is no longer involved.",
+          "source": "Daily Maverick / Reuters",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-05-australias-188-year-old-retailer-david-jones-enters-administration-faces-sale/",
+          "tag": "Retail"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Boks open November tour against Italy in Genoa on Saturday",
+          "summary": "Rassie Erasmus has a 37-man squad with six uncapped players for Nations Championship Tests against Italy, France on 13 November and Ireland on 21 November, before finals weekend in London. Kolbe, Etzebeth and Pollard are among the injured.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Sundowns edge Golden Arrows to reach Carling Knockout semis",
+          "summary": "Rayners scored in the 68th minute to give Sundowns a 1-0 quarter-final win over Arrows at Loftus Versfeld.",
+          "source": "VAVEL",
+          "url": "https://www.vavel.com/en-us/soccer/2026/11/03/1277877-mamelodi-sundowns-vs-golden-arrows-live-score-carling-knockout-cup.html",
+          "tag": "Football"
+        },
+        {
+          "title": "Fenerbahce beat Liverpool; Real Madrid win in Athens",
+          "summary": "Fenerbahce beat Liverpool 3-2 in Istanbul in the Champions League, and Real Madrid won 3-2 away at AEK Athens.",
+          "source": "112.ua",
+          "url": "https://112.ua/en/liga-cempioniv-uefa-202627-rezultati-4-go-turu-matciv-4-listopada-2026-roku-195982",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Apple flags risks from autonomous AI agents as Siri opens to developers",
+          "summary": "Apple's annual filing warns that AI agents could exceed their permissions or carry out unauthorised transactions. The warning came as it opened Siri AI to app developers in iOS 27.3 betas.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "Google ties Search to AI tools for school accounts",
+          "summary": "Under new education settings, schools that switch off Google's AI tools also lose Google Search for student accounts. Google says AI is now part of Search.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/",
+          "tag": "AI"
+        }
+      ]
+    }
   ]
 }
