@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T05:14:38+02:00",
+  "lead": "The ANC is heading for its weakest local-election result yet, with the DA and ActionSA gaining in Gauteng and the MK Party projected to top eThekwini. Final IEC results are expected on Sunday.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "16.45",
+      "change": "+0.2%"
+    },
+    {
+      "label": "JSE All Share",
+      "value": "Thu close",
+      "change": "+3.67%"
+    },
+    {
+      "label": "JSE Top 40",
+      "value": "Thu close",
+      "change": "+3.99%"
+    },
+    {
+      "label": "Brent",
+      "value": "$96.71"
+    },
+    {
+      "label": "Gold",
+      "value": "$4,115",
+      "change": "+1%"
+    },
+    {
+      "label": "SA 2035 bond",
+      "value": "8.33%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "ANC slides to about 32% as half of local election votes are counted",
+          "summary": "With roughly half the ballots in, the ANC had about 32% nationally against the DA's 26%, with MK, the EFF and ActionSA trailing. The IEC expects to announce final results on Sunday.",
+          "source": "BusinessTech",
+          "url": "https://businesstech.co.za/news/government/882853/2026-election-results-50-of-all-votes-counted-with-the-anc-getting-hammered/",
+          "tag": "Elections"
+        },
+        {
+          "title": "MK Party projected to win the most votes in eThekwini, short of a majority",
+          "summary": "eNCA's MarkData projection puts MK on 34-38% in Durban's metro, the DA second on 24-28% and the ANC possibly third on 15-19%, pointing to coalition talks for city hall.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news-top-stories/enca-markdata-anc-plummets-mk-party-set-be-ethekwinis-big-winner",
+          "tag": "KZN"
+        },
+        {
+          "title": "MK leads across KZN as the ANC loses wards in several towns",
+          "summary": "Early KZN counts had MK on about a third of the vote, ahead of the ANC and IFP. MK took Richmond outright, the DA led in uMngeni, and the ANC lost wards in Msunduzi, KwaDukuza and Newcastle.",
+          "source": "Sunday Times",
+          "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-06-frustration-and-action-shift-power-in-kzn/",
+          "tag": "KZN"
+        },
+        {
+          "title": "DA ahead in Gauteng's three big metros as ActionSA surges",
+          "summary": "Partial counts show the DA leading in Johannesburg, Tshwane and Ekurhuleni, with ActionSA polling 17-22% there. The party says it has taken dozens of township wards from the ANC.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-05-the-anc-is-in-trouble-in-gauteng-says-beaumont-as-actionsa-makes-inroads/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Analysts warn more than 100 councils could end up hung",
+          "summary": "With no outright winner likely in many municipalities, coalition negotiations will start once seat allocations are known. Disputes over results could delay final declarations.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/05/south-africa-could-face-more-than-100-hung-councils-what-happens-next",
+          "tag": "Elections"
+        },
+        {
+          "title": "DA wins four Western Cape councils outright, 13 others hung",
+          "summary": "By Thursday evening the DA had majorities in Bergrivier, Swartland, Cederberg and Drakenstein, while councils such as Knysna, Oudtshoorn and Saldanha Bay had no outright winner. Cape Town is expected to finish last.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-05-da-takes-majority-control-of-at-least-four-councils-in-western-cape-13-hung-still-and-counting/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Over 12 million voters turned out; police probe stolen KZN ballots",
+          "summary": "Gauteng had the highest turnout. In KZN, police are investigating stolen ballot papers, and a sergeant was taken off election duty over a party-branded vehicle.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/local-government-elections-live-day-1-results-and-turnout/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Level 4 thunderstorm warning was issued for much of eThekwini",
+          "summary": "The Weather Service warned of heavy rain and possible flooding of roads, bridges and settlements across large parts of the metro on Thursday, along with fallen trees and dangerous driving conditions.",
+          "source": "Time Out Durban",
+          "url": "https://www.timeout.com/durban/news/severe-thunderstorm-alert-issued-for-durban-110526",
+          "tag": "KZN"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Democrats take control of both houses of the US Congress",
+          "summary": "CBS estimates Democrats will hold well over 250 House seats and at least 54 in the Senate, with Alaska and Mississippi still too close to call. Hakeem Jeffries has launched a bid for Speaker.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+          "tag": "US"
+        },
+        {
+          "title": "Trump says the US may have to 'destroy' the rest of Iran",
+          "summary": "The warning came as Iran reportedly sent a nuclear proposal to Washington through Qatari mediators. Tehran has also said states helping US attacks are legitimate targets.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Ukraine aid-centre strike toll reaches 42 ahead of talks with US and Russia",
+          "summary": "Ukrainian police said dozens more may be under rubble after Monday's Russian bombing in Komyshuvakha. Trilateral talks are scheduled for 10-11 November.",
+          "source": "Just Security",
+          "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "WHO backs trials of two new vaccines against the Bundibugyo Ebola strain",
+          "summary": "The outbreak, centred in the DRC, has killed more than 5,300 people since May. Kenya and Nigeria have reported cases, and WHO is helping the DRC's neighbours prepare.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines",
+          "tag": "Africa"
+        },
+        {
+          "title": "Sudan and Ethiopia close each other's consulates",
+          "summary": "Ethiopia shut Sudan's consulate in Asosa and Sudan replied by closing Ethiopia's in Gadarif. Each accuses the other of backing armed groups, which both deny.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions",
+          "tag": "Africa"
+        },
+        {
+          "title": "Paraguay's Congress refuses president's resignation after bank collapse",
+          "summary": "Lawmakers blocked Santiago Peña's attempt to resign over the failure of lender Ueno and pushed ahead with impeachment. Prosecutors have opened three criminal probes.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "JSE jumps nearly 4% as miners rally",
+          "summary": "The All Share closed 3.67% higher on Thursday and the Top 40 gained 3.99%, led by gold and platinum miners as the dollar and oil prices fell.",
+          "source": "Business Day",
+          "url": "https://www.businessday.co.za/markets/2026-11-05-jse-jumps-as-miners-rally-on-weaker-dollar-and-oil/",
+          "tag": "JSE"
+        },
+        {
+          "title": "Rand near two-week best on US midterms and local poll results",
+          "summary": "The rand firmed to about R16.34 per dollar on Thursday morning before easing to around R16.45 by evening. The 2035 government bond yield fell to 8.33%.",
+          "source": "Channel Africa",
+          "url": "https://www.channelafrica.co.za/channelafrica/news/rand-gains-on-local-election-results-us-midterms/",
+          "tag": "Rand"
+        },
+        {
+          "title": "Wall Street tech rout as voters back data-centre limits",
+          "summary": "The Nasdaq fell nearly 5% by midday Thursday as Nvidia, Micron and Tesla slid after voters supported most local restrictions on data centres. Gold rose to about $4,115 an ounce.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets",
+          "tag": "Global"
+        },
+        {
+          "title": "Diesel down over R1 a litre this month, petrol almost unchanged",
+          "summary": "November's adjustment cut diesel by R1.10-R1.20 a litre and paraffin by R2.75, while petrol dropped just 1c. Coastal 95 petrol now costs R29.37.",
+          "source": "CAR magazine",
+          "url": "https://www.carmag.co.za/news/petrol-to-drop-by-1-cent-confirmed-fuel-prices-for-south-africa-in-november-2026/",
+          "tag": "Fuel"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Kolisi leads Springboks against Italy on Saturday",
+          "summary": "Rassie Erasmus has named his side for the Nations Championship Test in Italy, with Salmaan Moerat back from injury. France in Paris and Ireland in Dublin follow later this month.",
+          "source": "Cape Town ETC",
+          "url": "https://www.capetownetc.com/news/rassie-names-boks-team-for-italy-test-in-turin/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Liverpool beaten in Istanbul as Real Madrid and Man City win late",
+          "summary": "Fenerbahce beat Liverpool 3-2, Real Madrid won 3-2 at AEK Athens, Manchester City edged Leipzig 3-2 and Arsenal won 2-1 in Prague. Como thrashed Lens 9-1.",
+          "source": "The Sports Encounter",
+          "url": "https://thesportsencounter.com/2026/11/05/champions-league-results-november-4-2026-real-madrid-liverpool-como/",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Ebola vaccine trials for Bundibugyo strain to be led from the DRC",
+          "summary": "Vaccines developed by Oxford, the Serum Institute of India and Moderna will be tested, with results expected in early 2027. No vaccine exists yet that is designed for this strain.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines",
+          "tag": "Science"
+        }
+      ]
+    }
+  ]
+}
