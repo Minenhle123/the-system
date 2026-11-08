@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T05:14:32+02:00",
+  "lead": "The IEC declares final local election results at 6pm today, with the ANC near 31% nationally and coalition talks already under way in hung metros. KZN is under a level 5 warning for disruptive rain today.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "16.47",
+      "change": "-1.5% wk"
+    },
+    {
+      "label": "JSE All Share",
+      "value": "113,286",
+      "change": "+5.3% wk"
+    },
+    {
+      "label": "SA 10-yr bond",
+      "value": "8.34%"
+    },
+    {
+      "label": "Brent",
+      "value": "~$95"
+    },
+    {
+      "label": "Petrol 95 Dec (est.)",
+      "value": "R28.42/l",
+      "change": "-R2.32"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "IEC to declare final local election results at 6pm today",
+          "summary": "The commission has handled 197 objections, upholding two that triggered recounts in five wards in Tshwane, Mangaung, Thaba Chweu and Breede Valley. Councils must meet within 14 days of the declaration.",
+          "source": "Cape Times",
+          "url": "https://capetimes.co.za/lge2026/2026-11-07-five-wards-face-recounts-as-iec-processes-197-election-objections/",
+          "tag": "Elections"
+        },
+        {
+          "title": "ANC slips to about 31% as DA leads five metros",
+          "summary": "With 99% counted, the ANC has 30.88% nationally and leads only Buffalo City among metros; the DA leads Johannesburg, Tshwane, Ekurhuleni, Cape Town and Nelson Mandela Bay. The ANC's NEC meets on Thursday.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-anc-faces-coalition-scramble-after-electoral-rout-as-control-of-key-metros-slips-away/",
+          "tag": "Elections"
+        },
+        {
+          "title": "ANC support in KZN halves as MK takes about a third",
+          "summary": "The ANC's provincial share fell from 41.5% in 2021 to about 20.8%, while the MK Party won roughly 34.2%. In eThekwini the ANC sits near 16.6%.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-anc-faces-coalition-scramble-after-electoral-rout-as-control-of-key-metros-slips-away/",
+          "tag": "KZN"
+        },
+        {
+          "title": "MK Party objects to eThekwini count, asks for independent audit",
+          "summary": "Projected at about 39% in the metro, MK claims captured totals differ from signed results slips and wants the declaration halted. The ANC is divided over whether to talk to MK or sit in opposition.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/2026-11-07-mkp-files-dispute-claims-its-being-shut-out-of-governing-ethekwini/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Level 5 warning for disruptive rain across much of KZN today",
+          "summary": "The Weather Service expects 30-80mm in under 48 hours in eThekwini, Msunduzi, KwaDukuza, uMhlathuze and many other areas. Residents are urged to avoid flooded roads; halls are open for anyone who must evacuate.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/2026/11/07/kzn-braces-for-heavy-rain-flooding-as-level-5-warning-issued/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Zille prefers a two-party deal with ActionSA or the ANC in Joburg",
+          "summary": "The DA's Johannesburg mayoral candidate says she favours the smallest workable coalition, but final choices rest with the party's national negotiators once results are in.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-06-zille-favours-actionsa-or-anc-coalition-in-joburg/",
+          "tag": "Elections"
+        },
+        {
+          "title": "UDM councillor killed in Motherwell, Gqeberha",
+          "summary": "Councillor Luxolo Namette, 45, was found dead on Saturday afternoon. Police have opened a murder case; the UDM suspects a political motive and will refer the case to the political killings task team.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/crime/udm-councillor-murder-political-killing-saps/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "US strikes Iranian air defences on Qeshm Island",
+          "summary": "Trump called the strikes minor and said talks with Tehran are progressing; Qatar denied negotiations had collapsed. Iran says it will not discuss its nuclear programme until the US meets core demands, including lifting the port blockade.",
+          "source": "Euronews",
+          "url": "https://euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+        },
+        {
+          "title": "Six killed in shooting in Krakow's main square",
+          "summary": "At least six people died and 15 were wounded on Saturday afternoon. Police say a lone gunman, a Polish citizen, was shot and detained; two officers were hurt.",
+          "source": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow"
+        },
+        {
+          "title": "Heavy Russian barrage on Kyiv ahead of Abu Dhabi talks",
+          "summary": "Russia launched 172 drones and 36 ballistic missiles overnight into Saturday, hitting energy infrastructure. Trilateral talks are set for 10-11 November in Abu Dhabi.",
+          "source": "ISW / Critical Threats",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-7-2026-6aefc4cc503e5"
+        },
+        {
+          "title": "Two more Ebola vaccine candidates join DR Congo trials",
+          "summary": "WHO is adding Oxford-Serum Institute and Moderna candidates as the Bundibugyo outbreak, the country's largest, passes 10,500 confirmed cases and 5,126 deaths.",
+          "source": "allAfrica",
+          "url": "https://allafrica.com/stories/202611060129.html",
+          "tag": "Africa"
+        },
+        {
+          "title": "Atiku to fight ruling voiding his 2027 ADC nomination",
+          "summary": "Nigeria's former vice-president says he will challenge a Federal High Court decision that invalidated his candidacy and the party's leadership; the ADC is appealing.",
+          "source": "allAfrica",
+          "url": "https://allafrica.com/stories/202611060129.html",
+          "tag": "Africa"
+        },
+        {
+          "title": "More bodies recovered from collapsed Nairobi building",
+          "summary": "Rescuers in Eastleigh found six more bodies in the rubble of a multi-storey block, with the search continuing for people believed trapped.",
+          "source": "allAfrica",
+          "url": "https://allafrica.com/stories/202611060129.html",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "JSE jumps 5.3% in a week as the rand firms",
+          "summary": "The All Share closed the week at 113,286, led by industrials, while the rand strengthened about 1.5% to R16.47/$ and the 10-year yield eased to about 8.34%, on hopes of an earlier end to the Iran war.",
+          "source": "Nedbank",
+          "url": "https://www.nedbank.co.ls/content/dam/group/pdf/weekly-monitor/weekly-economic-monitor-06-nov-2026.pdf"
+        },
+        {
+          "title": "Early data points to a big petrol cut in December",
+          "summary": "Projections show petrol 95 down about R2.32/l with Brent near $95, but diesel may rise because Treasury is scaling back its fuel levy relief.",
+          "source": "BusinessTech",
+          "url": "https://businesstech.co.za/news/energy/882938/great-news-for-petrol-prices-in-south-africa-3/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Week ahead: jobless figures Tuesday, mining output Thursday",
+          "summary": "Stats SA releases the Q3 labour force survey on 10 November, where Nedbank expects a slight rise in unemployment from 33.6%, plus manufacturing and mining production.",
+          "source": "Nedbank",
+          "url": "https://www.nedbank.co.ls/content/dam/group/pdf/weekly-monitor/weekly-economic-monitor-06-nov-2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Nine-try Springboks thrash Italy 66-7 in Turin",
+          "summary": "Sacha Feinberg-Mngomezulu scored 26 points and Malcolm Marx got two tries in a record away win over Italy. The Boks have maximum points and face France in Paris next.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-nine-try-springboks-blitz-italy-in-turin-to-set-nations-championship-pace/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Chiefs meet Siwelele in Carling Knockout quarterfinal today",
+          "summary": "Kick-off is 3pm at the new Peter Mokaba Stadium in Polokwane.",
+          "source": "Kaizer Chiefs",
+          "url": "https://www.kaizerchiefs.com/news/carling-cup-quarterfinal-set-sunday",
+          "tag": "Football"
+        },
+        {
+          "title": "Premier League: Palace host Liverpool, United face Villa",
+          "summary": "Sunday's fixtures include Sunderland v Chelsea and Crystal Palace v Liverpool at 2pm UK time, then Manchester United v Aston Villa at 4:30pm.",
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-11-07",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Sahara meteorite shows water on Mars over 4 billion years ago",
+          "summary": "A NASA-funded team dated the Teghaza 001 meteorite, found in Mali, to at least 4.1 billion years and found minerals altered by water, though it says nothing about life.",
+          "source": "Metal Tech News",
+          "url": "https://www.metaltechnews.com/story/2026/11/04/tech-bytes/martian-meteorite-gives-glimpse-of-origins/3012.html",
+          "tag": "Space"
+        },
+        {
+          "title": "ESA's Hera probe sees both asteroids hit by DART",
+          "summary": "From about 1,280 km away, Hera imaged Didymos and Dimorphos as separate bodies; ESA plans detailed Dimorphos images on 25 November.",
+          "source": "Universe Today",
+          "url": "https://universetoday.com/articles/hera-probe-sees-asteroid-pair-separately-for-first-time",
+          "tag": "Space"
+        }
+      ]
+    }
+  ]
+}
