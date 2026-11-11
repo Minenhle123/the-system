@@ -1,27 +1,26 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T05:14:26+02:00",
-  "lead": "The ANC is pulling all coalition talks under head office as 127 hung councils await deals, with its NEC due to settle the approach on Thursday. In Durban, the MK Party holds 86 of 223 eThekwini seats but the DA has ruled out joining it.",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T05:14:46+02:00",
+  "lead": "Local election results are due to be gazetted today, starting a 14-day clock for hung councils like eThekwini to form governments. Unemployment rose to 33.7% in the third quarter, with KZN and Durban joblessness also climbing.",
   "ticker": [
     {
       "label": "USD/ZAR",
-      "value": "16.38",
-      "change": "+0.1%"
-    },
-    {
-      "label": "JSE All Share (Mon)",
-      "value": "115,038",
-      "change": "+2.0%"
+      "value": "16.36"
     },
     {
       "label": "Brent",
-      "value": "$91.77",
-      "change": "-0.9%"
+      "value": "$91.49",
+      "change": "-1.2%"
     },
     {
       "label": "Gold",
-      "value": "$4,112",
-      "change": "-0.7%"
+      "value": "$4,032",
+      "change": "-2.6%"
+    },
+    {
+      "label": "SA jobless rate",
+      "value": "33.7%",
+      "change": "+0.1pt"
     }
   ],
   "sections": [
@@ -30,58 +29,59 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "ANC centralises coalition talks; NEC to finalise its approach on Thursday",
-          "summary": "A circular from secretary-general Fikile Mbalula says all coalition engagement will now run through his office so the party speaks with one voice. The ANC lost control of 110 municipalities, including Mangaung and Buffalo City.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/11/09/anc-moves-to-centralise-coalition-approach-after-municipal-losses",
-          "tag": "Elections"
+          "title": "Election results gazetted today; councils must sit within 14 days",
+          "summary": "Cogta Minister Velenkosini Hlabisa said results would be gazetted on Wednesday, after which new councils must convene within two weeks. KZN Premier Thami Ntuli urged parties to keep councillors safe as coalition talks begin.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/lge2026/kwazulu-natal/2026-11-09-kzn-premier-warns-against-political-killings-as-coalition-talks-begin/",
+          "tag": "KZN"
         },
         {
-          "title": "eThekwini: MK Party has 86 of 223 seats, short of the 112 needed",
-          "summary": "The DA holds 57 seats, the ANC 37 and the IFP 15. The DA has ruled out working with MK, and UKZN analysts see an ANC-IFP-DA arrangement, possibly with ActionSA, as the likeliest outcome.",
+          "title": "eThekwini coalition talks open with MK Party short of a majority",
+          "summary": "The MK Party holds 86 of 223 seats, ahead of the DA on 57, ANC on 37 and IFP on 15. The DA has ruled out working with MK, and analysts expect an ANC-DA-IFP deal, possibly with ActionSA.",
           "source": "Sunday Tribune",
           "url": "https://sundaytribune.co.za/news/2026-11-09-ethekwini-coalition-negotiations-open-after-no-party-wins-majority/",
           "tag": "KZN"
         },
         {
-          "title": "Gauteng metros: ActionSA emerges as kingmaker in Joburg and Tshwane",
-          "summary": "The DA took about 35% in Johannesburg but has no majority. One option floated is an ANC-ActionSA-MK-EFF pact backing Herman Mashaba as mayor; another is a DA-ActionSA deal. Parties have 14 days to settle.",
-          "source": "BusinessTech",
-          "url": "https://businesstech.co.za/news/government/883361/fight-for-gauteng-as-da-anc-actionsa-coalition-talks-underway/",
-          "tag": "Elections"
+          "title": "Unemployment edges up to 33.7% in the third quarter",
+          "summary": "Stats SA's labour survey put the official jobless rate at 33.7%, up from 33.6%. The expanded measure, which includes discouraged work-seekers, stood at 46.3%.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/10/stats-sa-unemployment-rate-ticks-up-by-01-in-q3",
+          "tag": "Jobs"
         },
         {
-          "title": "Matlala disputes his own statement at the Madlanga Commission",
-          "summary": "Vusimuzi 'Cat' Matlala told the inquiry Idac investigators drafted his Section 204 statement and pressured him toward a plea deal, and gave new versions of alleged payments. Evidence leaders challenged him; his testimony continues today.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-09-matlala-turns-tables-on-idac-investigator-perumal-in-explosive-testimony/",
-          "tag": "Courts"
-        },
-        {
-          "title": "Court sets aside Sizekhaya's national lottery licence",
-          "summary": "The Pretoria High Court declared the fourth lottery licence award invalid and sent it back to minister Parks Tau, but suspended the order so the lottery keeps running meanwhile. Separately, many NGOs are still waiting on NLC funding.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-09-nlc-rocked-by-funding-delays-as-court-slams-brakes-on-lottery-licence/"
-        },
-        {
-          "title": "Orange level 5 rain warning issued for central and southern KZN",
-          "summary": "The SA Weather Service warned on Sunday of disruptive rain that could flood roads and settlements and damage informal homes, with a separate level 4 storm warning for northern KZN.",
-          "source": "African News Agency",
-          "url": "https://africannewsagency.com/severe-weather-warning-kwazulu-natal-faces-orange-level-5-alert-as-heavy-rain-threatens-flooding/",
+          "title": "KZN joblessness jumps to 33.3%; eThekwini rises to 22.2%",
+          "summary": "KwaZulu-Natal added 51,000 unemployed people in the quarter. In eThekwini, employment fell by 18,000, mostly informal jobs, though formal jobs are still well up on a year ago.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-10-ethekwini-unemployment-rises-as-kzn-joblessness-reaches-333/",
           "tag": "KZN"
         },
         {
-          "title": "Numsa split deepens as rival leaders suspend each other",
-          "summary": "National office bearers, including Irvin Jim, and regional leaders from areas including KwaZulu-Natal have traded suspensions after a disputed October meeting. A national congress to elect new leaders is expected later this month.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-09-numsa-leadership-crisis-deepens-as-factions-trade-suspensions/"
+          "title": "Matlala now says he paid Sibiya R500,000, not R50,000",
+          "summary": "At the Madlanga Commission, Vusimuzi 'Cat' Matlala revised the figure he gave a day earlier, saying the money was for a family wedding and not linked to a R228m SAPS tender. He also disputed parts of his signed statement.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-10-matlala-changes-testimony-on-r500000-payment-to-sibiya/",
+          "tag": "Courts"
         },
         {
-          "title": "Tribunal begins hearing racism complaint against Judge Belinda Hartle",
-          "summary": "A judicial conduct tribunal sitting in Sandton until 18 November will decide whether the Eastern Cape judge committed gross misconduct over remarks to a court official. She denies using a racial slur.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/2026-11-09-probe-starts-over-judge-belinda-hartles-alleged-use-of-k-word/",
-          "tag": "Courts"
+          "title": "Mbeki backs Ramaphosa's reported resignation offer as ANC denies it",
+          "summary": "Former president Thabo Mbeki said Ramaphosa would be right to step aside if reports of an offer are true. ANC secretary-general Fikile Mbalula insists the president is going nowhere after the party's 30.76% result.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-10-november-2026/",
+          "tag": "Politics"
+        },
+        {
+          "title": "Home Affairs opens digital asylum registration platform",
+          "summary": "Minister Leon Schreiber said the first phase lets asylum seekers register their intention to apply for protection online, opening this week. He said it responds to a Constitutional Court ruling in July.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-10-november-2026/"
+        },
+        {
+          "title": "GO!Durban starts testing buses on Bridge City-Pinetown route",
+          "summary": "Buses are now running without passengers in dedicated lanes on Corridor 3, the city's first IRPTN route, to test timetables, docking and cashless fares. No passenger launch date has been set.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-10-go-durban-begins-bus-testing-on-bridge-citypinetown-route/",
+          "tag": "KZN"
         }
       ]
     },
@@ -90,45 +90,37 @@
       "label": "World",
       "items": [
         {
-          "title": "Trump says Iran war is militarily 'effectively over' after Qatar talks",
-          "summary": "After meeting Qatar's prime minister, Trump said he wants to keep the current status quo, including the naval blockade of Iranian ports. Tehran's officials dismissed his remarks and restated conditions such as sanctions relief.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm",
-          "tag": "Iran"
+          "title": "Qatar reports progress in US-Iran talks after White House meeting",
+          "summary": "After Qatar's prime minister met Trump, Doha said it saw progress but could not say how close a deal is. Trump agreed to hold off on new strikes while keeping the naval blockade in place.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/qatar-sees-progress-in-us-iran-talks-after-white-house-meeting",
+          "tag": "Middle East"
         },
         {
-          "title": "US-mediated Russia-Ukraine talks open in Abu Dhabi today",
-          "summary": "The talks run Tuesday and Wednesday with European representation. At a G7 meeting in Paris, European ministers pressed Rubio for a seat at the table, and Canada added new sanctions on Russia.",
-          "source": "Business Recorder",
-          "url": "https://www.brecorder.com/news/40448218/g7-ministers-press-rubio-on-iran-ukraine-at-paris-talks",
+          "title": "Russia, Ukraine and US negotiators meet in Abu Dhabi",
+          "summary": "The third round of three-way talks this year focuses on security guarantees and possible territorial swaps, according to a US official. Russia objects to European participation.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
           "tag": "Ukraine"
         },
         {
-          "title": "Jeffries backs bid to impeach Defense Secretary Hegseth",
-          "summary": "With Democrats having won both chambers in the midterms, the likely next Speaker said he supports a resolution led by Republican Thomas Massie. Removal would still need two-thirds of the Senate.",
+          "title": "Europe tells Rubio it must have a seat at Ukraine peace talks",
+          "summary": "At a G7 foreign ministers' meeting in Paris, Germany's foreign minister said there can be no settlement without Europe. It was Rubio's first meeting with allies since Republicans' midterm losses.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies",
-          "tag": "US"
+          "url": "https://www.aljazeera.com/news/2026/11/10/europe-belongs-at-this-table-germany-tells-us-before-ukraine-talks"
         },
         {
-          "title": "Seven killed as trains collide near Cairo",
-          "summary": "One passenger train struck the back of another in Giza province, injuring more than 100 people. President el-Sissi ordered an investigation; the cause is not yet known.",
-          "source": "allAfrica",
-          "url": "https://allafrica.com/stories/202611090111.html",
-          "tag": "Africa"
+          "title": "Saudi Arabia intercepts missiles fired at Riyadh",
+          "summary": "The Saudi-led coalition said it downed missiles aimed at Riyadh and the south, blaming Yemen's Houthis, a day after an attack on a key oil pipeline. No casualties were reported.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline",
+          "tag": "Middle East"
         },
         {
-          "title": "At least 34 dead after migrant boat sinks off Senegal",
-          "summary": "The boat went down near Kébémer, north of Dakar, reportedly heading for the Canary Islands. Spain's El Hierro has declared an emergency after more than 3,300 arrivals in about a month.",
-          "source": "allAfrica",
-          "url": "https://allafrica.com/stories/202611090111.html",
-          "tag": "Africa"
-        },
-        {
-          "title": "UN agencies appeal for aid as Sudan's displacement crisis grows",
-          "summary": "About 15.4 million people need shelter, but aid groups reach only around one in ten. The 2026 response plan is less than half funded.",
-          "source": "allAfrica",
-          "url": "https://allafrica.com/stories/202611090111.html",
+          "title": "Cameroon sets February date for twice-delayed elections",
+          "summary": "President Paul Biya, 93, decreed legislative and local polls for 7 February 2027, after two postponements and a crackdown on protests that followed his 2025 re-election.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/cameroon-sets-date-for-twice-delayed-legislative-and-local-elections",
           "tag": "Africa"
         }
       ]
@@ -138,32 +130,24 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "JSE All Share jumps about 2% as gold miners rally",
-          "summary": "The index closed near 115,000 on Monday, led by AngloGold Ashanti, Gold Fields, MTN and Amplats.",
-          "source": "Trading Economics",
-          "url": "https://tradingeconomics.com/south-africa/stock-market",
-          "tag": "JSE"
-        },
-        {
-          "title": "Rand near its strongest since late September",
-          "summary": "The rand traded around R16.38 to the dollar early Tuesday, helped by a softer dollar, firmer metals and lower oil, as investors weigh the coalition outlook.",
-          "source": "Trading Economics",
-          "url": "https://tradingeconomics.com/south-africa/currency",
+          "title": "Rand holds near R16.36 to the dollar",
+          "summary": "Reuters reported the rand little changed on Tuesday morning ahead of jobs data, with the 2035 government bond yield easing to 8.25%.",
+          "source": "CNBC Africa",
+          "url": "https://cnbcafrica.com/2026/south-african-rand-steady-ahead-of-jobs-data",
           "tag": "Rand"
         },
         {
-          "title": "Brent slips toward $92 on Middle East peace hopes; gold eases",
-          "summary": "Oil hit its lowest since late August after Trump's upbeat Iran comments, while gold dipped ahead of a key US inflation report.",
-          "source": "Trading Economics",
-          "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-          "tag": "Commodities"
+          "title": "Factory output down 3.5% year on year in September",
+          "summary": "Stats SA said manufacturing production was flat month on month after a 3% drop in August. October figures are due on 10 December.",
+          "source": "Rio Times",
+          "url": "https://www.riotimesonline.com/south-africa-manufacturing-production-september-2026/"
         },
         {
-          "title": "Pick n Pay has closed 284 stores since Sean Summers returned",
-          "summary": "Interim results show the trading loss narrowing to R516m as the retailer shuts or converts underperforming stores, some to Boxer.",
-          "source": "BusinessTech",
-          "url": "https://businesstech.co.za/news/business/882772/pick-n-pay-shutting-down-stores-across-south-africa-2/",
-          "tag": "Retail"
+          "title": "Hot US inflation knocks gold and stocks; Brent at lowest since August",
+          "summary": "US consumer prices rose 0.4% in October, above forecasts, and Fed governor Waller backed a December hike. Gold fell about 2.6% and Brent settled at $91.49 on Iran de-escalation hopes.",
+          "source": "Eurasia Business News",
+          "url": "https://eurasiabusinessnews.com/2026/11/11/stock-market-today-dow-jones-nasdaq-sp-500-fall-on-november-10-2026-oil-and-gold-retreat/",
+          "tag": "Global"
         }
       ]
     },
@@ -172,32 +156,32 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Boks make two changes for Friday's Test against France in Paris",
-          "summary": "Wilco Louw starts at loosehead and Cobus Reinach joins the bench; Eben Etzebeth, just arrived, is left out. Kick-off is 22:10 SA time.",
-          "source": "Sowetan",
-          "url": "https://www.sowetan.co.za/sport/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/",
+          "title": "Erasmus defends two-change Bok side for Friday's France Test",
+          "summary": "Wilco Louw starts at tighthead and Cobus Reinach returns to the bench for the Stade de France clash, while Eben Etzebeth misses out. Erasmus said the Italy win was not physically demanding.",
+          "source": "The National",
+          "url": "https://thenational.co.za/sport/2026-11-10-rassie-erasmus-defends-minimal-changes-as-fresh-springboks-prepare-for-france-showdown/",
           "tag": "Rugby"
         },
         {
-          "title": "Bafana start camp for Kenya AFCON qualifiers",
-          "summary": "Pitso Mosimane held his first session on Monday. South Africa host Kenya at Orlando on Friday at 18:00, then play in Nairobi next Tuesday.",
-          "source": "SAFA",
-          "url": "https://safa.net/general-news/bafana-back-at-work-ahead-of-crunch-afcon-clashes-against-kenya",
+          "title": "Bafana host Kenya on Friday in AFCON qualifier",
+          "summary": "Pitso Mosimane's 27-man squad faces Benni McCarthy's Kenya at Orlando on 13 November at 18:00, with the return leg in Nairobi on 17 November.",
+          "source": "Briefly News",
+          "url": "https://briefly.co.za/sports/football/258022-pitso-mosimane-names-bafana-bafana-squad-november-2026-afcon-qualifiers-kenya/",
           "tag": "Football"
         },
         {
-          "title": "Proteas gather Wednesday ahead of first Bangladesh Test",
-          "summary": "Temba Bavuma's squad assembles in Johannesburg for the opening Test at the Wanderers from 15 November, with de Zorzi and Nortje back.",
-          "source": "Briefly News",
-          "url": "https://briefly.co.za/sports/257742-proteas-15-man-squad-bangladesh-tests-2-big-names-return/",
+          "title": "Proteas' first Test against Bangladesh starts Sunday at the Wanderers",
+          "summary": "Temba Bavuma leads a squad that welcomes back Tony de Zorzi, Zubayr Hamza and Anrich Nortje; Lungi Ngidi is still rehabbing.",
+          "source": "Outlook India",
+          "url": "https://www.outlookindia.com/sports/cricket/south-africa-squad-for-bangladesh-test-series-2026-announced",
           "tag": "Cricket"
         },
         {
-          "title": "Norris wins in São Paulo as Mercedes clinch constructors' title",
-          "summary": "Lando Norris won from pole ahead of Max Verstappen, while Mercedes secured a ninth constructors' crown, matching Williams' record.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/motoring/2026-11-08-norris-wins-sao-paulo-grand-prix-as-mercedes-take-constructors-title/",
-          "tag": "F1"
+          "title": "Tatjana Smith to swim for the Netherlands at the 2028 Olympics",
+          "summary": "South Africa's most decorated Olympian, back from retirement, announced she will represent the Netherlands, saying she has always held both identities.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-10-november-2026/",
+          "tag": "Swimming"
         }
       ]
     },
@@ -206,17 +190,10 @@
       "label": "Tech & Science",
       "items": [
         {
-          "title": "Anthropic reportedly signs $3.4bn deal for gas-fired generators",
-          "summary": "The deal, reported by the FT via Reuters, covers equipment able to produce about 1.7 gigawatts to power AI computing; neither company had confirmed it.",
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/",
-          "tag": "AI"
-        },
-        {
-          "title": "Alibaba test finds coding agents still struggle with real tasks",
-          "summary": "The best model completed only about a quarter of selected real-world tasks perfectly, far below scores on older benchmarks.",
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/",
+          "title": "Stanford AI100 report says the scaling era is running out of road",
+          "summary": "The 12-expert panel argues future AI progress will rely on better algorithms rather than ever-bigger models, and says AI's economic payoff is not yet visible in the data.",
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/stanford-ai100-report-2026-ai-goes-mainstream",
           "tag": "AI"
         }
       ]
