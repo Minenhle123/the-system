@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T05:14:26+02:00",
+  "lead": "Coalition bargaining over South Africa's hung metros moves into a decisive phase today as the ANC's NEC meets on its Gauteng strategy and the DA sits down with ActionSA, while eThekwini's 223 councillors still have no clear majority.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "16.36",
+      "change": "+0.1%"
+    },
+    {
+      "label": "SA 2035 bond",
+      "value": "8.25%",
+      "change": "-1.5bp"
+    },
+    {
+      "label": "Woolworths (WHL)",
+      "value": "R37.78",
+      "change": "-8.5%"
+    },
+    {
+      "label": "Petrol 95 Dec (est.)",
+      "value": "-R2.47/l"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "ANC executive meets today to settle Gauteng coalition strategy",
+          "summary": "The ANC NEC meets on Thursday to decide its approach in Johannesburg, Tshwane and Ekurhuleni, where the DA topped the polls without majorities. The DA and ActionSA are also due to meet, with roughly two weeks left before first council sittings.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-11-anc-nec-to-decide-gauteng-coalition-strategy-as-da-to-meet-actionsa/",
+          "tag": "Elections"
+        },
+        {
+          "title": "eThekwini hung: MK leads with 86 seats as DA eyes mayoralty",
+          "summary": "In the 223-seat council, MK won 86 seats, the DA 57, the ANC 37 and the IFP 15, so 112 are needed to govern. DA mayoral candidate Haniff Hoosen says a DA-led government is still possible; the IFP has named a negotiating team.",
+          "source": "The Post",
+          "url": "https://thepost.co.za/news/httpscosmos-dot-iol-prodappspotcomthepostnews2026-11-11-da-confident-of-securing-ethekwini-mayoralty-as-coalition-talks-intensify/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Final local election tally: ANC on about 31%, DA close to 25%",
+          "summary": "The IEC's final results put the ANC at roughly 30.8%, the DA at 24.6%, MK at 9.8%, the EFF at 6.2% and ActionSA at 5.7%. About 14.9 million people voted. Ramaphosa urged parties to negotiate coalitions in good faith.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Matlala makes new claims about Bheki Cele at Madlanga commission",
+          "summary": "Alleged cartel figure Vusimuzi 'Cat' Matlala claimed the former police minister received money and asked him to buy a R6m property in KZN. The claims are untested; commissioners separately accused Matlala of obstruction over shifting accounts.",
+          "source": "Sunday Times",
+          "url": "https://www.sundaytimes.timeslive.co.za/news/2026-11-12-matlala-claims-cele-sought-r6m-penthouse-for-saps-access/",
+          "tag": "Courts"
+        },
+        {
+          "title": "DA needs eight more seats to govern Nelson Mandela Bay",
+          "summary": "The DA won 53 of 120 seats in Nelson Mandela Bay and has approached the FF+, ActionSA and the UDM. It has ruled out the EFF and MK, while the ANC could try a broad alliance excluding the DA.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-08-da-goes-on-coalition-offensive-as-battle-for-nelson-mandela-bay-begins/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Durban public toilets still shut 18 months after renovation began",
+          "summary": "Toilets at KwaMashu ranks, near City Hall and on the beachfront remain closed despite an R11.3m upgrade finished in May, pending maintenance contracts. Some commuters pay for a bucket tent; the city expects reopening by mid-December.",
+          "source": "GroundUp",
+          "url": "https://groundup.org.za/article/durban-commuters-have-to-relieve-themselves-in-buckets-in-a-tent/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Water boards tell Parliament municipalities owe them nearly R10bn",
+          "summary": "Rand Water, Lepelle Northern Water and Magalies Water reported about R9.7 billion in combined municipal debt, with Emfuleni among the worst payers. Non-revenue water nationally sits near 48%.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/water-boards-tell-parliament-they-are-owed-nearly-r10-billion/",
+          "tag": "Water"
+        },
+        {
+          "title": "Festive Chicken workers strike over wages at Gauteng plant",
+          "summary": "About 400 workers at Astral Foods' Olifantsfontein plant have been on strike since 29 October, seeking R13,500 a month plus medical aid. Astral says it cannot afford the demand.",
+          "source": "GroundUp",
+          "url": "https://groundup.org.za/article/hundreds-of-festive-chicken-workers-down-tools/",
+          "tag": "Labour"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Abu Dhabi talks end with Russia-Ukraine prisoner swap deal",
+          "summary": "Two days of US-mediated talks produced agreement in principle on a large exchange, possibly 1,000 or more prisoners each, but no ceasefire. US envoys Kushner and Witkoff were due to meet Putin in Moscow on Thursday.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "Guterres calls for climate justice compact as COP31 leaders meet",
+          "summary": "Opening the leaders' summit in Antalya, Türkiye, the UN chief urged a faster move off fossil fuels, windfall taxes on oil companies to fund loss and damage, and a near-zero methane standard. The conference runs to 20 November.",
+          "source": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168783",
+          "tag": "Climate"
+        },
+        {
+          "title": "Iran says enriched uranium will not leave the country",
+          "summary": "An Iranian security chief warned of action against US bases if new strikes occur, while US prosecutors charged three alleged Iran-backed operatives over plots in the US and Europe. Iran denies involvement.",
+          "source": "Just Security (Reuters, BBC)",
+          "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "US House shelves Hegseth impeachment bid; Jordan to lead Republicans",
+          "summary": "The House voted 211-204 to send an impeachment effort against Defense Secretary Pete Hegseth back to committee. Jim Jordan beat Steve Scalise to become House Republican leader from January.",
+          "source": "Just Security (Axios)",
+          "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+          "tag": "US"
+        },
+        {
+          "title": "DR Congo court sentences 66 soldiers to death; Guinea expels miners",
+          "summary": "A Congolese military court condemned 66 soldiers on charges including revolt and cowardice. Guinea expelled over 8,000 artisanal gold miners from Burkina Faso, which objected to their treatment.",
+          "source": "The Rio Times",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-11-2026",
+          "tag": "Africa"
+        },
+        {
+          "title": "M. John Harrison, 81, becomes oldest Booker Prize winner",
+          "summary": "The British author won the £50,000 prize for 'The End of Everything', a satirical post-apocalyptic novel.",
+          "source": "WAMC / NPR",
+          "url": "https://www.wamc.org/2026-11-09/apocalyptic-sci-fi-novel-the-end-of-everything-wins-this-years-booker-prize",
+          "tag": "Books"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Woolworths shares suffer worst day since 2020 on stalled food sales",
+          "summary": "The stock closed 8.5% lower at R37.78 after a trading update showed group sales up just 0.2% over 19 weeks. Comparable food sales barely grew and Country Road sales fell 9.5%.",
+          "source": "Business Day",
+          "url": "https://www.businessday.co.za/companies/2026-11-11-woolworths-shares-suffer-worst-day-since-2020-as-food-growth-stalls/",
+          "tag": "JSE"
+        },
+        {
+          "title": "December petrol price could fall by over R2 a litre; diesel may rise",
+          "summary": "Early Central Energy Fund data point to petrol over-recoveries near R3, partly offset by reduced fuel-levy relief. Diesel could edge up because its levy relief halves. The official adjustment is due on 2 December.",
+          "source": "DFA",
+          "url": "https://dfa.co.za/news/2026-11-11-december-petrol-relief-in-sight-but-diesel-users-could-pay-more/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Rand steady near R16.36 ahead of inflation and rates decision",
+          "summary": "The rand traded around 16.36 to the dollar early this week. October CPI is due on 18 November and the Reserve Bank's interest rate decision on 19 November.",
+          "source": "CNBC Africa",
+          "url": "https://www.cnbcafrica.com/2026/south-african-rand-steady-ahead-of-jobs-data",
+          "tag": "Rand"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Settled Springbok side takes on France in Paris on Friday",
+          "summary": "Rassie Erasmus made two changes after the 66-7 win over Italy, with Wilco Louw starting at prop. Kick-off at the Stade de France is 22:10 SA time; Siya Kolisi captains.",
+          "source": "DFA",
+          "url": "https://dfa.co.za/sport/2026-11-10-rassie-erasmus-backs-settled-springbok-side-for-france-test/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Bafana host Kenya in AFCON qualifier on Friday",
+          "summary": "Pitso Mosimane's side meet Kenya at Orlando on 13 November at 18:00, then play the return match in Nairobi on 17 November.",
+          "source": "SAFA",
+          "url": "https://www.safa.net/general-news/bafana-back-at-work-ahead-of-crunch-afcon-clashes-against-kenya/",
+          "tag": "Football"
+        },
+        {
+          "title": "Proteas start two-Test series against Bangladesh on Sunday",
+          "summary": "Fresh from a 2-1 series win over Australia, South Africa play the first Test at the Wanderers, with the second at Centurion.",
+          "source": "Explain",
+          "url": "https://explain.co.za/2026/11/11/proteas-vs-bangladesh-can-sa-continue-their-winning-run",
+          "tag": "Cricket"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "OpenAI quarterly revenue reportedly jumps to about $10bn",
+          "summary": "Third-quarter revenue rose almost 50%, driven by enterprise products, though operating losses remained large, according to a report summarised by The Neuron.",
+          "source": "The Neuron (The Information)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "DeepMind AI tool formally verifies parts of Signal's encryption",
+          "summary": "Google DeepMind's AlphaProof Code checked key security properties of the Signal protocol in four weeks, covering specified properties rather than every possible attack.",
+          "source": "The Neuron (Wired)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+          "tag": "AI"
+        }
+      ]
+    }
+  ]
+}
