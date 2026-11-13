@@ -1,26 +1,32 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T05:14:26+02:00",
-  "lead": "Coalition bargaining over South Africa's hung metros moves into a decisive phase today as the ANC's NEC meets on its Gauteng strategy and the DA sits down with ActionSA, while eThekwini's 223 councillors still have no clear majority.",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T05:14:54+02:00",
+  "lead": "The DA has opened coalition talks with Zuma's MK Party as KwaZulu-Natal's hung councils look for majorities, while the ANC's NEC kept Ramaphosa in place and leaned towards deal-by-deal coalitions. Tonight the Springboks face France in Paris and Bafana host Kenya.",
   "ticker": [
     {
       "label": "USD/ZAR",
-      "value": "16.36",
-      "change": "+0.1%"
+      "value": "16.75",
+      "change": "-0.1%"
     },
     {
-      "label": "SA 2035 bond",
-      "value": "8.25%",
-      "change": "-1.5bp"
+      "label": "GBP/ZAR (Thu)",
+      "value": "22.02"
     },
     {
-      "label": "Woolworths (WHL)",
-      "value": "R37.78",
-      "change": "-8.5%"
+      "label": "EUR/ZAR (Thu)",
+      "value": "18.40"
     },
     {
-      "label": "Petrol 95 Dec (est.)",
-      "value": "-R2.47/l"
+      "label": "Gold",
+      "value": "$3,974"
+    },
+    {
+      "label": "Oil",
+      "value": "$91.46"
+    },
+    {
+      "label": "SA repo rate",
+      "value": "7.25%"
     }
   ],
   "sections": [
@@ -29,60 +35,59 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "ANC executive meets today to settle Gauteng coalition strategy",
-          "summary": "The ANC NEC meets on Thursday to decide its approach in Johannesburg, Tshwane and Ekurhuleni, where the DA topped the polls without majorities. The DA and ActionSA are also due to meet, with roughly two weeks left before first council sittings.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-11-anc-nec-to-decide-gauteng-coalition-strategy-as-da-to-meet-actionsa/",
+          "title": "DA reaches out to MK Party for coalition talks in KZN",
+          "summary": "DA leader Geordin Hill-Lewis wrote to Jacob Zuma proposing talks, and MK has accepted, with a meeting expected within days. Both sides cautioned that ideological gaps make a deal far from certain, especially in eThekwini and Msunduzi.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/2026/11/12/da-opens-door-to-coalition-talks-with-zumas-mk-party/",
+          "tag": "KZN"
+        },
+        {
+          "title": "ANC NEC backs Ramaphosa, weighs metro-by-metro coalition deals",
+          "summary": "No NEC member called for the president to step down at Thursday's Boksburg meeting, sources said. The party is leaning towards case-by-case municipal deals and is unlikely to accept the DA's bid to lead most metros; councils must sit by 26 November.",
+          "source": "Business Day",
+          "url": "https://www.businessday.co.za/politics/2026-11-13-the-ancs-nec-meeting-focused-on-coalition-strategies-after-a-historic-electoral-loss-with-no-calls-for-ramaphosas-oup/",
           "tag": "Elections"
         },
         {
-          "title": "eThekwini hung: MK leads with 86 seats as DA eyes mayoralty",
-          "summary": "In the 223-seat council, MK won 86 seats, the DA 57, the ANC 37 and the IFP 15, so 112 are needed to govern. DA mayoral candidate Haniff Hoosen says a DA-led government is still possible; the IFP has named a negotiating team.",
+          "title": "eThekwini: DA's Hoosen confident of mayoralty as MK holds 86 seats",
+          "summary": "MK has 86 of 223 seats, the DA 57, the ANC 37 and the IFP 15, with 112 needed to govern. DA mayoral candidate Haniff Hoosen says talks are under way but nothing is final.",
           "source": "The Post",
           "url": "https://thepost.co.za/news/httpscosmos-dot-iol-prodappspotcomthepostnews2026-11-11-da-confident-of-securing-ethekwini-mayoralty-as-coalition-talks-intensify/",
           "tag": "KZN"
         },
         {
-          "title": "Final local election tally: ANC on about 31%, DA close to 25%",
-          "summary": "The IEC's final results put the ANC at roughly 30.8%, the DA at 24.6%, MK at 9.8%, the EFF at 6.2% and ActionSA at 5.7%. About 14.9 million people voted. Ramaphosa urged parties to negotiate coalitions in good faith.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/",
-          "tag": "Elections"
-        },
-        {
-          "title": "Matlala makes new claims about Bheki Cele at Madlanga commission",
-          "summary": "Alleged cartel figure Vusimuzi 'Cat' Matlala claimed the former police minister received money and asked him to buy a R6m property in KZN. The claims are untested; commissioners separately accused Matlala of obstruction over shifting accounts.",
-          "source": "Sunday Times",
-          "url": "https://www.sundaytimes.timeslive.co.za/news/2026-11-12-matlala-claims-cele-sought-r6m-penthouse-for-saps-access/",
-          "tag": "Courts"
-        },
-        {
-          "title": "DA needs eight more seats to govern Nelson Mandela Bay",
-          "summary": "The DA won 53 of 120 seats in Nelson Mandela Bay and has approached the FF+, ActionSA and the UDM. It has ruled out the EFF and MK, while the ANC could try a broad alliance excluding the DA.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-08-da-goes-on-coalition-offensive-as-battle-for-nelson-mandela-bay-begins/",
-          "tag": "Elections"
-        },
-        {
-          "title": "Durban public toilets still shut 18 months after renovation began",
-          "summary": "Toilets at KwaMashu ranks, near City Hall and on the beachfront remain closed despite an R11.3m upgrade finished in May, pending maintenance contracts. Some commuters pay for a bucket tent; the city expects reopening by mid-December.",
-          "source": "GroundUp",
-          "url": "https://groundup.org.za/article/durban-commuters-have-to-relieve-themselves-in-buckets-in-a-tent/",
+          "title": "MK Party drops claims that the IEC rigged the 2024 election",
+          "summary": "After a Durban High Court dispute over remarks made in Umlazi, MK and the IEC agreed to withdraw the case. MK says it respects court rulings clearing the commission; it won about 34% in KZN this month, where 34 councils are hung.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/pietermaritzburg/2026/11/12/mk-party-softens-stance-on-2024-elections/",
           "tag": "KZN"
         },
         {
-          "title": "Water boards tell Parliament municipalities owe them nearly R10bn",
-          "summary": "Rand Water, Lepelle Northern Water and Magalies Water reported about R9.7 billion in combined municipal debt, with Emfuleni among the worst payers. Non-revenue water nationally sits near 48%.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/water-boards-tell-parliament-they-are-owed-nearly-r10-billion/",
-          "tag": "Water"
+          "title": "MK, EFF and SACP form left bloc, set terms for backing the ANC",
+          "summary": "The new Council of the Left, which also includes ACT and others, says it holds about a fifth of the municipal vote. It wants the ANC to adopt its programme and cut ties with the DA and FF Plus before it offers support.",
+          "source": "Daily Maverick",
+          "url": "https://dailymaverick.co.za/article/2026-11-12-mk-eff-sacp-form-bloc-to-drive-municipal-agendas-with-conditional-support-for-anc",
+          "tag": "Elections"
         },
         {
-          "title": "Festive Chicken workers strike over wages at Gauteng plant",
-          "summary": "About 400 workers at Astral Foods' Olifantsfontein plant have been on strike since 29 October, seeking R13,500 a month plus medical aid. Astral says it cannot afford the demand.",
-          "source": "GroundUp",
-          "url": "https://groundup.org.za/article/hundreds-of-festive-chicken-workers-down-tools/",
-          "tag": "Labour"
+          "title": "Intelligence chief tells Madlanga commission crime networks are inside the state",
+          "summary": "Acting Nicoc coordinator Ntandazo Sifolo said assessments since 2022 flagged a merger of political and criminal interests. He also said Ramaphosa got a verbal intelligence briefing on 30 June 2025, days before Mkhwanazi went public.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-12-intelligence-chief-warns-of-ongoing-state-infiltration-by-mafia-like-networks/",
+          "tag": "Courts"
+        },
+        {
+          "title": "New coalition guidelines aim to curb abuse of no-confidence motions",
+          "summary": "Cogta Minister Velenkosini Hlabisa has asked councils to set their own rules for such motions and has issued a template coalition agreement, to make hung municipalities more stable ahead of their first sittings.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/new-coalition-guidelines-aim-to-curtail-abuse-of-no-confidence-motions/"
+        },
+        {
+          "title": "Gauteng warns of malaria spike linked to regional travel",
+          "summary": "The province recorded 768 cases and 17 deaths from January to September, most linked to travel in SADC countries, chiefly Mozambique. Officials urge travellers to visit a clinic first and report fever promptly.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/12/gauteng-health-raises-alarm-over-continued-spike-in-malaria-cases-deaths",
+          "tag": "Health"
         }
       ]
     },
@@ -91,46 +96,42 @@
       "label": "World",
       "items": [
         {
-          "title": "Abu Dhabi talks end with Russia-Ukraine prisoner swap deal",
-          "summary": "Two days of US-mediated talks produced agreement in principle on a large exchange, possibly 1,000 or more prisoners each, but no ceasefire. US envoys Kushner and Witkoff were due to meet Putin in Moscow on Thursday.",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
-          "tag": "Ukraine"
+          "title": "Houthis claim new strikes on Saudi oil sites; UN extends Yemen sanctions",
+          "summary": "Saudi forces said they downed drones over Riyadh and the Eastern Province, while the Houthis claimed hits on pipeline and Yanbu facilities. The Security Council unanimously renewed sanctions on Yemen for a year.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
         },
         {
-          "title": "Guterres calls for climate justice compact as COP31 leaders meet",
-          "summary": "Opening the leaders' summit in Antalya, Türkiye, the UN chief urged a faster move off fossil fuels, windfall taxes on oil companies to fund loss and damage, and a near-zero methane standard. The conference runs to 20 November.",
-          "source": "UN News",
-          "url": "https://news.un.org/en/story/2026/11/1168783",
-          "tag": "Climate"
+          "title": "Trump says Gulf allies asked him to hold off on further Iran strikes",
+          "summary": "Speaking at the White House, the US president said Gulf states had requested a pause in additional attacks on Iran.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"
         },
         {
-          "title": "Iran says enriched uranium will not leave the country",
-          "summary": "An Iranian security chief warned of action against US bases if new strikes occur, while US prosecutors charged three alleged Iran-backed operatives over plots in the US and Europe. Iran denies involvement.",
-          "source": "Just Security (Reuters, BBC)",
-          "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
-          "tag": "Middle East"
+          "title": "Israeli strike on Gaza's Nasser Hospital kills six",
+          "summary": "Gaza health officials said a doctor was among those killed in Khan Younis. Israel said it targeted a senior Hamas member; the UN warned the attack threatens the fragile ceasefire.",
+          "source": "AP via WSLS",
+          "url": "https://www.wsls.com/news/world/2026/11/12/israeli-strike-on-a-gaza-hospital-kills-6-people-health-authorities-say/"
         },
         {
-          "title": "US House shelves Hegseth impeachment bid; Jordan to lead Republicans",
-          "summary": "The House voted 211-204 to send an impeachment effort against Defense Secretary Pete Hegseth back to committee. Jim Jordan beat Steve Scalise to become House Republican leader from January.",
-          "source": "Just Security (Axios)",
-          "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
-          "tag": "US"
+          "title": "European leaders meet in Dublin as hybrid attacks hit schools",
+          "summary": "More than 40 countries met at the European Political Community summit amid hoax bomb threats to thousands of Italian schools. Europe is also seeking an envoy for US-backed Ukraine peace talks.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/regional-security-dominates-european-talks-in-dublin-amid-hybrid-attacks"
         },
         {
-          "title": "DR Congo court sentences 66 soldiers to death; Guinea expels miners",
-          "summary": "A Congolese military court condemned 66 soldiers on charges including revolt and cowardice. Guinea expelled over 8,000 artisanal gold miners from Burkina Faso, which objected to their treatment.",
-          "source": "The Rio Times",
-          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-11-2026",
+          "title": "DR Congo Ebola outbreak passes 11,000 cases",
+          "summary": "Official data show 11,042 cases and at least 5,387 deaths in eight provinces, making it the second-largest Ebola outbreak on record. The Bundibugyo strain has no specific vaccine yet; trials are under way.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths",
           "tag": "Africa"
         },
         {
-          "title": "M. John Harrison, 81, becomes oldest Booker Prize winner",
-          "summary": "The British author won the £50,000 prize for 'The End of Everything', a satirical post-apocalyptic novel.",
-          "source": "WAMC / NPR",
-          "url": "https://www.wamc.org/2026-11-09/apocalyptic-sci-fi-novel-the-end-of-everything-wins-this-years-booker-prize",
-          "tag": "Books"
+          "title": "Amnesty says UN and South Sudan ignored warnings before village attack",
+          "summary": "The rights group says peacekeepers and officials were warned before a March attack on Abiemnom that killed over 200 people. It wants an independent probe ahead of South Sudan's 22 December elections.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre",
+          "tag": "Africa"
         }
       ]
     },
@@ -139,25 +140,23 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "Woolworths shares suffer worst day since 2020 on stalled food sales",
-          "summary": "The stock closed 8.5% lower at R37.78 after a trading update showed group sales up just 0.2% over 19 weeks. Comparable food sales barely grew and Country Road sales fell 9.5%.",
-          "source": "Business Day",
-          "url": "https://www.businessday.co.za/companies/2026-11-11-woolworths-shares-suffer-worst-day-since-2020-as-food-growth-stalls/",
-          "tag": "JSE"
+          "title": "Rand weaker near R16.75 as US rate-hike bets build",
+          "summary": "The rand has slipped from about R16.53 midweek after hot US inflation data lifted expectations of a Federal Reserve hike in December. Gold was near $3,974 an ounce and oil around $91 a barrel.",
+          "source": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-africa/currency"
         },
         {
-          "title": "December petrol price could fall by over R2 a litre; diesel may rise",
-          "summary": "Early Central Energy Fund data point to petrol over-recoveries near R3, partly offset by reduced fuel-levy relief. Diesel could edge up because its levy relief halves. The official adjustment is due on 2 December.",
-          "source": "DFA",
-          "url": "https://dfa.co.za/news/2026-11-11-december-petrol-relief-in-sight-but-diesel-users-could-pay-more/",
-          "tag": "Fuel"
+          "title": "Thursday market snapshot: rand at R16.61, Woolworths slump weighs",
+          "summary": "BusinessTech put the rand at R16.61 to the dollar on Thursday, with traders fully pricing a December Fed hike. Woolworths closed 8.5% lower, its worst day since March 2020.",
+          "source": "BusinessTech",
+          "url": "https://businesstech.co.za/news/5-things/883882/woolworths-loses-r4-9-billion-in-a-single-day-and-important-road-in-cape-town-to-reopen-after-3-years/"
         },
         {
-          "title": "Rand steady near R16.36 ahead of inflation and rates decision",
-          "summary": "The rand traded around 16.36 to the dollar early this week. October CPI is due on 18 November and the Reserve Bank's interest rate decision on 19 November.",
-          "source": "CNBC Africa",
-          "url": "https://www.cnbcafrica.com/2026/south-african-rand-steady-ahead-of-jobs-data",
-          "tag": "Rand"
+          "title": "SARB rate decision due next Thursday, 19 November",
+          "summary": "The repo rate is 7.25% and prime 10.75% after September's 25-basis-point hike. The Monetary Policy Committee announces its next decision around 3pm on 19 November.",
+          "source": "Bond.co.za",
+          "url": "https://bond.co.za/news/when-is-the-next-interest-rate-decision-south-africa",
+          "tag": "SARB"
         }
       ]
     },
@@ -166,25 +165,32 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Settled Springbok side takes on France in Paris on Friday",
-          "summary": "Rassie Erasmus made two changes after the 66-7 win over Italy, with Wilco Louw starting at prop. Kick-off at the Stade de France is 22:10 SA time; Siya Kolisi captains.",
-          "source": "DFA",
-          "url": "https://dfa.co.za/sport/2026-11-10-rassie-erasmus-backs-settled-springbok-side-for-france-test/",
+          "title": "Springboks take on France in Paris tonight",
+          "summary": "Siya Kolisi leads the Boks for the 70th time at Stade de France, kick-off 10:10pm SA time. Wilco Louw starts at tighthead and Eben Etzebeth is left out.",
+          "source": "SuperSport",
+          "url": "https://supersport.com/rugby/news/c185db7c-2870-414f-b963-1ee71cbcba8d/france-awaits-no-etzebeth-but-boks-pick-strongest-available-team",
           "tag": "Rugby"
         },
         {
-          "title": "Bafana host Kenya in AFCON qualifier on Friday",
-          "summary": "Pitso Mosimane's side meet Kenya at Orlando on 13 November at 18:00, then play the return match in Nairobi on 17 November.",
-          "source": "SAFA",
-          "url": "https://www.safa.net/general-news/bafana-back-at-work-ahead-of-crunch-afcon-clashes-against-kenya/",
+          "title": "Bafana host Benni McCarthy's Kenya in AFCON qualifier at 6pm",
+          "summary": "Group D leaders South Africa play in Johannesburg tonight, with the return leg in Nairobi on Tuesday. Kenya arrive amid unpaid allowances, and McCarthy says his staff have not been paid for three months.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-12-bafana-bafana-ready-to-tackle-troubled-kenyans-in-key-afcon-qualification-clash/",
           "tag": "Football"
         },
         {
-          "title": "Proteas start two-Test series against Bangladesh on Sunday",
-          "summary": "Fresh from a 2-1 series win over Australia, South Africa play the first Test at the Wanderers, with the second at Centurion.",
-          "source": "Explain",
-          "url": "https://explain.co.za/2026/11/11/proteas-vs-bangladesh-can-sa-continue-their-winning-run",
-          "tag": "Cricket"
+          "title": "Tatjana Smith switches to swim for the Netherlands",
+          "summary": "South Africa's most decorated Olympian, who holds Dutch citizenship, cited financial and practical challenges. She is targeting LA 2028 and plans to keep training in South Africa.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/11/11/south-african-swimmer-tatjana-smith-switches-allegiance-to-netherlands",
+          "tag": "Swimming"
+        },
+        {
+          "title": "Sundowns Ladies reach CAF Women's Champions League final",
+          "summary": "They beat Kawempe Muslim Ladies 4-1 in the semi-final and meet defending champions AS FAR of Morocco on Sunday. The Proteas also open their Test series against Bangladesh in Johannesburg on Sunday.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/12/sundowns-ladies-reach-caf-women-s-champions-league-final",
+          "tag": "Football"
         }
       ]
     },
@@ -193,18 +199,16 @@
       "label": "Tech & Science",
       "items": [
         {
-          "title": "OpenAI quarterly revenue reportedly jumps to about $10bn",
-          "summary": "Third-quarter revenue rose almost 50%, driven by enterprise products, though operating losses remained large, according to a report summarised by The Neuron.",
-          "source": "The Neuron (The Information)",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
-          "tag": "AI"
+          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress takes over for now",
+          "summary": "Huang left the chipmaker and its board after 33 years following reports of affairs and alleged links to a suspected Chinese intelligence asset. The board is searching for a permanent successor.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
         },
         {
-          "title": "DeepMind AI tool formally verifies parts of Signal's encryption",
-          "summary": "Google DeepMind's AlphaProof Code checked key security properties of the Signal protocol in four weeks, covering specified properties rather than every possible attack.",
-          "source": "The Neuron (Wired)",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
-          "tag": "AI"
+          "title": "Anthropic reportedly targets Nasdaq debut next week",
+          "summary": "The AI company is reported to be seeking a valuation of about $1.4 trillion, with trading under the ticker ANT expected around 19 or 20 November.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html"
         }
       ]
     }
