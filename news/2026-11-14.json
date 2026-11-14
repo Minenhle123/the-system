@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T05:14:38+02:00",
+  "lead": "KwaZulu-Natal faces severe thunderstorm warnings this afternoon as coalition bargaining for eThekwini and other hung councils intensifies, with the ANC opting for case-by-case deals. Overnight the Springboks lost 21-19 to France in Paris, while Bafana were held 2-2 by Kenya.",
+  "ticker": [
+    {
+      "label": "USD/ZAR (Fri am)",
+      "value": "16.75"
+    },
+    {
+      "label": "JSE All Share (Thu)",
+      "value": "112,895",
+      "change": "-0.49%"
+    },
+    {
+      "label": "Gold",
+      "value": "$3,914",
+      "change": "+0.99%"
+    },
+    {
+      "label": "Brent",
+      "value": "$95.51",
+      "change": "-0.31%"
+    },
+    {
+      "label": "SA repo rate",
+      "value": "7.25%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Level 5 storm warning for western KZN, disruptive rain for Durban side",
+          "summary": "The Weather Service has issued a Level 5 severe thunderstorm warning for western and south-western KZN and a Level 2 rain warning for eastern parts, valid 1pm to 11pm today, with flooding of low-lying areas and bridges possible.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/2026/11/13/kzn-braces-for-severe-thunderstorms-disruptive-rain-as-weather-warnings-are-issued/",
+          "tag": "KZN"
+        },
+        {
+          "title": "eThekwini numbers game: MK on 86 seats, about 112 needed to govern",
+          "summary": "MK leads the 223-seat council but is 26 seats short; the DA has 57, ANC 37 and ActionSA 7. An ANC-DA-IFP bloc would reach 109 and still need small parties. MK holds the biggest share in 19 of KZN's 34 hung councils.",
+          "source": "Mail & Guardian",
+          "url": "https://mg.co.za/politics/2026-11-12-big-votes-but-bigger-hurdles-for-mk-party/",
+          "tag": "KZN"
+        },
+        {
+          "title": "ANC NEC opts for flexible, council-by-council coalition deals",
+          "summary": "Sources say the NEC endorsed tactical flexibility, treating the DA as a last resort and doubting the value of pacts with small parties. No call was made for Ramaphosa to step down; Mbalula is due to brief media today.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-13-anc-opts-for-flexible-coalitions-after-election-losses-sources-say/",
+          "tag": "Elections"
+        },
+        {
+          "title": "IEC fields more than 1,700 objections to local election results",
+          "summary": "Of 1,708 objections, 252 have been decided, with only three upheld. A revote is set for 18 November in a Siyancuma ward in the Northern Cape after ballots were destroyed before counting ended.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news/iec-receives-over-1700-objections-2026-local-government-elections",
+          "tag": "Elections"
+        },
+        {
+          "title": "Court rejects EFF bid over Phala Phala inquiry evidence leader",
+          "summary": "The Western Cape High Court dismissed the EFF and ALPA's challenge to Parliament's impeachment committee dropping Adv Thandazani Madonsela as evidence leader after Ramaphosa raised a conflict-of-interest objection.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news-top-stories/court-deals-eff-alpa-blow-madonsela-evidence-leader-fight",
+          "tag": "Courts"
+        },
+        {
+          "title": "Treasury to keep withholding funds from failing municipalities",
+          "summary": "Finance Minister Enoch Godongwana said holding back equitable-share transfers will continue as a lever to force councils to pay Eskom, water boards, pensions and taxes. Funds were frozen for 69 municipalities in July, with R7.1bn later released to 49.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/2026-11-13-treasury-will-withhold-funds-from-inefficient-councils-godongwana/"
+        },
+        {
+          "title": "Manhunt after KZN station commander killed responding to robbery",
+          "summary": "A station commander died and a sergeant was wounded in a shootout with a large group of suspected robbers on the R33 towards Msinga. Two suspects died, one was arrested and others escaped.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news-top-stories-videos/kzn-police-launch-manhunt-after-station-commander-killed-shootout",
+          "tag": "KZN"
+        },
+        {
+          "title": "eThekwini unemployment drops to 22.2%, but jobseekers are sceptical",
+          "summary": "Stats SA's Q3 survey shows Durban's rate down from 27.8% a year ago, the only metro to improve, while rural KZN sits at 40.6%. Jobseekers on Moore Road say they have not felt the change.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/2026-11-11-durban-jobseekers-question-sharp-fall-in-ethekwini-unemployment/",
+          "tag": "KZN"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran says LNG tanker hit a mine in the Strait of Hormuz",
+          "summary": "Iran's Revolutionary Guards navy said a gas tanker struck a mine on Friday after using what it called an unauthorised route, following reports of four oil tankers hit a day earlier. At least 10 ships were struck in early November.",
+          "source": "gCaptain / Reuters",
+          "url": "https://gcaptain.com/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Turkiye and Qatar sign mutual defence pact",
+          "summary": "Erdogan and Qatar's emir signed the agreement in Istanbul, committing both to a joint stance against any external armed attack, as Gulf states weigh their reliance on US security guarantees.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "tag": "Middle East"
+        },
+        {
+          "title": "US envoys to bring EU into next round of Ukraine-Russia talks",
+          "summary": "Witkoff and Kushner said European delegates will join the next round, while Zelensky said new US limits on SpaceX's Starshield service are hurting drone interception, a claim SpaceX denied.",
+          "source": "Just Security",
+          "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "US halts all flights nationwide after air traffic communications fault",
+          "summary": "A communications problem at air traffic control centres forced the first nationwide US ground stop since 2023, with about 7,000 flights delayed or cancelled before flights resumed.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "tag": "US"
+        },
+        {
+          "title": "Kenya discharges last Ebola patient as DRC outbreak grows",
+          "summary": "Kenya's 42-day countdown to being declared Ebola-free started on 12 November. In eastern DR Congo the Bundibugyo-strain outbreak has passed 10,000 confirmed cases, and journalists covering it have been attacked.",
+          "source": "The Rio Times",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-friday-november-13-2026/",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Mining output down 10.7% year on year in September",
+          "summary": "Stats SA data showed a fifth straight annual decline, led by diamonds, iron ore and coal. Output rose 2.8% from August, but the third quarter ended 6% below the second. The JSE All Share slipped 0.49% on Thursday.",
+          "source": "Business Tech Africa",
+          "url": "https://www.businesstechafrica.co.za/article/breaking-news-today-friday-13-november-2026",
+          "tag": "Economy"
+        },
+        {
+          "title": "Inflation figures and SARB rate call due next week",
+          "summary": "October CPI is due on 18 November (September was 4.5%), and the Reserve Bank announces its rate decision on 19 November with the repo rate at 7.25%.",
+          "source": "The Rio Times",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-friday-november-13-2026/",
+          "tag": "SARB"
+        },
+        {
+          "title": "VW starts building new Tengo SUV in Kariega",
+          "summary": "Volkswagen Group Africa has begun production of the compact Tengo SUV in the Eastern Cape, its first VW SUV made there, with a market launch expected early in 2027.",
+          "source": "Business Tech Africa",
+          "url": "https://www.businesstechafrica.co.za/article/breaking-news-today-friday-13-november-2026",
+          "tag": "Autos"
+        },
+        {
+          "title": "Spar names Lwazi Koyana as permanent chairman",
+          "summary": "Koyana, acting chair since August, has been confirmed in the role, and former Massmart CEO Grant Pattison joins the board as an independent non-executive director.",
+          "source": "Business Tech Africa",
+          "url": "https://www.businesstechafrica.co.za/article/breaking-news-today-friday-13-november-2026"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "France edge Springboks 21-19 in Paris",
+          "summary": "The Boks trailed 21-7 at half-time after a yellow card to Lood de Jager and a red to Jasper Wiese, then scored three second-half tries; a missed late conversion denied a draw. Ireland in Dublin is next.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-14-france-resist-springboks-second-half-rearguard-to-win-paris-thriller/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Bafana held 2-2 by Kenya in Soweto",
+          "summary": "An own goal and a Relebohile Mofokeng strike were cancelled out by Michael Olunga's penalty and a late Kenya equaliser. Bafana still top the AFCON qualifying group on seven points before Tuesday's return leg in Nairobi.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/sport/soccer/2026-11-13-bafanas-afcon-qualification-programme-suffer-blow-with-draw-against-kenya/",
+          "tag": "Football"
+        },
+        {
+          "title": "Proteas open two-Test series against Bangladesh this weekend",
+          "summary": "Temba Bavuma's side start at the Wanderers, their first Tests since beating Australia 2-1, with Tony de Zorzi and Anrich Nortje back from injury and Lungi Ngidi still out.",
+          "source": "Explain",
+          "url": "https://explain.co.za/2026/11/11/proteas-vs-bangladesh-can-sa-continue-their-winning-run/",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Manchester United appoint Mauricio Pochettino",
+          "summary": "The former USA coach replaces the sacked Michael Carrick from 18 November, with United in the relegation zone after one win in ten league games and a trip to Liverpool next.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/sport/man-united-name-pochettino-new-manager",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Jensen Huang out as Nvidia CEO; Colette Kress steps in",
+          "summary": "Huang left as CEO and director after reports about personal relationships. CFO Colette Kress is interim chief while the board searches, and the company has shed hundreds of billions in market value this week.",
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/11/13/jensen-huang-nvidia-elon-musk-hire-honor/",
+          "tag": "AI"
+        },
+        {
+          "title": "Ten-hour Microsoft outage hits Outlook and Teams worldwide",
+          "summary": "Microsoft blamed server problems, not a cyberattack, for Thursday's disruption, which affected businesses and government agencies in several countries.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/sci-tech/2026-11-13-microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-businesses-and-governments/"
+        },
+        {
+          "title": "Climate change worsened Indonesia's wildfire season, study finds",
+          "summary": "World Weather Attribution found warming added about 1.6°C during the fire season, on top of a strong El Niño; about 2.88 million hectares burned between January and October.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/sci-tech/2026-11-13-climate-change-made-indonesian-fires-more-severe-scientists-say/",
+          "tag": "Climate"
+        }
+      ]
+    }
+  ]
+}
