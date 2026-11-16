@@ -1,44 +1,216 @@
 {
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T05:14:32+02:00",
-  "lead": "The ANC is settling on case-by-case coalition deals after its local election slump, with eThekwini still without a majority partner as MK leads on 86 seats. Severe storms are forecast for western KZN today, and the rand heads into CPI and a SARB rate decision near R17/$.",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T05:14:51+02:00",
+  "lead": "The ANC and DA opened formal coalition talks on Sunday amid reports the ANC wants to avoid a GNU-style pact in councils, while Ramaphosa heads to Silicon Valley. Markets brace for CPI on Wednesday and a SARB rate call on Thursday with the rand near R17/$.",
   "ticker": [
-    { "label": "USD/ZAR", "value": "16.98", "change": "+1.2%" },
-    { "label": "JSE Top-40", "value": "Fri", "change": "-0.7%" },
-    { "label": "SA 2035 bond", "value": "8.545%", "change": "+5bp" },
-    { "label": "Petrol 95 (Dec fcst)", "value": "R28.42", "change": "-R1.82" },
-    { "label": "Diesel 500ppm (Dec fcst)", "value": "R32.34", "change": "+R1.49" }
+    {
+      "label": "USD/ZAR",
+      "value": "16.98",
+      "change": "+1.2%"
+    },
+    {
+      "label": "JSE Top 40 (Fri)",
+      "value": "-0.7%"
+    },
+    {
+      "label": "SA 2035 bond",
+      "value": "8.545%",
+      "change": "+5bp"
+    },
+    {
+      "label": "Brent",
+      "value": "$96.42",
+      "change": "+0.6%"
+    },
+    {
+      "label": "Repo rate",
+      "value": "7.25%"
+    }
   ],
   "sections": [
-    { "id": "sa", "label": "South Africa", "items": [
-      { "title": "ANC opts for flexible, council-by-council coalition approach", "summary": "Sources say the ANC's NEC will judge municipal pacts on local conditions, treating the DA as a last-resort partner. The NEC reportedly did not call for Ramaphosa to step down despite the poor result.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-13-anc-opts-for-flexible-coalitions-after-election-losses-sources-say/", "tag": "Elections" },
-      { "title": "eThekwini still hung: MK holds 86 of 223 seats as talks continue", "summary": "No party reached the 112 seats needed. MK leads, followed by the DA on 57, ANC 37 and IFP 15. An ANC-DA-IFP bloc would fall just short and need smaller parties; MK has given mixed signals on talking to the DA.", "source": "Mail & Guardian", "url": "https://mg.co.za/politics/2026-11-12-big-votes-but-bigger-hurdles-for-mk-party", "tag": "KZN" },
-      { "title": "Level 5 storm warning for western KZN and parts of six provinces", "summary": "The Weather Service warned of severe thunderstorms over western KwaZulu-Natal, the far eastern Free State and Mpumalanga Highveld, with possible flooding and power and communication disruptions. Eastern KZN faced a disruptive-rain alert.", "source": "The Citizen", "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-14-november-2026/", "tag": "KZN" },
-      { "title": "Mantashe warns split black vote is eroding the ANC", "summary": "The ANC chair said fragmentation could destroy the party, which slid to about 30% in the local polls from 45% in 2024. The SACP welcomed the ANC's stance of partnering with the DA only as a last resort.", "source": "The Citizen", "url": "https://www.citizen.co.za/news/in-case-you-missed-it-14-november-2026/", "tag": "Politics" },
-      { "title": "Treasury to keep withholding funds from poorly run councils", "summary": "Finance Minister Enoch Godongwana said cutting transfers will remain a tool to force better performance. Treasury froze equitable-share payments to 69 municipalities in July, later releasing R7.1bn to 49 of them.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/politics/2026-11-13-treasury-will-withhold-funds-from-inefficient-councils-godongwana/", "tag": "Government" },
-      { "title": "Pappas sworn in for second term as uMngeni mayor", "summary": "Chris Pappas pledged to prioritise basic services in the Midlands municipality, including refuse collection, potholes and streetlights, and set a target of supporting 2,000 net new jobs.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/politics/2026-11-14-pappas-pledges-basics-first-to-boost-umngeni-services/", "tag": "KZN" },
-      { "title": "Defence witness flags red flags in SANDF contract at Mapisa-Nqakula trial", "summary": "A retired intelligence general told the Pretoria High Court he spotted warning signs in the Umkhombe Marine repatriation deal before it was awarded. The former minister denies all corruption and money laundering charges; the case resumes Monday.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/news/south-africa/2026-11-13-retired-general-details-irregularities-flagged-in-sandf-repatriations-contract/", "tag": "Courts" },
-      { "title": "Presidency rebukes Nigerian envoy over social media conduct", "summary": "The Presidency called High Commissioner Femi Fani-Kayode's online behaviour grossly inappropriate. He arrived in South Africa on 25 October amid strained ties over attacks on foreign nationals.", "source": "The Citizen", "url": "https://www.citizen.co.za/news/in-case-you-missed-it-14-november-2026/", "tag": "Diplomacy" }
-    ] },
-    { "id": "world", "label": "World", "items": [
-      { "title": "Iran says tankers hit in Strait of Hormuz; UN urges halt to ship attacks", "summary": "Iran's navy said a tanker struck a mine and caught fire, which Tehran called the fourth such incident in 24 hours. Separately, Qatar and Turkiye signed a mutual defence pact.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal", "tag": "Middle East" },
-      { "title": "Trump, Xi and Putin to hold first three-way summit in China", "summary": "The White House said the leaders will meet in Shenzhen next week on the sidelines of APEC, with the Iran war and nuclear arsenals on the agenda. US officials played down hopes of a deal.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china" },
-      { "title": "US flights still disrupted after nationwide ground stop", "summary": "A telecoms outage at regional air traffic centres led the FAA to halt departures for over four hours on Friday. Thousands of flights were cancelled and airlines warned recovery could take days.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel", "tag": "US" },
-      { "title": "Sudan's army gains ground in Kordofan against RSF", "summary": "The SAF took the West Kordofan town of al-Khuwai after breaking the RSF siege of al-Obeid. The RSF still controls all five Darfur states in a war that has displaced more than 14 million.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf", "tag": "Africa" },
-      { "title": "South Sudan delays first national elections to February", "summary": "The election commission moved the vote from 22 December to 11 February 2027, at least the third postponement. Voter registration runs until 28 November.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february", "tag": "Africa" }
-    ] },
-    { "id": "markets", "label": "Business & Markets", "items": [
-      { "title": "Rand slips to seven-month low near R17 ahead of CPI and SARB", "summary": "The rand weakened about 1.2% on Friday to roughly 16.98 per dollar after hot US producer inflation fed Fed hike bets; the Top-40 fell about 0.7%. October CPI and the SARB rate decision are due this week.", "source": "CNBC Africa", "url": "https://www.cnbcafrica.com/2026/south-african-rand-slides-to-seven-month-low-ahead-of-inflation-rate-decision", "tag": "Rand" },
-      { "title": "December outlook: petrol cut, diesel hike as levy relief shrinks", "summary": "Mid-month CEF data pointed to inland 95 petrol falling about R1.82 a litre and 500ppm diesel rising about R1.49, as the temporary fuel levy cut is reduced on 1 December. The rand's slide since could trim the petrol relief.", "source": "CAR Magazine", "url": "https://www.carmag.co.za/news/sa-fuel-price-forecast-petrol-to-drop-and-diesel-to-rise-in-december-2026/", "tag": "Fuel" },
-      { "title": "Standard Bank hit with R17m penalty over anti-money-laundering gaps", "summary": "The Prudential Authority sanctioned the bank after an inspection found weak customer checks and missing records. R5m of the penalty is suspended, leaving R12m payable.", "source": "The Citizen", "url": "https://www.citizen.co.za/news/in-case-you-missed-it-14-november-2026/", "tag": "Banking" }
-    ] },
-    { "id": "sport", "label": "Sport", "items": [
-      { "title": "Springboks fall 21-19 to France in Paris despite comeback", "summary": "South Africa trailed 21-7 at half-time and scored three second-half tries, but a missed conversion left them two points short in the Nations Championship clash on Friday.", "source": "RugbyPass", "url": "https://www.rugbypass.com/news/south-africa-springboks-player-ratings-vs-france-nations-championship-2026/", "tag": "Rugby" },
-      { "title": "Bafana held 2-2 by Kenya after late equaliser", "summary": "Relebohile Mofokeng put South Africa ahead in Soweto before Kenya levelled late. Bafana lead their AFCON qualifying group on seven points, with Guinea one behind, and face Kenya in Nairobi on Tuesday.", "source": "TimesLIVE", "url": "https://www.timeslive.co.za/sport/soccer/2026-11-13-bafanas-afcon-qualification-programme-suffer-blow-with-draw-against-kenya/", "tag": "Football" },
-      { "title": "Proteas open two-Test series against Bangladesh at the Wanderers", "summary": "The first Test starts this morning in Johannesburg, with captain Temba Bavuma urging a ruthless approach.", "source": "Sunday Times", "url": "https://www.sundaytimes.timeslive.co.za/sport/2026-11-14-bavuma-demands-ruthlessness-from-the-proteas/", "tag": "Cricket" }
-    ] },
-    { "id": "tech", "label": "Tech & Science", "items": [
-      { "title": "Nvidia's Jensen Huang resigns; CFO Colette Kress named interim CEO", "summary": "Huang left both the CEO role and the board after 33 years amid personal and conflict-of-interest allegations. Shares dropped more than 14% at one point, and the board is searching for a permanent successor.", "source": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress", "tag": "Big Tech" }
-    ] }
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "ANC and DA open coalition talks as ANC weighs life without a council pact",
+          "summary": "The two parties began formal talks on Sunday over hung municipalities, with no deal yet. Sources say the ANC NEC, backed by Ramaphosa, rejected a national GNU-style stability pact with the DA and is also courting MK, ActionSA, BOSA and the IFP.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-15-anc-rules-out-national-stability-pact-with-da/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Ramaphosa leads ministers on AI-focused Silicon Valley trip",
+          "summary": "The president is in California from 15 to 21 November with the finance, trade, foreign affairs and communications ministers. The Presidency says the visit is about AI and is unrelated to the AGOA dispute with Washington.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/13/ramaphosa-s-visit-to-us-strictly-about-ai-says-presidency-amid-diplomatic-fallout",
+          "tag": "Government"
+        },
+        {
+          "title": "Zuma Foundation disputes ConCourt refusal in R29m legal fees case",
+          "summary": "The Constitutional Court declined to hear Jacob Zuma's appeal, leaving him liable to repay about R29 million in state-funded legal costs plus interest. His foundation says it respects the ruling but argues the state made the unlawful funding decision.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-15-zuma-foundation-hits-back-after-concourt-dismisses-r29m-legal-fees-appeal/",
+          "tag": "Courts"
+        },
+        {
+          "title": "Phala Phala impeachment committee set to resume after court win",
+          "summary": "The Western Cape High Court dismissed challenges to the committee's decision to drop its first choice of evidence leader. The committee, idle for over two months, may meet this week to pick a new nominee.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/14/impeachment-committee-set-to-meet-to-reconsider-nominations-for-evidence-leader",
+          "tag": "Parliament"
+        },
+        {
+          "title": "More than 77,000 Gauteng learners still without 2027 school places",
+          "summary": "Of about 346,000 Grade 1 and 8 applications, some 268,000 have been placed and 278 schools are full. Pressure is highest in Ekurhuleni and Tshwane; the late application window opens on 17 December.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/2026-11-15-over-77000-gauteng-pupils-still-await-2027-school-placement/",
+          "tag": "Education"
+        },
+        {
+          "title": "Small parties win a voice in hung eThekwini council",
+          "summary": "The Ratepayers' movement ERPM took two PR seats, alongside one each for the PA, Minority Front and ACDP. No party reached the 112-seat majority, so coalition deals will decide who runs Durban.",
+          "source": "Sunday Tribune",
+          "url": "https://sundaytribune.co.za/news/2026-11-15-ratepayers-movement-secures-two-seats-in-ethekwini-council/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Durban temples hit by string of thefts",
+          "summary": "Temples in Umdloti, Verulam and elsewhere have lost aluminium windows, copper pipes, utensils and old brass statues. A temple chair says police should check scrapyards for stolen goods.",
+          "source": "Sunday Tribune",
+          "url": "https://sundaytribune.co.za/news/2026-11-14-this-is-a-crisis-durban-temples-targeted-in-string-of-thefts/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Tributes for Tongaat-born eNCA journalist Nabeelah Shaikh",
+          "summary": "The award-winning investigative reporter, who began her career at the Sunday Tribune, died on Saturday from childbirth complications. Colleagues across the media paid tribute.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africans-mourn-passing-journalist-nabeelah-shaikh/",
+          "tag": "KZN"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran fires drones at Bahrain, testing Gulf peace efforts",
+          "summary": "Bahrain issued a nationwide alert and said it intercepted the attack; Iran's Guards claimed a hit on a US radar. Gulf states condemned it, and Iran's foreign minister is due in Muscat on Tuesday.",
+          "source": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/15/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Third US aircraft carrier arrives in the Middle East",
+          "summary": "The USS Roosevelt joins two other carriers as the Iran war passes seven months, taking the US presence above 20,000 sailors and Marines.",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-november-16-2026/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "COP31 enters final week with nations still far apart",
+          "summary": "Over 7,000 people marched in Antalya at the talks' midpoint. Countries remain split on adaptation finance and fossil fuels ahead of the 20 November close.",
+          "source": "Dawn",
+          "url": "https://www.dawn.com/news/2044520",
+          "tag": "Climate"
+        },
+        {
+          "title": "Francophonie picks new leader amid Rwanda-DRC rift",
+          "summary": "Leaders meeting in Cambodia choose a secretary-general on Monday. The DRC threatens to quit if Rwanda's Louise Mushikiwabo wins a third term and now backs Romania's Dacian Ciolos.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift",
+          "tag": "Africa"
+        },
+        {
+          "title": "Cape Verde votes for president, with first female candidate",
+          "summary": "Incumbent Jose Maria Neves is favoured against Joana Rosa among six candidates. A run-off follows on 29 November if nobody wins a majority.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate",
+          "tag": "Africa"
+        },
+        {
+          "title": "South Sudan delays first national elections to February",
+          "summary": "The vote moves from 22 December to 11 February 2027, at least the third postponement. Voter registration runs until 28 November.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Rand near R17/$ ahead of big week for rates",
+          "summary": "The rand slid about 1.2% on Friday to around 16.98, its weakest since April, while the Top-40 fell 0.7%. October CPI is due Wednesday and the SARB decision Thursday.",
+          "source": "CNBC Africa / Reuters",
+          "url": "https://www.cnbcafrica.com/2026/south-african-rand-slides-to-seven-month-low-ahead-of-inflation-rate-decision",
+          "tag": "Rand"
+        },
+        {
+          "title": "Economists split on a SARB hike this Thursday",
+          "summary": "The repo rate is 7.25% after September's hike. Nedbank expects another 25bp increase, while Investec and Old Mutual Wealth see rates on hold.",
+          "source": "Business News South Africa",
+          "url": "https://businessnewssouthafrica.co.za/markets-finance/economists-expect-sarb-rate-hike-in-november-despite-fuel-tax-relief/",
+          "tag": "SARB"
+        },
+        {
+          "title": "Early data points to petrol cut, diesel rise in December",
+          "summary": "Preliminary CEF figures suggest 95 petrol could drop about R1.82/l, while diesel may rise over R1/l as temporary levy relief is scaled back on 2 December.",
+          "source": "Explain.co.za",
+          "url": "https://explain.co.za/2026/11/09/december-fuel-price-forecast-petrol-cuts-on-the-way/",
+          "tag": "Fuel"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Boks edged 21-19 by France in Paris",
+          "summary": "South Africa fought back from 21-7 down at half-time after a red card to Jasper Wiese. Rassie Erasmus blamed discipline and missed chances; Ireland are next.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/15/erasmus-blames-discipline-and-missed-chances-for-france-defeat",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Rabada takes 18th Test five-for but Bangladesh fight at Wanderers",
+          "summary": "Hridoy hit 137 and Litton Das is 92 not out as Bangladesh closed day one on 327 for six.",
+          "source": "Bulletin",
+          "url": "https://bulletin.co.za/cricket-rabadas-five-wicket-haul-overshadowed-by-bangladeshs-fightback-in-the-first-test/",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Bafana held 2-2 by Kenya, return leg in Nairobi on Tuesday",
+          "summary": "Benni McCarthy's Kenya equalised late in Johannesburg. Bafana stay top of their AFCON qualifying group ahead of the rematch at Nyayo Stadium.",
+          "source": "SAFA",
+          "url": "https://www.safa.net/general-news/bafana-settle-into-their-base-in-kenya-ahead-of-the-second-afcon-clash-against-the-hosts/",
+          "tag": "Football"
+        },
+        {
+          "title": "Salah becomes Egypt's all-time top scorer",
+          "summary": "Two goals in a 5-0 win over Malawi took him to 70 international goals, passing Hossam Hassan.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/11/14/mohamed-salah-egypt-goals-record-africa-cup-of-nations-afcon-2027-qualifiers",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "SpaceX catches a Starship upper stage with tower arms",
+          "summary": "On flight 15 the ship orbited 14 times, deployed 26 Starlinks and was caught at Starbase, though the booster did not return.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-15-watch-spacex-starship-successfully-caught-in-tower-arms/",
+          "tag": "Space"
+        }
+      ]
+    }
   ]
 }
