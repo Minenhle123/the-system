@@ -1,12 +1,17 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T05:14:40+02:00",
-  "lead": "The Reserve Bank kept the repo rate at 7.25% in a narrow 4-3 vote as inflation climbed to 5.2%, while the health department scrambles to ease medicine shortages worsened by 30 shipments held up at Durban's port.",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T05:14:25+02:00",
+  "lead": "Murders dipped 3.5% in the latest quarter but about 60 people are still killed daily, while the rand hit its weakest level of 2026 as Gauteng and eThekwini coalition talks drag on ahead of next week's council deadlines.",
   "ticker": [
     {
       "label": "USD/ZAR",
-      "value": "17.35",
-      "change": "+0.3%"
+      "value": "17.54",
+      "change": "2026 low"
+    },
+    {
+      "label": "JSE All Share",
+      "value": "106,216",
+      "change": "-0.33%"
     },
     {
       "label": "Repo rate",
@@ -14,25 +19,16 @@
       "change": "unchanged"
     },
     {
-      "label": "CPI (Oct)",
-      "value": "5.2%",
-      "change": "+0.7 pts"
-    },
-    {
-      "label": "JSE All Share",
-      "value": "-3.7%"
+      "label": "SA 10-yr bond",
+      "value": "8.775%"
     },
     {
       "label": "Brent",
-      "value": "$91.70"
+      "value": "$92.70"
     },
     {
       "label": "Gold",
-      "value": "$3,710"
-    },
-    {
-      "label": "Petrol 95 (Dec est.)",
-      "value": "-R2.90/l"
+      "value": "$3,544"
     }
   ],
   "sections": [
@@ -41,46 +37,60 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "Motsoaledi tells doctors to switch to substitute drugs as shortages spread",
-          "summary": "The health minister says circulars will list acceptable alternatives, provinces may buy from other suppliers, and ARV stock for about 6.1 million patients is sufficient, with gaps blamed on logistics and unpaid bills in three provinces.",
+          "title": "Murders down 3.5% in July-September, but 60 people still killed a day",
+          "summary": "Acting police minister Firoz Cachalia reported 5,590 murders for the quarter, 204 fewer than a year earlier. Carjackings fell sharply, but kidnappings, attempted murders and cash-in-transit heists rose. Gauteng recorded the most murders.",
           "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-19-motsoaledi-urges-doctors-to-prescribe-alternative-medicines-amid-widespread-shortages/",
-          "tag": "Health"
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-20-murders-fall-by-35-but-60-people-are-still-killed-every-day/",
+          "tag": "Crime"
         },
         {
-          "title": "30 medicine shipments stuck at Durban container terminal",
-          "summary": "Motsoaledi asked Transport Minister Barbara Creecy to speed their release. Officials told Parliament the list of at-risk medicines has grown to 184, and Transnet says it will prioritise urgent pharmaceutical cargo at Durban.",
-          "source": "Sunday Times / Business Day",
-          "url": "https://www.sundaytimes.timeslive.co.za/news/2026-11-19-port-delays-deepen-south-africas-mounting-medicine-shortages/",
-          "tag": "KZN"
-        },
-        {
-          "title": "eThekwini's new council meets on Tuesday as coalition talks intensify",
-          "summary": "The 223-seat council sits on 24 November at the Durban Exhibition Centre to elect a mayor and speaker. MK holds 86 seats, short of a majority; the ANC in KZN confirms it is talking to MK.",
-          "source": "IOL",
-          "url": "https://iol.co.za/dailynews/news/2026-11-18-ethekwini-coalition-talks-intensify-ahead-of-inaugural-council-sitting-on-november-24/",
-          "tag": "KZN"
-        },
-        {
-          "title": "MK, ANC, ActionSA and EFF set up teams to negotiate metro governments",
-          "summary": "A proposal on the table would hand MK Durban's mayoralty, ActionSA Johannesburg and Tshwane, and the ANC Ekurhuleni, but no deal is final and the DA says it still wants to lead eThekwini.",
-          "source": "Explain",
-          "url": "https://explain.co.za/2026/11/19/durbans-biggest-election-winner-is-getting-closer-to-running-the-city/",
+          "title": "FF Plus bid to unite DA and ActionSA in Gauteng metros fails",
+          "summary": "Talks stalled over mayoral candidates, with ActionSA wanting Helen Zille and Cilliers Brink replaced. An ANC-led framework would give ActionSA Joburg and Tshwane; councils have been urged to sit by 27 November.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/",
           "tag": "Elections"
         },
         {
-          "title": "Severe storm warning for most of KZN today",
-          "summary": "The weather service issued a yellow level 2 warning for severe thunderstorms with localised flooding and small hail over most of KwaZulu-Natal, Gauteng and parts of the Free State, North West and Mpumalanga.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-20-november-2026/",
+          "title": "ANC KZN figure accused of lobbying against an MK deal in eThekwini",
+          "summary": "Unnamed sources say a senior ANC provincial task team member met Durban business people to push an ANC-DA-IFP alternative. ANC KZN says it wants a stable, signed coalition, with an outcome expected within 48 hours. MK holds 86 of 221 seats.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-20-anc-kzn-official-accused-of-lobbying-against-mk-coalition-in-ethekwini/",
           "tag": "KZN"
         },
         {
-          "title": "Soweto storm leaves one dead and a schoolgirl missing",
-          "summary": "Tuesday's rain and hail flooded homes in Dobsonville and Zola. A man's body was recovered and searchers are combing a 4km area for an 11-year-old girl believed swept into a stream.",
+          "title": "KZN launches festive-season crime crackdown across 184 police stations",
+          "summary": "Premier Thamsanqa Ntuli and acting provincial commissioner Phumelele Makoba unveiled a phased plan running to late January, covering matric exams, beaches, roads and school reopening. Ntuli warned crime threatens R124bn in investment pledges.",
           "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-19-soweto-storm-child-missing-man-dead-and-houses-damaged/",
-          "tag": "Gauteng"
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-20-kzn-launches-festive-safety-drive-to-combat-crime/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Share of KZN homes with long water outages has more than doubled",
+          "summary": "Stats SA's household survey found 44.7% of KwaZulu-Natal households had prolonged water interruptions in 2025, up from 21.6% in 2012 and above the 37.6% national figure.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-20-kzn-households-facing-prolonged-water-interruptions-more-than-double-stats-sa-finds/",
+          "tag": "KZN"
+        },
+        {
+          "title": "One dead, about 11 hurt in Phoenix shootout",
+          "summary": "Two groups allegedly exchanged rifle fire on Lenham Drive in Phoenix, north of Durban, on Thursday night after an earlier clash and a road collision. Bystanders were among the injured; no arrests were reported.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-20-one-killed-11-injured-in-phoenix-gun-battle/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Continental weighs closing Gqeberha tyre plant, 950 jobs at risk",
+          "summary": "The company cited spare capacity and cheap imports and has opened formal retrenchment consultations. The motor industry body urged it to exhaust alternatives, pointing to Eastern Cape unemployment of 44.3%.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-20-plea-to-save-950-eastern-cape-jobs-as-tyre-factory-considers-closure/",
+          "tag": "Jobs"
+        },
+        {
+          "title": "Severe thunderstorm warning for KZN and six other provinces today",
+          "summary": "The weather service has a yellow level 2 warning for heavy rain, hail and damaging winds, with possible localised flooding. Eastern KZN faces hot, humid conditions and a very high UV index.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-21-november-2026/",
+          "tag": "Weather"
         }
       ]
     },
@@ -89,46 +99,41 @@
       "label": "World",
       "items": [
         {
-          "title": "World Court rules Myanmar committed genocide against the Rohingya",
-          "summary": "The International Court of Justice found against Myanmar in the case brought by The Gambia, the first time the court has held a state responsible for genocide.",
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
-          "tag": "Justice"
-        },
-        {
-          "title": "Trump, Xi and Putin issue joint 'peace declaration' in China",
-          "summary": "After a 90-minute meeting on the APEC sidelines, the leaders pledged UN reform and more refined fuel supplies, according to Chinese state media and the Kremlin. Washington had not yet commented.",
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
-          "tag": "Diplomacy"
-        },
-        {
-          "title": "Houthi missile attack damages tower in Riyadh as Gulf conflict widens",
-          "summary": "A building in Riyadh's financial district was hit in an apparent Houthi strike, while Iran targeted sites in Kuwait and Bahrain. Trump says he will 'see what happens' after 1 January.",
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
-          "tag": "Middle East"
-        },
-        {
-          "title": "Crimean Bridge hit for the third time this week, Russia says",
-          "summary": "Moscow blamed Ukraine and suspended rail traffic, while the European Commission proposed a $49.5bn loan to Kyiv for 2027, repayable only after Russia pays reparations.",
-          "source": "Everything Briefing",
-          "url": "https://everythingbriefing.substack.com/p/house-elections-summits-and-history",
-          "tag": "Ukraine"
-        },
-        {
-          "title": "DRC-Rwanda peace deal stalls over security commitments",
-          "summary": "A year after the Washington Accords, the two sides still disagree on neutralising the FDLR militia and Rwanda lifting its defensive measures; a new round of talks was reportedly due in Geneva.",
+          "title": "Russian strikes damage Kyiv bridges, killing eight",
+          "summary": "Ballistic missiles hit three Dnipro bridges and cut power in several regions after Putin promised retaliation over damage to the Kerch Bridge. Moscow said the bridges carried military equipment.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/18/rwanda-and-drc-what-is-holding-up-the-washington-peace-process",
-          "tag": "Africa"
+          "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
         },
         {
-          "title": "South Korea's top court overturns ex-PM Han's martial-law conviction",
-          "summary": "The Supreme Court ordered a retrial for former prime minister Han Duck-soo over the December 2024 martial law decree.",
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
-          "tag": "Asia"
+          "title": "Poland says Russian missiles and drone entered its airspace",
+          "summary": "Warsaw called three overnight incursions a deliberate provocation and will seek more NATO support on its eastern flank. NATO chief Mark Rutte is due in Warsaw today.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations"
+        },
+        {
+          "title": "ICJ rules Myanmar committed genocide against the Rohingya",
+          "summary": "The court found against Myanmar by nine votes to six and ordered compensation and safe return of displaced Rohingya. Myanmar and China rejected the ruling as unfair.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling"
+        },
+        {
+          "title": "UK and EU agree trade, carbon and youth mobility deals",
+          "summary": "A Brussels summit produced agreements to ease food checks, link carbon markets and let up to 100,000 young people a year live on each side. Tuition fees and car rules remain unresolved.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/uk-eu-deal-what-we-know-so-far"
+        },
+        {
+          "title": "Trump defends Putin ties and accuses Iran of stalling",
+          "summary": "Back from Asia, Trump said Putin wants a diplomatic end to the Ukraine war and that Tehran is not negotiating honestly. He also said a trade deal with Mexico is close.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/trump-accuses-iran-of-dishonesty-while-defending-putin-ties"
+        },
+        {
+          "title": "Malawi fuel crisis brings rationing and long queues",
+          "summary": "Motorists face daily limits of about 20 litres and violence at filling stations, while black-market fuel has caused deadly explosions. Officials blame forex and logistics problems.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/completely-messed-up-everything-malawis-fuel-crisis-causes-chaos",
+          "tag": "Africa"
         }
       ]
     },
@@ -137,32 +142,25 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "Reserve Bank holds repo rate at 7.25%, warns it may hike again",
-          "summary": "The MPC split 4-3, with three members wanting a 25bp rise. Inflation is now seen returning to the 3% target only in Q3 2028, and 2026 growth stays forecast at 1.2%. Prime remains 10.75%.",
-          "source": "TimesLIVE",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-19-sarb-holds-rate-at-725-despite-seeing-upside-risks-to-inflation/",
-          "tag": "SARB"
-        },
-        {
-          "title": "October inflation jumps to 5.2% on fuel costs",
-          "summary": "Consumer inflation rose from 4.5% in September, with core at 4.2%. The MPC noted petrol is close to R30 a litre, compared with about R21 a year ago.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-19-sa-reserve-bank-holds-rates-steady-at-year-end-but-inflation-spectre-lingers/",
-          "tag": "Inflation"
-        },
-        {
-          "title": "Rand slides to a year low near R17.35 as dollar strengthens",
-          "summary": "The rand weakened past R17.34 against a dollar near a 19-month high, and the JSE All Share fell 3.7% with resources stocks down 6%.",
-          "source": "CNBC Africa / Reuters",
-          "url": "https://www.cnbcafrica.com/2026/south-african-rand-slides-to-year-low-ahead-of-rate-decision",
+          "title": "Rand slides to weakest level of 2026 near R17.54/$",
+          "summary": "The currency fell further on Friday, pressured by a firm dollar and uncertainty over who will govern Gauteng's metros. It is down about 4.4% this month.",
+          "source": "MarketForces Africa",
+          "url": "https://dmarketforces.com/south-african-rand-weakens-to-2026-low-at-r17-54/",
           "tag": "Rand"
         },
         {
-          "title": "Big petrol cut on the cards for December",
-          "summary": "Mid-month Central Energy Fund data point to petrol dropping about R2.65 (93) to R2.90 (95) a litre, with diesel mixed. Official prices are due around 2 December.",
-          "source": "CAR Magazine",
-          "url": "https://www.carmag.co.za/news/industry-news/december-2026-fuel-price-forecast/",
-          "tag": "Fuel"
+          "title": "JSE at lowest close in over a year after two bruising sessions",
+          "summary": "The All Share ended Thursday 0.33% lower at 106,216 after a 3.66% slump on Wednesday. Bond yields jumped and gold fell; Investec says an S&P upgrade could come soon.",
+          "source": "Business Day",
+          "url": "https://www.businessday.co.za/markets/2026-11-20-coalition-jitters-add-to-rand-and-jse-pain-as-global-pressure-mounts/",
+          "tag": "JSE"
+        },
+        {
+          "title": "SARB holds repo at 7.25% in a split 4-3 vote",
+          "summary": "Three MPC members wanted a hike as October inflation reached 5.2%, driven by fuel. Prime stays at 10.75%, and unions called for relief for households.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/2026-11-20-rand-and-jse-pay-the-price-of-not-knowing-who-will-run-joburg/",
+          "tag": "SARB"
         }
       ]
     },
@@ -171,32 +169,25 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Rassie Erasmus banned for six Tests ahead of Boks v Ireland",
-          "summary": "World Rugby suspended the Springbok coach from match-day duties over comments on officiating after the France Test. SA Rugby wants a full hearing; the Boks face Ireland in Dublin on Saturday.",
-          "source": "SuperSport",
-          "url": "https://supersport.com/rugby/news/f558d5e6-05a1-4d70-bbf8-8928d0e4ec81/bok-coach-banned-world-rugby-suspends-rassie-for-six-matches",
+          "title": "Springboks face Ireland in Dublin in must-win Test today",
+          "summary": "Eben Etzebeth returns in one of five changes after last week's 21-19 loss to France. The Boks sit a point behind the All Blacks, and need a win to reach the Nations Championship final in London.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/sport/rugby/2026-11-20-springboks-most-dangerous-with-backs-to-the-wall/",
           "tag": "Rugby"
         },
         {
-          "title": "Bafana top AFCON qualifying group after win in Nairobi",
-          "summary": "Relebohile Mofokeng scored twice as South Africa beat Kenya to move above Guinea in Group D. Qualifying ends in March against Guinea away and Eritrea at home.",
-          "source": "SAFA",
-          "url": "https://safa.net/general-news/bafana-return-to-the-top-of-their-afcon-qualifying-group-after-beating-kenya-in-nairobi",
-          "tag": "Football"
-        },
-        {
-          "title": "Sundowns lead Pirates by a point; AmaZulu third",
-          "summary": "Sundowns have 26 points, Pirates 25 and AmaZulu 22. League action resumes on Tuesday with Durban City hosting Polokwane City; AmaZulu host Milford on 28 November.",
-          "source": "PSL",
-          "url": "https://www.psl.co.za/",
-          "tag": "Football"
-        },
-        {
-          "title": "Proteas head to Centurion for second Bangladesh Test",
-          "summary": "The second Test of the two-match home series runs from 23 to 27 November at SuperSport Park.",
-          "source": "Diamond Fields Advertiser",
-          "url": "https://dfa.co.za/sport/2026-11-12-springboks-bafana-and-proteas-lead-a-weekend-packed-with-global-action/",
+          "title": "Proteas crush Bangladesh by nine wickets; Bavuma out of 2nd Test",
+          "summary": "Simon Harmer took six wickets and Kagiso Rabada was player of the match at the Wanderers, putting SA 1-0 up and top of the WTC table. Markram will captain at SuperSport Park from Monday.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/sport/cricket/2026-11-19-harmer-takes-six-as-sa-claim-nine-wicket-victory-against-bangladesh/",
           "tag": "Cricket"
+        },
+        {
+          "title": "Pirates meet Stellenbosch in Carling Knockout semi in Durban",
+          "summary": "The semi-final has been moved to Moses Mabhida Stadium for a 3.30pm kick-off today, and Stellenbosch's Hunt says his side can pull off an upset.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/sport/2026-11-20-hunt-positive-stellies-can-upset-bucs-in-durban/",
+          "tag": "Football"
         }
       ]
     },
@@ -205,25 +196,18 @@
       "label": "Tech & Science",
       "items": [
         {
-          "title": "Anthropic prices record IPO at $83 a share",
-          "summary": "The AI company priced its listing above the expected range and began trading on Nasdaq under the ticker ANT, in what is reported as the largest US IPO on record.",
+          "title": "Anthropic mathematician claims AI-assisted proof of the Riemann Hypothesis",
+          "summary": "Levent Alpöge says he and Claude produced a formal proof of the famous conjecture, posted in the Lean proof language. Mathematicians are still checking it, and a separate human proof claim emerged the same day.",
+          "source": "Techmeme",
+          "url": "https://www.techmeme.com/index.php",
+          "tag": "Science"
+        },
+        {
+          "title": "OpenAI releases GPT-6.2 Astra and Sol models",
+          "summary": "Astra targets demanding work such as coding and research, while Sol is for everyday tasks and agents. According to the system card, both reached OpenAI's critical threshold for cybersecurity risk.",
           "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/",
           "tag": "AI"
-        },
-        {
-          "title": "Google launches Gemini 4 Neon model",
-          "summary": "The new mid-tier model offers a one-million-token context window at $3 per million input tokens and $15 per million output tokens, via the API and Gemini subscriptions.",
-          "source": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-19",
-          "tag": "AI"
-        },
-        {
-          "title": "Data centres to add 70% more carbon emissions by 2030, IEA warns",
-          "summary": "The energy agency says the US and China are leaning on fossil fuels to power AI growth.",
-          "source": "AI News Hub / The Guardian",
-          "url": "https://aienews.org/digest/2026-11-19/",
-          "tag": "Climate"
         }
       ]
     }
