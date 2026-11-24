@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T05:14:27+02:00",
+  "lead": "Coalition deadlines loom: Joburg's mayoral vote slips to Friday and KZN councils including eThekwini are told to delay their first sittings, while the rand claws back some ground and the Proteas dominate at Centurion.",
+  "ticker": [
+    {
+      "label": "USD/ZAR (Mon a.m.)",
+      "value": "17.43",
+      "change": "+0.9% rand"
+    },
+    {
+      "label": "SA 2035 bond yield",
+      "value": "8.63%",
+      "change": "-7.5bp"
+    },
+    {
+      "label": "Repo rate",
+      "value": "7.25%",
+      "change": "unchanged"
+    },
+    {
+      "label": "CPI (Oct)",
+      "value": "5.2%"
+    },
+    {
+      "label": "Kospi (Mon)",
+      "value": "-3.3%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Joburg mayoral vote pushed to Friday as four-party deal remains unsigned",
+          "summary": "Johannesburg's first council sitting was adjourned to 27 November. An ANC, ActionSA, EFF and MK arrangement that could make Herman Mashaba mayor still had outstanding issues, with signing expected on Tuesday.",
+          "source": "Sunday Times / Business Day",
+          "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-24-coalition-talks-delay-sa-council-meetings-amid-legal-challenges/",
+          "tag": "Elections"
+        },
+        {
+          "title": "KZN tells 14 councils, including eThekwini, to postpone first meetings",
+          "summary": "The provincial cooperative governance department asked municipalities to move inaugural sittings planned for today to 26 or 27 November, the IEC deadline for completing the process.",
+          "source": "Sunday Times / Business Day",
+          "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-24-coalition-talks-delay-sa-council-meetings-amid-legal-challenges/",
+          "tag": "KZN"
+        },
+        {
+          "title": "MK tipped to take eThekwini mayoralty in deal with the ANC",
+          "summary": "Reports say MK and the ANC have reached terms for Durban, with MK taking the mayor's chair, though accounts differ on the deputy post. ActionSA says nothing is final and the DA has not given up.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/city-watch/2026-11-23-mk-party-tipped-for-ethekwini-mayor-as-coalition-talks-near-conclusion/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Ramaphosa faces split ANC NEC over coalition partners",
+          "summary": "The NEC met in Boksburg to weigh deals with ActionSA, the EFF and MK against a DA 'stability framework' offering the ANC 93 councils. Business groups have called the Joburg stalemate an economic emergency.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/2026-11-23-ramaphosa-faces-tough-anc-unity-test-in-coalition-talks/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Four killed in head-on crash on N2 near Kokstad",
+          "summary": "A car overtaking on the N2 hit a truck on Monday evening, leaving four dead and one injured. MEC Siboniso Duma urged drivers to take care in mist and heavy rain.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-23-four-killed-in-head-on-collision-between-car-and-truck-in-kzn/",
+          "tag": "KZN"
+        },
+        {
+          "title": "SIU chases eight more supercars linked to Tembisa Hospital case",
+          "summary": "Investigators are hunting four Ferraris, three Porsches and a Bentley tied to Hangwani Maumela, on top of more than a dozen vehicles already preserved in assets worth about R300m.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-23-siu-hunts-for-eight-more-luxury-vehicles-including-porches-and-ferraris-from-maumela/",
+          "tag": "Corruption"
+        },
+        {
+          "title": "Over 1,300 blasting cartridges seized near Beitbridge border",
+          "summary": "Limpopo police patrolling near the border post found bags of explosives dropped by people who fled into the bush. No arrests have been made and a case is under investigation.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-23-explosives-intercepted-at-zim-border-suspects-escape/"
+        },
+        {
+          "title": "Former ActionSA councillors sue party for R3.1m in lost income",
+          "summary": "Six ex-councillors in Johannesburg say they were unfairly removed for missing recruitment targets and have filed a claim in the Johannesburg High Court.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-23-six-former-councillors-in-r31m-court-claim-against-actionsa/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran vows 'all available means' against US naval blockade",
+          "summary": "Tehran called the blockade and sanctions an act of aggression and said Hormuz could reopen within two days if Washington lifts them. Diplomacy remains stalled and visible Iranian oil exports are near zero.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/iran-says-it-will-use-all-available-means-to-counter-us-blockade",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Kremlin warns Kyiv after Ukraine says it sank ships in Libya",
+          "summary": "Zelenskyy said Ukrainian forces sank a Russian corvette and struck a cargo ship at Benghazi, after a Baltic drone attack on another Russian vessel. Libya's eastern government complained to the UN.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "Russian strikes kill 15 as Zelenskyy presses US on Patriots",
+          "summary": "Overnight attacks killed at least 14 people in the Kyiv region and one in Zaporizhzhia. Zelenskyy asked Washington to approve interceptor deliveries already paid for by partners.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "Fighting disrupts Ebola response in eastern DR Congo",
+          "summary": "WHO chief Tedros called for peace after clashes near a hospital in Ituri, the outbreak's epicentre. WHO counts 11,613 cases and 5,678 deaths in the country.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region",
+          "tag": "Africa"
+        },
+        {
+          "title": "Poland says Russia twice plotted to kill Ukrainian rapper",
+          "summary": "Warsaw says it foiled an August plot against Kyivstoner, after Denmark expelled a Russian diplomat over a separate alleged attempt. Moscow rejects the claims.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice",
+          "tag": "Europe"
+        },
+        {
+          "title": "Belgian strike grounds flights in anti-austerity protest",
+          "summary": "Air traffic control halted regular services for most of Monday as unions staged a national day of action against a planned €10bn in government savings.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+          "tag": "Europe"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Rand firms to about R17.43 as the dollar softens",
+          "summary": "The rand gained roughly 0.9% early on Monday after a Fed governor's comments weighed on the dollar, while platinum rose and bond yields eased. US PCE inflation data on Wednesday is the next test.",
+          "source": "Channel Africa (Reuters)",
+          "url": "https://www.channelafrica.co.za/channelafrica/news/rand-gains-as-commodity-prices-rise-dollar-weakens/",
+          "tag": "Rand"
+        },
+        {
+          "title": "Asian shares slide on AI bubble fears; Wall Street futures rebound",
+          "summary": "South Korea's Kospi closed 3.3% lower after Friday's 3.7% S&P 500 drop, but US futures pointed more than 2% higher for Monday's open.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+          "tag": "Global"
+        },
+        {
+          "title": "US lawmakers criticise Nvidia for reinstating Huang as CEO",
+          "summary": "Senators called for tighter chip security rules after the board reversed course, and Huang is due before the Senate Banking Committee on 3 December. Trump said he had urged the move.",
+          "source": "Daily Maverick (Reuters)",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-update-6-us-lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo/",
+          "tag": "Tech"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Proteas bowl Bangladesh out for 91, reach 88/1 at Centurion",
+          "summary": "Rabada, Jansen and a returning Nortje shared the wickets on day one of the second Test. Marques Ackerman is 46 not out as South Africa chase a 2-0 series win.",
+          "source": "ICC",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/bowled-out-for-91-nortje-reveals-key-to-proteas-success",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Feinberg-Mngomezulu moves to fullback for Nations final against France",
+          "summary": "The Springboks make seven changes for Sunday's final at Twickenham, with Manie Libbok at flyhalf and Emmanuel Tshituka in line for a debut off the bench.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-23-sacha-moved-to-fullback-for-rejigged-springboks-in-nations-championship-final/",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Durban City host Polokwane, Pirates face Arrows tonight",
+          "summary": "Both Betway Premiership games kick off at 19:30. Durban City play at Chatsworth Stadium, while second-placed Pirates, on five straight wins, chase leaders Sundowns.",
+          "source": "Sport News Africa",
+          "url": "https://sportnewsafrica.com/en/news/south-africa-psl-fixtures-midweek-schedule-and-kick-off-times-24-november-2026/",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Experts still checking Lean proof of the Riemann hypothesis",
+          "summary": "Mathematicians have compiled the machine-checkable proof an Anthropic researcher says Claude helped with, but are still verifying that it proves the intended claim.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "Meta reconsiders 2030 net-zero goal as AI emissions climb",
+          "summary": "Reported emissions rose by about 40% in 2025, driven by AI data centres, prompting the company to review its climate target.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+          "tag": "AI"
+        }
+      ]
+    }
+  ]
+}
