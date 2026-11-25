@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T05:15:12+02:00",
+  "lead": "Coalition bargaining is holding up new mayors across the country, with eThekwini's first council sitting postponed and Joburg and Nelson Mandela Bay deals still being finalised. Abroad, tensions around Yemen's Hodeidah port are rising as the Iran war widens.",
+  "ticker": [
+    {
+      "label": "Petrol 95 Dec (forecast)",
+      "value": "-R1.82/l"
+    },
+    {
+      "label": "Diesel 50ppm Dec (forecast)",
+      "value": "+R1.49/l"
+    },
+    {
+      "label": "SARB repo",
+      "value": "7.25%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "eThekwini mayoral vote delayed as parties bargain for power in KZN",
+          "summary": "The new eThekwini council's first sitting was postponed on Tuesday while coalition negotiations continue, with the outcome set to decide who runs dozens of KwaZulu-Natal municipalities.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-mayoral-vote-in-ethekwini-delayed-as-parties-horse-trade-for-kzn-power/",
+          "tag": "KZN"
+        },
+        {
+          "title": "ANC and ActionSA divide top Johannesburg posts in a possible 18-party coalition",
+          "summary": "The two parties are finalising a power-sharing deal that would also bring in smaller parties, ahead of the council electing Joburg's mayor, deputy mayor and speaker on Friday.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-anc-and-actionsa-carve-up-key-joburg-positions-in-potential-18-party-coalition/",
+          "tag": "Coalitions"
+        },
+        {
+          "title": "Nelson Mandela Bay council adjourned as DA's coalition deal is challenged",
+          "summary": "The DA announced a 64-seat coalition for the metro, but the first council meeting was pushed to Friday after a row over late agendas while the ANC sought a last-minute alternative.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-das-done-deal-derailed-as-anc-scrambles-for-last-minute-coalition-in-nmb/",
+          "tag": "Coalitions"
+        },
+        {
+          "title": "Madlanga Commission: affidavit alleges police used by heroin syndicate",
+          "summary": "A witness was meant to testify anonymously about narcotics but security concerns intervened; his affidavit describes an alleged drug network that uses police officers to remove rivals.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-killer-cops-and-the-hidden-drug-empire-the-secrets-witness-t-planned-to-expose/",
+          "tag": "Courts"
+        },
+        {
+          "title": "Mapisa-Nqakula bribery judgment set for 3 December",
+          "summary": "The State says the former defence minister solicited R4.5 million in bribes, while her defence argues the case rests on suspicion alone. The court will deliver judgment on 3 December.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-23-bribes-or-suspicion-mapisa-nqakula-awaits-judgment-in-r45m-bribery-case/",
+          "tag": "Courts"
+        },
+        {
+          "title": "Hawks shut down Mandrax lab near Richards Bay, one arrested",
+          "summary": "Hawks investigators uncovered a drug laboratory worth millions of rands near Richards Bay on the KZN north coast, and one suspect has been taken into custody.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/24/hawks-bust-multimillion-rand-mandrax-lab-near-richards-bay-one-arrested",
+          "tag": "KZN"
+        },
+        {
+          "title": "CPUT summoned to Parliament over costly, rundown student residences",
+          "summary": "Students say residence fees exceed what NSFAS covers, leaving them in debt for poorly maintained rooms; the SRC president is taking the university to court over governance failures.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-debt-trap-cput-students-pay-r76000-for-roaches-broken-stoves-crowded-rooms/",
+          "tag": "Education"
+        },
+        {
+          "title": "SAHRC flags overcrowding and collapsing infrastructure in schools",
+          "summary": "The Human Rights Commission has highlighted a crisis in school conditions, including a classroom with 101 learners and broken toilets.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-23-101-learners-in-one-classroom-broken-toilets-infrastructure-collapse-sahrc-highlights-schools-crisis/",
+          "tag": "Education"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Houthis threaten Saudi ports after coalition orders Hodeidah evacuation",
+          "summary": "The Saudi-led coalition told civilians to leave Yemen's Hodeidah port; the Houthis said they would hit Jeddah and other Saudi Red Sea ports if it is attacked. Iran earlier said three tankers struck mines in the Strait of Hormuz.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order",
+          "tag": "Middle East"
+        },
+        {
+          "title": "UN: about 47,000 women and girls killed by partners or relatives in 2025",
+          "summary": "A UNODC and UN Women report released ahead of today's day against gender violence says this equals roughly five women an hour, with Africa recording the highest rate.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un"
+        },
+        {
+          "title": "China sends envoys to ease Ethiopia–Eritrea tensions",
+          "summary": "Beijing dispatched diplomats to Ethiopia, Djibouti, Egypt and Eritrea this month as both neighbours mass troops near their border; no formal talks have been announced.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/china-walks-thin-line-in-push-to-prevent-another-horn-of-africa-war",
+          "tag": "Africa"
+        },
+        {
+          "title": "Cameroon separatist leader denies war crimes charges in Norway trial",
+          "summary": "Lucas Cho Ayaba pleaded not guilty in Oslo to accessory to war crimes and terrorism charges over attacks in Cameroon. The trial is expected to run until 12 March.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial",
+          "tag": "Africa"
+        },
+        {
+          "title": "School enrolment in Nigeria's Borno nearly doubles since 2017",
+          "summary": "State figures show about 1.42 million pupils enrolled in 2025, up from roughly 767,000, though officials estimate close to 800,000 children remain out of school.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/borno-school-enrolment-nearly-doubles-after-years-of-conflict",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Petrol expected to fall and diesel to rise in December",
+          "summary": "Mid-month Central Energy Fund data pointed to petrol cuts of about R1.52-R1.82 a litre and diesel increases of R1.15-R1.49, partly as fuel levy relief is scaled back from 1 December. Official prices are due around 2 December.",
+          "source": "CAR Magazine",
+          "url": "https://www.carmag.co.za/news/sa-fuel-price-forecast-petrol-to-drop-and-diesel-to-rise-in-december-2026/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Rand slides to a 12-month low after split SARB decision",
+          "summary": "The rand touched about R17.48 to the dollar on Monday, its weakest in a year, after the Reserve Bank held the repo rate at 7.25% last week on a 4-3 vote, with three members favouring a hike.",
+          "source": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-africa/currency/news/599596",
+          "tag": "Rand"
+        },
+        {
+          "title": "Eskom's 6GW green energy tender criticised for sidelining local developers",
+          "summary": "An analysis argues the qualification rules in Eskom's Green RFQ favour large global players over South African renewable energy developers.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-23-eskom-green-rfq-local-renewable-energy-developers-locked-out-by-eskom-rules/",
+          "tag": "Energy"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "CAS restores Senegal as 2025 Afcon champions",
+          "summary": "The Court of Arbitration for Sport upheld Senegal's appeal against CAF, which had handed the title to Morocco after ruling Senegal forfeited the January final they won 1-0.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco",
+          "tag": "Football"
+        },
+        {
+          "title": "Proteas in second Test against Bangladesh this week",
+          "summary": "South Africa's home series against Bangladesh, captained by Temba Bavuma, has its second Test scheduled for 23-27 November, ahead of three ODIs and three T20Is running to 13 December.",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshi_cricket_team_in_South_Africa_in_2026%E2%80%9327",
+          "tag": "Cricket"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "Google says it has seen the first fully autonomous AI cyberattack",
+          "summary": "Google Threat Intelligence reports an attack carried out entirely by AI without human direction, following its earlier finding of a tool automating hacking.",
+          "source": "Techloy (via Mashable)",
+          "url": "https://www.techloy.com/brief/google-reveals-first-fully-autonomous-ai-cyberattack-785h1h/",
+          "tag": "AI"
+        },
+        {
+          "title": "US blacklists AI firm Megaspeed over alleged Nvidia chip diversion",
+          "summary": "Washington is sanctioning Asian company Megaspeed over claims it routed Nvidia chips to China in breach of export controls.",
+          "source": "Techloy (via BBC)",
+          "url": "https://www.techloy.com/brief/us-blacklists-asian-ai-firm-megaspeed-over-nvidia-chips-xf69qr/",
+          "tag": "AI"
+        }
+      ]
+    }
+  ]
+}
