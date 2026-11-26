@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T05:14:42+02:00",
+  "lead": "The Western Cape High Court has set aside the Phala Phala panel report, halting Ramaphosa's impeachment process, while eThekwini and Johannesburg still await coalition deals to elect mayors.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "17.63",
+      "change": "+0.5%"
+    },
+    {
+      "label": "JSE All Share",
+      "value": "106,216.57",
+      "change": "-0.20%"
+    },
+    {
+      "label": "JSE Top 40",
+      "value": "98,372.69",
+      "change": "-0.30%"
+    },
+    {
+      "label": "Brent (US$/bbl)",
+      "value": "90.87",
+      "change": "+1.68%"
+    },
+    {
+      "label": "Gold (US$/oz)",
+      "value": "3,556.69",
+      "change": "-2.06%"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "Court sets aside Phala Phala panel report, stalling Ramaphosa impeachment",
+          "summary": "A unanimous Western Cape High Court bench declared the 2022 Section 89 panel report unlawful and set it aside entirely, meaning Parliament's impeachment committee cannot proceed for now. Each side pays its own costs.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/25/western-cape-high-court-sets-aside-section-89-phala-phala-report",
+          "tag": "Courts"
+        },
+        {
+          "title": "eThekwini council adjourns without a mayor as ANC and MK talks continue",
+          "summary": "Durban's first council sitting postponed electing a mayor, Speaker and other office bearers because coalition talks between the ANC, MK Party and DA are unfinished. MK says it has set itself a Friday deadline.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/2026/11/24/ethekwini-council-adjourns-without-electing-mayor-as-anc-mk-party-talks-continue/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Mashaba lined up for Joburg mayor in ANC-ActionSA-led coalition",
+          "summary": "About 18 parties, excluding the DA, FF Plus and ACDP, are lining up behind ActionSA's Herman Mashaba, with the ANC expected to keep Speaker and finance. The council vote is due on Friday; the DA holds 91 of 270 seats.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-24-anc-and-actionsa-carve-up-key-joburg-positions-in-potential-18-party-coalition/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Two Mandrax factories uncovered in KZN within a week",
+          "summary": "Police found a lab near Kranskop on 18 November holding tablets valued at over R100m, and the Hawks raided another in eSikhawini on 24 November, arresting one person. A Gauteng drug lab was also shut the same night.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-25-mandrax-busts-and-panado-killings-evoke-ghosts-of-sas-politicised-narco-past/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Durban-born former deputy president Phumzile Mlambo-Ngcuka dies at 71",
+          "summary": "South Africa's first woman deputy president, who later led UN Women and steered government's Aids response from 2006, died on 20 November after complications from a medical procedure. A state memorial was held in Rivonia.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-25-phumzile-mlambo-ngcuka-deputy-president-who-sat-through-aids-denial-then-helped-end-it/",
+          "tag": "KZN"
+        },
+        {
+          "title": "N3 ramp to M13 at Paradise Valley to close for 11 nights",
+          "summary": "Sanral will close the Exit 17 off-ramp nightly from 20:00 to 04:30 between 30 November and 11 December while a bridge is moved into place. Westbound traffic will be diverted via the M1 Richmond Road interchange.",
+          "source": "Daily News",
+          "url": "https://dailynews.co.za/news/2026-11-25-durbanpietermaritzburg-motorists-face-11-nights-of-n3-ramp-closures/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Study warns Richards Bay harbour is exposed to storm-surge flooding",
+          "summary": "UNISA researchers found an extreme 10m surge could flood around four-fifths of the harbour study area, while nearby Alkantstrand beaches have retreated by up to 167m over 45 years.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-25-richards-bay-harbour-faces-increased-risk-of-ocean-flooding/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Heat and fire danger in the west, thundershowers inland today",
+          "summary": "The weather service warns of extremely high fire danger in parts of the Northern and Western Cape. KZN can expect partly cloudy, cool to warm conditions with isolated showers, except along the south coast.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-26-november-2026/",
+          "tag": "Weather"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Iran says two tankers hit mines in the Strait of Hormuz",
+          "summary": "Iran's Revolutionary Guards said the ships struck mines and caught fire while using an unauthorised route, and warned vessels to coordinate with Iranian forces. Tehran links reopening normal shipping to the US lifting its naval blockade.",
+          "source": "BOE Report (Reuters)",
+          "url": "https://boereport.com/2026/11/25/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage/",
+          "tag": "Middle East"
+        },
+        {
+          "title": "Riyadh's tallest tower hit for second time in days, 11 injured",
+          "summary": "Saudi civil defence blamed the Houthis for a strike on the 80-storey PIF Tower in the King Abdullah Financial District, the second attack on the building within a week.",
+          "source": "Malay Mail (AFP)",
+          "url": "https://malaymail.com/news/world/2026/11/25/riyadhs-tallest-skyscraper-struck-for-second-time-in-days-injuring-11/244654",
+          "tag": "Middle East"
+        },
+        {
+          "title": "RSF drone attacks kill at least 19 in Sudan's Blue Nile state",
+          "summary": "Strikes on Damazin and nearby Roseires also hit power facilities and a large dam, according to a military source and a rights group. Drones account for most civilian deaths in the war this year.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan",
+          "tag": "Africa"
+        },
+        {
+          "title": "US proposes new tariffs on 14 economies including China and the EU",
+          "summary": "After an eight-month probe into excess factory capacity, the US trade office proposed duties on partners including China, the EU, Japan, India and Vietnam. They are unlikely to take effect before January.",
+          "source": "RTÉ",
+          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
+          "tag": "Trade"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Rand eases near one-year lows as US inflation data looms",
+          "summary": "The rand traded around R17.63 to the dollar early on Wednesday, about 0.5% weaker, with traders focused on US PCE inflation and GDP figures. The 2035 government bond yield stood at 8.66%.",
+          "source": "CNBC Africa (Reuters)",
+          "url": "https://cnbcafrica.com/2026/south-african-rand-eases-with-us-inflation-data-in-focus",
+          "tag": "Rand"
+        },
+        {
+          "title": "JSE slips as gold drops more than 2%",
+          "summary": "The All Share closed Tuesday 0.2% lower at 106,216.57 and the Top 40 fell 0.3%. Gold lost 2.06% to about $3,557 an ounce while Brent rose to roughly $91 a barrel.",
+          "source": "PSG",
+          "url": "https://www.psg.co.za/research-and-insights/articles/25-november-2026",
+          "tag": "JSE"
+        },
+        {
+          "title": "Markets price in a December US rate hike",
+          "summary": "Ahead of the October PCE release, traders had fully priced a quarter-point Fed increase in December and put roughly 60% odds on another in January, adding pressure on emerging-market currencies.",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+          "tag": "Global"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Proteas crush Bangladesh by an innings and 219 runs for 2-0 sweep",
+          "summary": "Wiaan Mulder took 7-31 as Bangladesh folded for 184 on day three at Centurion. South Africa stay top of the World Test Championship and host England from 17 December.",
+          "source": "Jacaranda FM (AFP)",
+          "url": "https://www.jacarandafm.com/news/sport/proteas-thump-bangladesh-to-seal-test-series-sweep/",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Pieter-Steph du Toit ruled out of Sunday's final against France",
+          "summary": "The flank has a suspected concussion from the Ireland Test, and Marco van Staden's yellow card was upgraded to red. The Springboks meet France in the Nations Championship final at Twickenham on Sunday.",
+          "source": "OFM",
+          "url": "https://www.ofm.co.za/article/rugby/344139/du-toit-ruled-out-of-nations-championship-final",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Sundowns edge AmaZulu to go top; Chiefs stunned by Stellenbosch",
+          "summary": "A late Marcelo Allende goal gave Sundowns a 1-0 win and top spot on goals scored over Pirates, both on 38 points. Chiefs lost 2-1 at home ahead of Saturday's Soweto Derby against Pirates.",
+          "source": "Flashscore",
+          "url": "https://www.flashscore.com/news/soccer-betway-premiership-betway-premiership-wrap-mamelodi-sundowns-back-on-top-kaizer-chiefs-stunned-at-home/OIFkHDWo",
+          "tag": "Football"
+        },
+        {
+          "title": "Champions League: Liverpool and Barcelona cruise, Bayern beaten",
+          "summary": "Liverpool won 3-0 at Club Brugge and Barcelona 4-1 at Sabah, while Lille beat Bayern 2-1 and Roma drew 2-2 in Paris. On Tuesday Real Madrid thrashed PSV 5-1 to keep a perfect record.",
+          "source": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-round-up-liverpool-and-barca-win-well-rom/",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "US jury convicts Huawei of trade-secret conspiracy and bank fraud",
+          "summary": "A New York jury found the Chinese firm guilty on those counts but acquitted it of racketeering conspiracy. Huawei says it will appeal.",
+          "source": "PBS NewsHour (AP)",
+          "url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud",
+          "tag": "Tech"
+        }
+      ]
+    }
+  ]
+}
