@@ -1,32 +1,29 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T05:14:42+02:00",
-  "lead": "The Western Cape High Court has set aside the Phala Phala panel report, halting Ramaphosa's impeachment process, while eThekwini and Johannesburg still await coalition deals to elect mayors.",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T05:15:15+02:00",
+  "lead": "eThekwini's council meets today to try again to elect a mayor, a day after ActionSA's Nasiphi Moya was returned as Tshwane mayor; producer inflation jumped to 8.1% in October.",
   "ticker": [
     {
       "label": "USD/ZAR",
-      "value": "17.63",
-      "change": "+0.5%"
-    },
-    {
-      "label": "JSE All Share",
-      "value": "106,216.57",
-      "change": "-0.20%"
-    },
-    {
-      "label": "JSE Top 40",
-      "value": "98,372.69",
-      "change": "-0.30%"
+      "value": "17.54"
     },
     {
       "label": "Brent (US$/bbl)",
-      "value": "90.87",
-      "change": "+1.68%"
+      "value": "95.47",
+      "change": "+0.91%"
     },
     {
       "label": "Gold (US$/oz)",
-      "value": "3,556.69",
-      "change": "-2.06%"
+      "value": "3,569.52",
+      "change": "-0.34%"
+    },
+    {
+      "label": "SA PPI (Oct, y/y)",
+      "value": "8.1%"
+    },
+    {
+      "label": "95 petrol, Dec forecast",
+      "value": "-R3.43/l"
     }
   ],
   "sections": [
@@ -35,60 +32,51 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "Court sets aside Phala Phala panel report, stalling Ramaphosa impeachment",
-          "summary": "A unanimous Western Cape High Court bench declared the 2022 Section 89 panel report unlawful and set it aside entirely, meaning Parliament's impeachment committee cannot proceed for now. Each side pays its own costs.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/11/25/western-cape-high-court-sets-aside-section-89-phala-phala-report",
-          "tag": "Courts"
-        },
-        {
-          "title": "eThekwini council adjourns without a mayor as ANC and MK talks continue",
-          "summary": "Durban's first council sitting postponed electing a mayor, Speaker and other office bearers because coalition talks between the ANC, MK Party and DA are unfinished. MK says it has set itself a Friday deadline.",
-          "source": "The Witness",
-          "url": "https://witness.co.za/news/2026/11/24/ethekwini-council-adjourns-without-electing-mayor-as-anc-mk-party-talks-continue/",
+          "title": "eThekwini council reconvenes today to elect a mayor",
+          "summary": "No party holds a majority in the 223-seat council, where the MK Party has 86 seats. The ANC is expected to back Thabani Nyawose, MK has nominated Mxolisi Phakathi and the DA Haniff Hoosen, amid five councillor resignations and claims of backroom deals.",
+          "source": "Mail & Guardian",
+          "url": "https://mg.co.za/politics/2026-11-26-dirty-deals-cloud-mayoral-race/",
           "tag": "KZN"
         },
         {
-          "title": "Mashaba lined up for Joburg mayor in ANC-ActionSA-led coalition",
-          "summary": "About 18 parties, excluding the DA, FF Plus and ACDP, are lining up behind ActionSA's Herman Mashaba, with the ANC expected to keep Speaker and finance. The council vote is due on Friday; the DA holds 91 of 270 seats.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-24-anc-and-actionsa-carve-up-key-joburg-positions-in-potential-18-party-coalition/",
+          "title": "Nasiphi Moya re-elected Tshwane mayor in ANC-ActionSA-EFF-MK deal",
+          "summary": "ActionSA's Moya beat the DA's Cilliers Brink 115 votes to 87 at the first council sitting since the polls. The EFF took the deputy mayor post, and the ANC's Naeem Patel was elected speaker with 119 votes.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
           "tag": "Elections"
         },
         {
-          "title": "Two Mandrax factories uncovered in KZN within a week",
-          "summary": "Police found a lab near Kranskop on 18 November holding tablets valued at over R100m, and the Hawks raided another in eSikhawini on 24 November, arresting one person. A Gauteng drug lab was also shut the same night.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-25-mandrax-busts-and-panado-killings-evoke-ghosts-of-sas-politicised-narco-past/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Durban-born former deputy president Phumzile Mlambo-Ngcuka dies at 71",
-          "summary": "South Africa's first woman deputy president, who later led UN Women and steered government's Aids response from 2006, died on 20 November after complications from a medical procedure. A state memorial was held in Rivonia.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-25-phumzile-mlambo-ngcuka-deputy-president-who-sat-through-aids-denial-then-helped-end-it/",
-          "tag": "KZN"
-        },
-        {
-          "title": "N3 ramp to M13 at Paradise Valley to close for 11 nights",
-          "summary": "Sanral will close the Exit 17 off-ramp nightly from 20:00 to 04:30 between 30 November and 11 December while a bridge is moved into place. Westbound traffic will be diverted via the M1 Richmond Road interchange.",
-          "source": "Daily News",
-          "url": "https://dailynews.co.za/news/2026-11-25-durbanpietermaritzburg-motorists-face-11-nights-of-n3-ramp-closures/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Study warns Richards Bay harbour is exposed to storm-surge flooding",
-          "summary": "UNISA researchers found an extreme 10m surge could flood around four-fifths of the harbour study area, while nearby Alkantstrand beaches have retreated by up to 167m over 45 years.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-25-richards-bay-harbour-faces-increased-risk-of-ocean-flooding/",
-          "tag": "KZN"
-        },
-        {
-          "title": "Heat and fire danger in the west, thundershowers inland today",
-          "summary": "The weather service warns of extremely high fire danger in parts of the Northern and Western Cape. KZN can expect partly cloudy, cool to warm conditions with isolated showers, except along the south coast.",
+          "title": "Court overturns MK Party expulsions of Zuma-Sambudla and Ndhlela",
+          "summary": "The Gauteng High Court in Johannesburg set aside the party's decision to expel Duduzile Zuma-Sambudla and Nhlamulo Ndhlela, who had challenged their June removal.",
           "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-26-november-2026/",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
+          "tag": "Courts"
+        },
+        {
+          "title": "Kieswetter puts SA's illicit economy at up to R1.2 trillion",
+          "summary": "Testifying at the Madlanga Commission, former SARS commissioner Edward Kieswetter proposed a national framework to measure the illicit economy and a joint border-agency command centre. The commission's report to the president is due by 25 January 2027.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-kieswetters-size-matters-plan-to-tackle-sas-booming-trillion-rand-illicit-economy/"
+        },
+        {
+          "title": "Gauteng cleans up after flash floods submerge bridges",
+          "summary": "Heavy rain flooded parts of Johannesburg, Ekurhuleni and Tshwane, damaging homes, cars and roads. Ekurhuleni recorded 15 water-rescue incidents, and more showers were forecast for Gauteng.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/joburg-motorists-urged-to-be-cautious-in-face-of-wet-weather-destructive-flooding",
           "tag": "Weather"
+        },
+        {
+          "title": "Nelson Mandela Bay discharging sewage into the sea without a permit",
+          "summary": "The environment department says the metro has not responded to a notice over effluent released at Cape Recife and that enforcement will follow. Conservationists measured E. coli far above coastal guidelines.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-sea-of-sewage-nmb-in-hot-water-over-unauthorised-effluent-discharge/"
+        },
+        {
+          "title": "US firms step up push for Africa's critical minerals, including in SA",
+          "summary": "US companies announced mining projects this year in South Africa, Guinea, Mozambique and Kenya, while a US-DRC deal gives American investors first offer on Congolese assets, AFP reports.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/us-targets-africas-critical-minerals-to-counter-rivals",
+          "tag": "Africa"
         }
       ]
     },
@@ -97,32 +85,46 @@
       "label": "World",
       "items": [
         {
-          "title": "Iran says two tankers hit mines in the Strait of Hormuz",
-          "summary": "Iran's Revolutionary Guards said the ships struck mines and caught fire while using an unauthorised route, and warned vessels to coordinate with Iranian forces. Tehran links reopening normal shipping to the US lifting its naval blockade.",
-          "source": "BOE Report (Reuters)",
-          "url": "https://boereport.com/2026/11/25/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage/",
-          "tag": "Middle East"
-        },
-        {
-          "title": "Riyadh's tallest tower hit for second time in days, 11 injured",
-          "summary": "Saudi civil defence blamed the Houthis for a strike on the 80-storey PIF Tower in the King Abdullah Financial District, the second attack on the building within a week.",
-          "source": "Malay Mail (AFP)",
-          "url": "https://malaymail.com/news/world/2026/11/25/riyadhs-tallest-skyscraper-struck-for-second-time-in-days-injuring-11/244654",
-          "tag": "Middle East"
-        },
-        {
-          "title": "RSF drone attacks kill at least 19 in Sudan's Blue Nile state",
-          "summary": "Strikes on Damazin and nearby Roseires also hit power facilities and a large dam, according to a military source and a rights group. Drones account for most civilian deaths in the war this year.",
+          "title": "Two Italians killed after Iranian drone strike in Kuwait",
+          "summary": "Two Italian technicians died from debris after a drone strike on a site in Kuwait, and two other workers were hurt. Iran's military denied carrying out offensive operations; it is the first such strike on Kuwait since September.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan",
-          "tag": "Africa"
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "tag": "Middle East"
         },
         {
-          "title": "US proposes new tariffs on 14 economies including China and the EU",
-          "summary": "After an eight-month probe into excess factory capacity, the US trade office proposed duties on partners including China, the EU, Japan, India and Vietnam. They are unlikely to take effect before January.",
-          "source": "RTÉ",
-          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
-          "tag": "Trade"
+          "title": "EU budget summit ends without a deal; Macron sets December deadline",
+          "summary": "Leaders failed to agree on a €1.78 trillion seven-year budget compromise. Macron said talks cannot run past 31 December, and leaders will meet again on 17-18 December, with a €45bn Ukraine loan also debated.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+          "tag": "Europe"
+        },
+        {
+          "title": "US judge blocks Trump's latest birthright citizenship limits",
+          "summary": "A federal district judge ruled that the administration cannot create new exceptions to citizenship for US-born children, striking down August executive orders. The White House criticised the ruling.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship",
+          "tag": "US"
+        },
+        {
+          "title": "Leaked records point to up to 700,000 Russian war dead in Ukraine",
+          "summary": "Researchers analysing millions of leaked Russian death records estimate at least 500,000 and possibly 700,000 soldiers have died since the invasion began. Moscow has not confirmed the figures.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/leaked-records-suggest-700-000-russian-soldiers-have-died-in-ukraine",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "Explosion and fire at Bangkok oil depot",
+          "summary": "A blast hit the Bangchak depot in eastern Bangkok, prompting evacuations nearby and a shutdown of the company's refinery. Officials said the fire was brought under control; the cause was not yet known.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok",
+          "tag": "Asia"
+        },
+        {
+          "title": "Haftar visits Ankara as Turkey courts both sides in Libya",
+          "summary": "Eastern Libyan commander Khalifa Haftar met Erdogan, his first Ankara trip in about seven years, days after Tripoli's prime minister met Turkish officials. Erdogan is expected to visit Libya in December.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/haftar-meets-erdogan-can-turkiye-reunify-libya-as-it-courts-rival-sides",
+          "tag": "Africa"
         }
       ]
     },
@@ -131,25 +133,32 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "Rand eases near one-year lows as US inflation data looms",
-          "summary": "The rand traded around R17.63 to the dollar early on Wednesday, about 0.5% weaker, with traders focused on US PCE inflation and GDP figures. The 2035 government bond yield stood at 8.66%.",
-          "source": "CNBC Africa (Reuters)",
-          "url": "https://cnbcafrica.com/2026/south-african-rand-eases-with-us-inflation-data-in-focus",
+          "title": "Producer inflation jumps to 8.1%, highest since 2023",
+          "summary": "Factory-gate inflation rose to 8.1% in October from 6.2%, above the 7.6% economists expected, driven largely by fuel. Economists say it adds pressure on consumer prices and a January rate hike can't be ruled out.",
+          "source": "The National",
+          "url": "https://thenational.co.za/news/2026-11-27-south-africa-s-producer-inflation-jumps-to-8-1-in-october/",
+          "tag": "Inflation"
+        },
+        {
+          "title": "Rand bounces off its weakest level of the year",
+          "summary": "The rand slid to about R17.73 per dollar overnight before recovering to around R17.54 on Thursday afternoon, as US rate-hike expectations weigh on emerging markets.",
+          "source": "The National",
+          "url": "https://thenational.co.za/news/2026-11-26-rand-recovers-from-2026-low-as-black-friday-shoppers-face-mounting-financial-pressure/",
           "tag": "Rand"
         },
         {
-          "title": "JSE slips as gold drops more than 2%",
-          "summary": "The All Share closed Tuesday 0.2% lower at 106,216.57 and the Top 40 fell 0.3%. Gold lost 2.06% to about $3,557 an ounce while Brent rose to roughly $91 a barrel.",
-          "source": "PSG",
-          "url": "https://www.psg.co.za/research-and-insights/articles/25-november-2026",
-          "tag": "JSE"
+          "title": "Record petrol cut of over R3 a litre on the cards for December",
+          "summary": "Mid-month Central Energy Fund data point to inland 95 petrol falling about R3.43 a litre and diesel by up to 88c, partly offset by reduced fuel levy relief from 1 December. Official prices are due around 2 December.",
+          "source": "CAR Magazine",
+          "url": "https://www.carmag.co.za/news/industry-news/december-2026-fuel-price-forecast-record-petrol-price-cuts/",
+          "tag": "Fuel"
         },
         {
-          "title": "Markets price in a December US rate hike",
-          "summary": "Ahead of the October PCE release, traders had fully priced a quarter-point Fed increase in December and put roughly 60% odds on another in January, adding pressure on emerging-market currencies.",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
-          "tag": "Global"
+          "title": "Black Friday becomes 'Black November' as Takealot leads the charge",
+          "summary": "Retailers have stretched discounts across the month, with Takealot reporting strong first-half growth. Credit bureau data show many consumers expect to miss a payment, raising debt concerns.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-forget-black-friday-takealot-leads-the-battle-for-black-november/",
+          "tag": "Retail"
         }
       ]
     },
@@ -158,31 +167,24 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Proteas crush Bangladesh by an innings and 219 runs for 2-0 sweep",
-          "summary": "Wiaan Mulder took 7-31 as Bangladesh folded for 184 on day three at Centurion. South Africa stay top of the World Test Championship and host England from 17 December.",
-          "source": "Jacaranda FM (AFP)",
-          "url": "https://www.jacarandafm.com/news/sport/proteas-thump-bangladesh-to-seal-test-series-sweep/",
-          "tag": "Cricket"
-        },
-        {
-          "title": "Pieter-Steph du Toit ruled out of Sunday's final against France",
-          "summary": "The flank has a suspected concussion from the Ireland Test, and Marco van Staden's yellow card was upgraded to red. The Springboks meet France in the Nations Championship final at Twickenham on Sunday.",
-          "source": "OFM",
-          "url": "https://www.ofm.co.za/article/rugby/344139/du-toit-ruled-out-of-nations-championship-final",
+          "title": "Springboks face France in Nations Championship final on Sunday",
+          "summary": "The Boks meet France at Twickenham at 18:40 SA time, with Manie Libbok at flyhalf and Sacha Feinberg-Mngomezulu at fullback in place of the injured Damian Willemse.",
+          "source": "ESPN",
+          "url": "https://africa.espn.com/espn/story/_/id/50590503/south-africa-vs-france-nations-championship-final-kick-team-news-how-watch",
           "tag": "Rugby"
         },
         {
-          "title": "Sundowns edge AmaZulu to go top; Chiefs stunned by Stellenbosch",
-          "summary": "A late Marcelo Allende goal gave Sundowns a 1-0 win and top spot on goals scored over Pirates, both on 38 points. Chiefs lost 2-1 at home ahead of Saturday's Soweto Derby against Pirates.",
-          "source": "Flashscore",
-          "url": "https://www.flashscore.com/news/soccer-betway-premiership-betway-premiership-wrap-mamelodi-sundowns-back-on-top-kaizer-chiefs-stunned-at-home/OIFkHDWo",
-          "tag": "Football"
+          "title": "Mulder and Ackerman power Proteas' winning summer",
+          "summary": "After beating Australia 2-1 and sweeping Bangladesh 2-0, South Africa's Test side has been lifted by Wiaan Mulder's all-round play and opener Marques Ackerman's 470 runs. England tour next for three Tests.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-mulder-and-ackerman-epitomise-the-ethos-of-the-proteas-team-first-approach/",
+          "tag": "Cricket"
         },
         {
-          "title": "Champions League: Liverpool and Barcelona cruise, Bayern beaten",
-          "summary": "Liverpool won 3-0 at Club Brugge and Barcelona 4-1 at Sabah, while Lille beat Bayern 2-1 and Roma drew 2-2 in Paris. On Tuesday Real Madrid thrashed PSV 5-1 to keep a perfect record.",
+          "title": "Europa League: Bournemouth stay perfect, Milan fight back",
+          "summary": "Ten-man Bournemouth beat Celta 2-1 for a fifth straight win, Milan came from 2-0 down to win 4-2 at Olympiacos, and Viktoria Plzeň thrashed Benfica 4-0.",
           "source": "UEFA",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-round-up-liverpool-and-barca-win-well-rom/",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-222a8b7281ee-613f6f283146-1000--europa-league-matchday-5-highlights-and-round-up-bournemou/",
           "tag": "Football"
         }
       ]
@@ -192,11 +194,18 @@
       "label": "Tech & Science",
       "items": [
         {
-          "title": "US jury convicts Huawei of trade-secret conspiracy and bank fraud",
-          "summary": "A New York jury found the Chinese firm guilty on those counts but acquitted it of racketeering conspiracy. Huawei says it will appeal.",
-          "source": "PBS NewsHour (AP)",
-          "url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud",
-          "tag": "Tech"
+          "title": "FCC clears SpaceX for up to a million satellites for orbital AI computing",
+          "summary": "US regulators authorised SpaceX to deploy a vast constellation for a proposed space-based AI computing network; nothing near that scale has been launched yet.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "El Niño pushes up global prices of cocoa, coffee, rice and fish",
+          "summary": "Futures for several crops have risen sharply since El Niño was declared in June, and Peruvian fish catches have slumped. SA food inflation remains low so far, but seafood prices are climbing.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-from-cocoa-to-fish-el-nino-hits-home-as-global-food-prices-surge/",
+          "tag": "Climate"
         }
       ]
     }

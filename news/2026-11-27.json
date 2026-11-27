@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T05:15:15+02:00",
+  "lead": "eThekwini's council meets today to try again to elect a mayor, a day after ActionSA's Nasiphi Moya was returned as Tshwane mayor; producer inflation jumped to 8.1% in October.",
+  "ticker": [
+    {
+      "label": "USD/ZAR",
+      "value": "17.54"
+    },
+    {
+      "label": "Brent (US$/bbl)",
+      "value": "95.47",
+      "change": "+0.91%"
+    },
+    {
+      "label": "Gold (US$/oz)",
+      "value": "3,569.52",
+      "change": "-0.34%"
+    },
+    {
+      "label": "SA PPI (Oct, y/y)",
+      "value": "8.1%"
+    },
+    {
+      "label": "95 petrol, Dec forecast",
+      "value": "-R3.43/l"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sa",
+      "label": "South Africa",
+      "items": [
+        {
+          "title": "eThekwini council reconvenes today to elect a mayor",
+          "summary": "No party holds a majority in the 223-seat council, where the MK Party has 86 seats. The ANC is expected to back Thabani Nyawose, MK has nominated Mxolisi Phakathi and the DA Haniff Hoosen, amid five councillor resignations and claims of backroom deals.",
+          "source": "Mail & Guardian",
+          "url": "https://mg.co.za/politics/2026-11-26-dirty-deals-cloud-mayoral-race/",
+          "tag": "KZN"
+        },
+        {
+          "title": "Nasiphi Moya re-elected Tshwane mayor in ANC-ActionSA-EFF-MK deal",
+          "summary": "ActionSA's Moya beat the DA's Cilliers Brink 115 votes to 87 at the first council sitting since the polls. The EFF took the deputy mayor post, and the ANC's Naeem Patel was elected speaker with 119 votes.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
+          "tag": "Elections"
+        },
+        {
+          "title": "Court overturns MK Party expulsions of Zuma-Sambudla and Ndhlela",
+          "summary": "The Gauteng High Court in Johannesburg set aside the party's decision to expel Duduzile Zuma-Sambudla and Nhlamulo Ndhlela, who had challenged their June removal.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
+          "tag": "Courts"
+        },
+        {
+          "title": "Kieswetter puts SA's illicit economy at up to R1.2 trillion",
+          "summary": "Testifying at the Madlanga Commission, former SARS commissioner Edward Kieswetter proposed a national framework to measure the illicit economy and a joint border-agency command centre. The commission's report to the president is due by 25 January 2027.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-kieswetters-size-matters-plan-to-tackle-sas-booming-trillion-rand-illicit-economy/"
+        },
+        {
+          "title": "Gauteng cleans up after flash floods submerge bridges",
+          "summary": "Heavy rain flooded parts of Johannesburg, Ekurhuleni and Tshwane, damaging homes, cars and roads. Ekurhuleni recorded 15 water-rescue incidents, and more showers were forecast for Gauteng.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/joburg-motorists-urged-to-be-cautious-in-face-of-wet-weather-destructive-flooding",
+          "tag": "Weather"
+        },
+        {
+          "title": "Nelson Mandela Bay discharging sewage into the sea without a permit",
+          "summary": "The environment department says the metro has not responded to a notice over effluent released at Cape Recife and that enforcement will follow. Conservationists measured E. coli far above coastal guidelines.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-sea-of-sewage-nmb-in-hot-water-over-unauthorised-effluent-discharge/"
+        },
+        {
+          "title": "US firms step up push for Africa's critical minerals, including in SA",
+          "summary": "US companies announced mining projects this year in South Africa, Guinea, Mozambique and Kenya, while a US-DRC deal gives American investors first offer on Congolese assets, AFP reports.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/us-targets-africas-critical-minerals-to-counter-rivals",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "items": [
+        {
+          "title": "Two Italians killed after Iranian drone strike in Kuwait",
+          "summary": "Two Italian technicians died from debris after a drone strike on a site in Kuwait, and two other workers were hurt. Iran's military denied carrying out offensive operations; it is the first such strike on Kuwait since September.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "tag": "Middle East"
+        },
+        {
+          "title": "EU budget summit ends without a deal; Macron sets December deadline",
+          "summary": "Leaders failed to agree on a €1.78 trillion seven-year budget compromise. Macron said talks cannot run past 31 December, and leaders will meet again on 17-18 December, with a €45bn Ukraine loan also debated.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+          "tag": "Europe"
+        },
+        {
+          "title": "US judge blocks Trump's latest birthright citizenship limits",
+          "summary": "A federal district judge ruled that the administration cannot create new exceptions to citizenship for US-born children, striking down August executive orders. The White House criticised the ruling.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship",
+          "tag": "US"
+        },
+        {
+          "title": "Leaked records point to up to 700,000 Russian war dead in Ukraine",
+          "summary": "Researchers analysing millions of leaked Russian death records estimate at least 500,000 and possibly 700,000 soldiers have died since the invasion began. Moscow has not confirmed the figures.",
+          "source": "EWN",
+          "url": "https://www.ewn.co.za/2026/11/26/leaked-records-suggest-700-000-russian-soldiers-have-died-in-ukraine",
+          "tag": "Ukraine"
+        },
+        {
+          "title": "Explosion and fire at Bangkok oil depot",
+          "summary": "A blast hit the Bangchak depot in eastern Bangkok, prompting evacuations nearby and a shutdown of the company's refinery. Officials said the fire was brought under control; the cause was not yet known.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok",
+          "tag": "Asia"
+        },
+        {
+          "title": "Haftar visits Ankara as Turkey courts both sides in Libya",
+          "summary": "Eastern Libyan commander Khalifa Haftar met Erdogan, his first Ankara trip in about seven years, days after Tripoli's prime minister met Turkish officials. Erdogan is expected to visit Libya in December.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/haftar-meets-erdogan-can-turkiye-reunify-libya-as-it-courts-rival-sides",
+          "tag": "Africa"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Business & Markets",
+      "items": [
+        {
+          "title": "Producer inflation jumps to 8.1%, highest since 2023",
+          "summary": "Factory-gate inflation rose to 8.1% in October from 6.2%, above the 7.6% economists expected, driven largely by fuel. Economists say it adds pressure on consumer prices and a January rate hike can't be ruled out.",
+          "source": "The National",
+          "url": "https://thenational.co.za/news/2026-11-27-south-africa-s-producer-inflation-jumps-to-8-1-in-october/",
+          "tag": "Inflation"
+        },
+        {
+          "title": "Rand bounces off its weakest level of the year",
+          "summary": "The rand slid to about R17.73 per dollar overnight before recovering to around R17.54 on Thursday afternoon, as US rate-hike expectations weigh on emerging markets.",
+          "source": "The National",
+          "url": "https://thenational.co.za/news/2026-11-26-rand-recovers-from-2026-low-as-black-friday-shoppers-face-mounting-financial-pressure/",
+          "tag": "Rand"
+        },
+        {
+          "title": "Record petrol cut of over R3 a litre on the cards for December",
+          "summary": "Mid-month Central Energy Fund data point to inland 95 petrol falling about R3.43 a litre and diesel by up to 88c, partly offset by reduced fuel levy relief from 1 December. Official prices are due around 2 December.",
+          "source": "CAR Magazine",
+          "url": "https://www.carmag.co.za/news/industry-news/december-2026-fuel-price-forecast-record-petrol-price-cuts/",
+          "tag": "Fuel"
+        },
+        {
+          "title": "Black Friday becomes 'Black November' as Takealot leads the charge",
+          "summary": "Retailers have stretched discounts across the month, with Takealot reporting strong first-half growth. Credit bureau data show many consumers expect to miss a payment, raising debt concerns.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-forget-black-friday-takealot-leads-the-battle-for-black-november/",
+          "tag": "Retail"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "Springboks face France in Nations Championship final on Sunday",
+          "summary": "The Boks meet France at Twickenham at 18:40 SA time, with Manie Libbok at flyhalf and Sacha Feinberg-Mngomezulu at fullback in place of the injured Damian Willemse.",
+          "source": "ESPN",
+          "url": "https://africa.espn.com/espn/story/_/id/50590503/south-africa-vs-france-nations-championship-final-kick-team-news-how-watch",
+          "tag": "Rugby"
+        },
+        {
+          "title": "Mulder and Ackerman power Proteas' winning summer",
+          "summary": "After beating Australia 2-1 and sweeping Bangladesh 2-0, South Africa's Test side has been lifted by Wiaan Mulder's all-round play and opener Marques Ackerman's 470 runs. England tour next for three Tests.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-mulder-and-ackerman-epitomise-the-ethos-of-the-proteas-team-first-approach/",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Europa League: Bournemouth stay perfect, Milan fight back",
+          "summary": "Ten-man Bournemouth beat Celta 2-1 for a fifth straight win, Milan came from 2-0 down to win 4-2 at Olympiacos, and Viktoria Plzeň thrashed Benfica 4-0.",
+          "source": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-222a8b7281ee-613f6f283146-1000--europa-league-matchday-5-highlights-and-round-up-bournemou/",
+          "tag": "Football"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech & Science",
+      "items": [
+        {
+          "title": "FCC clears SpaceX for up to a million satellites for orbital AI computing",
+          "summary": "US regulators authorised SpaceX to deploy a vast constellation for a proposed space-based AI computing network; nothing near that scale has been launched yet.",
+          "source": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/",
+          "tag": "AI"
+        },
+        {
+          "title": "El Niño pushes up global prices of cocoa, coffee, rice and fish",
+          "summary": "Futures for several crops have risen sharply since El Niño was declared in June, and Peruvian fish catches have slumped. SA food inflation remains low so far, but seafood prices are climbing.",
+          "source": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-26-from-cocoa-to-fish-el-nino-hits-home-as-global-food-prices-surge/",
+          "tag": "Climate"
+        }
+      ]
+    }
+  ]
+}
