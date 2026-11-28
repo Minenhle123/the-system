@@ -1,29 +1,21 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T05:15:15+02:00",
-  "lead": "eThekwini's council meets today to try again to elect a mayor, a day after ActionSA's Nasiphi Moya was returned as Tshwane mayor; producer inflation jumped to 8.1% in October.",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T05:14:25+02:00",
+  "lead": "MK Party's Mxolisi Phakathi is eThekwini's new mayor and Herman Mashaba is back in charge of Johannesburg, as coalition deals settle the metros. S&P has also upgraded South Africa to BB+, one notch below investment grade.",
   "ticker": [
     {
-      "label": "USD/ZAR",
-      "value": "17.54"
+      "label": "S&P SA rating",
+      "value": "BB+",
+      "change": "up from BB"
     },
     {
-      "label": "Brent (US$/bbl)",
-      "value": "95.47",
-      "change": "+0.91%"
+      "label": "Petrol 93 Dec (projected)",
+      "value": "R27.31/l",
+      "change": "-R3.06"
     },
     {
-      "label": "Gold (US$/oz)",
-      "value": "3,569.52",
-      "change": "-0.34%"
-    },
-    {
-      "label": "SA PPI (Oct, y/y)",
-      "value": "8.1%"
-    },
-    {
-      "label": "95 petrol, Dec forecast",
-      "value": "-R3.43/l"
+      "label": "Vaal Dam",
+      "value": "111.6% full"
     }
   ],
   "sections": [
@@ -32,51 +24,51 @@
       "label": "South Africa",
       "items": [
         {
-          "title": "eThekwini council reconvenes today to elect a mayor",
-          "summary": "No party holds a majority in the 223-seat council, where the MK Party has 86 seats. The ANC is expected to back Thabani Nyawose, MK has nominated Mxolisi Phakathi and the DA Haniff Hoosen, amid five councillor resignations and claims of backroom deals.",
-          "source": "Mail & Guardian",
-          "url": "https://mg.co.za/politics/2026-11-26-dirty-deals-cloud-mayoral-race/",
+          "title": "MK Party wins eThekwini mayoralty as Mxolisi Phakathi elected",
+          "summary": "Councillors elected MK's Mxolisi Phakathi mayor of Durban's metro by 139 votes to 75 for the DA's Haniff Hoosen, the party's first metro mayoralty. The ANC's Thabani Nyawose was returned as Speaker under a deal involving MK, the ANC and ActionSA.",
+          "source": "The Witness",
+          "url": "https://witness.co.za/news/2026/11/27/mk-party-takes-ethekwini-mayoralty-as-phakathi-elected/",
           "tag": "KZN"
         },
         {
-          "title": "Nasiphi Moya re-elected Tshwane mayor in ANC-ActionSA-EFF-MK deal",
-          "summary": "ActionSA's Moya beat the DA's Cilliers Brink 115 votes to 87 at the first council sitting since the polls. The EFF took the deputy mayor post, and the ANC's Naeem Patel was elected speaker with 119 votes.",
-          "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
+          "title": "Herman Mashaba returns as Johannesburg mayor in ANC-backed deal",
+          "summary": "The ActionSA leader was elected Joburg mayor on Friday with backing from the ANC, EFF and MK, leaving the DA out despite its large vote share. A similar grouping is set to run Tshwane and Ekurhuleni; the city has had seven mayors since 2021.",
+          "source": "TimesLIVE (Reuters)",
+          "url": "https://www.timeslive.co.za/politics/2026-11-27-herman-mashaba-returns-as-joburg-mayor-in-anc-backed-deal/",
           "tag": "Elections"
         },
         {
-          "title": "Court overturns MK Party expulsions of Zuma-Sambudla and Ndhlela",
-          "summary": "The Gauteng High Court in Johannesburg set aside the party's decision to expel Duduzile Zuma-Sambudla and Nhlamulo Ndhlela, who had challenged their June removal.",
+          "title": "New eThekwini council faces water outages in Durban suburbs",
+          "summary": "An overrunning N2 watermain relocation left thousands of residents dry, with Sherwood, Musgrave and Morningside reservoirs still closed. The city says full supply may take up to two weeks to return.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-27-baptism-of-fire-for-new-ethekwini-councillors-amid-water-outages/",
+          "tag": "KZN"
+        },
+        {
+          "title": "DA made last-minute offer to hand eThekwini mayoralty to the ANC",
+          "summary": "Before Friday's vote, DA KZN chair Dean Macpherson wrote to the ANC proposing it take the mayor's post, with the DA as deputy and the IFP as Speaker. The ANC instead backed the MK-led arrangement.",
+          "source": "eNCA",
+          "url": "https://www.enca.com/news-top-stories/da-proposes-donate-ethekwini-mayorship-anc",
+          "tag": "KZN"
+        },
+        {
+          "title": "Joburg brings in Level 2 water restrictions and higher tariffs from 1 December",
+          "summary": "The city is using about 185 million litres a day more than its bulk allocation, and storage is down to around eight hours. Garden watering with municipal water is banned and a typical 10kl monthly bill rises to about R197 before VAT.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-joburg-introduces-water-restrictions-and-higher-tariffs-from-december-1/"
+        },
+        {
+          "title": "Vaal Dam sluice gate opened after heavy rain",
+          "summary": "Water and Sanitation opened a sluice gate with the dam above 111% of capacity. Residents downstream, including Vereeniging, Vanderbijlpark and Parys, were urged to be cautious as outflows rise.",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-vaal-dam-sluice-gate-opened-as-water-levels-rise/"
+        },
+        {
+          "title": "Severe storms forecast for much of SA today; hot and humid in KZN",
+          "summary": "An orange level 5 warning covers parts of Gauteng and Mpumalanga for flooding, hail and damaging winds, with a yellow level 4 for eastern KZN. Northeastern KZN will be hot and humid with very high UV.",
           "source": "The Citizen",
-          "url": "https://www.citizen.co.za/news/in-case-you-missed-it-26-november-2026/",
-          "tag": "Courts"
-        },
-        {
-          "title": "Kieswetter puts SA's illicit economy at up to R1.2 trillion",
-          "summary": "Testifying at the Madlanga Commission, former SARS commissioner Edward Kieswetter proposed a national framework to measure the illicit economy and a joint border-agency command centre. The commission's report to the president is due by 25 January 2027.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-26-kieswetters-size-matters-plan-to-tackle-sas-booming-trillion-rand-illicit-economy/"
-        },
-        {
-          "title": "Gauteng cleans up after flash floods submerge bridges",
-          "summary": "Heavy rain flooded parts of Johannesburg, Ekurhuleni and Tshwane, damaging homes, cars and roads. Ekurhuleni recorded 15 water-rescue incidents, and more showers were forecast for Gauteng.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/11/26/joburg-motorists-urged-to-be-cautious-in-face-of-wet-weather-destructive-flooding",
+          "url": "https://www.citizen.co.za/news/south-africa/weather/weather-forecast-28-november-2026/",
           "tag": "Weather"
-        },
-        {
-          "title": "Nelson Mandela Bay discharging sewage into the sea without a permit",
-          "summary": "The environment department says the metro has not responded to a notice over effluent released at Cape Recife and that enforcement will follow. Conservationists measured E. coli far above coastal guidelines.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-26-sea-of-sewage-nmb-in-hot-water-over-unauthorised-effluent-discharge/"
-        },
-        {
-          "title": "US firms step up push for Africa's critical minerals, including in SA",
-          "summary": "US companies announced mining projects this year in South Africa, Guinea, Mozambique and Kenya, while a US-DRC deal gives American investors first offer on Congolese assets, AFP reports.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/11/26/us-targets-africas-critical-minerals-to-counter-rivals",
-          "tag": "Africa"
         }
       ]
     },
@@ -85,45 +77,43 @@
       "label": "World",
       "items": [
         {
-          "title": "Two Italians killed after Iranian drone strike in Kuwait",
-          "summary": "Two Italian technicians died from debris after a drone strike on a site in Kuwait, and two other workers were hurt. Iran's military denied carrying out offensive operations; it is the first such strike on Kuwait since September.",
+          "title": "Italy says drone that killed two Italians in Kuwait was Iranian-made",
+          "summary": "Foreign Minister Antonio Tajani said Kuwaiti investigators confirmed the drone's Iranian origin. Tehran denies launching it and has offered a joint inquiry, while tanker incidents continue around the Strait of Hormuz.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran",
           "tag": "Middle East"
         },
         {
-          "title": "EU budget summit ends without a deal; Macron sets December deadline",
-          "summary": "Leaders failed to agree on a €1.78 trillion seven-year budget compromise. Macron said talks cannot run past 31 December, and leaders will meet again on 17-18 December, with a €45bn Ukraine loan also debated.",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+          "title": "EU leaders fail to agree long-term budget and Ukraine loan",
+          "summary": "A Brussels summit ended without a deal on the 2028-2034 budget or a proposed loan for Ukraine, both needing unanimity. Leaders signalled agreement before Christmas looks unlikely.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
           "tag": "Europe"
         },
         {
-          "title": "US judge blocks Trump's latest birthright citizenship limits",
-          "summary": "A federal district judge ruled that the administration cannot create new exceptions to citizenship for US-born children, striking down August executive orders. The White House criticised the ruling.",
+          "title": "Argentina bars its central bank from funding government spending",
+          "summary": "Congress gave final approval to a law making currency stability the bank's main mission and banning money-printing for state expenses, a key Milei reform.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship",
-          "tag": "US"
+          "url": "https://www.aljazeera.com/news/2026/11/27/argentina-bars-central-bank-from-printing-money-to-fund-government-spending"
         },
         {
-          "title": "Leaked records point to up to 700,000 Russian war dead in Ukraine",
-          "summary": "Researchers analysing millions of leaked Russian death records estimate at least 500,000 and possibly 700,000 soldiers have died since the invasion began. Moscow has not confirmed the figures.",
-          "source": "EWN",
-          "url": "https://www.ewn.co.za/2026/11/26/leaked-records-suggest-700-000-russian-soldiers-have-died-in-ukraine",
-          "tag": "Ukraine"
+          "title": "Thanksgiving storms cut power to nearly a million in the US",
+          "summary": "Over 900,000 homes and businesses lost power, Macy's parade was postponed, and more than 2,000 flights were delayed.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us"
         },
         {
-          "title": "Explosion and fire at Bangkok oil depot",
-          "summary": "A blast hit the Bangchak depot in eastern Bangkok, prompting evacuations nearby and a shutdown of the company's refinery. Officials said the fire was brought under control; the cause was not yet known.",
+          "title": "UN warns of rising famine risk, adding Southern Africa to hunger hotspots",
+          "summary": "FAO and WFP now list 16 hotspots for December to May, with El Nino behind several new ones including parts of Southern Africa. Sudan, South Sudan, Somalia, northern Nigeria and Yemen face the gravest threat.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok",
-          "tag": "Asia"
+          "url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un",
+          "tag": "Africa"
         },
         {
-          "title": "Haftar visits Ankara as Turkey courts both sides in Libya",
-          "summary": "Eastern Libyan commander Khalifa Haftar met Erdogan, his first Ankara trip in about seven years, days after Tripoli's prime minister met Turkish officials. Erdogan is expected to visit Libya in December.",
+          "title": "Guinea-Bissau's military rulers push elections back to 2028",
+          "summary": "A decree moved presidential and legislative polls from 6 December to November 2028, citing a lack of resources. The army seized power a year ago.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/haftar-meets-erdogan-can-turkiye-reunify-libya-as-it-courts-rival-sides",
+          "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
           "tag": "Africa"
         }
       ]
@@ -133,32 +123,18 @@
       "label": "Business & Markets",
       "items": [
         {
-          "title": "Producer inflation jumps to 8.1%, highest since 2023",
-          "summary": "Factory-gate inflation rose to 8.1% in October from 6.2%, above the 7.6% economists expected, driven largely by fuel. Economists say it adds pressure on consumer prices and a January rate hike can't be ruled out.",
-          "source": "The National",
-          "url": "https://thenational.co.za/news/2026-11-27-south-africa-s-producer-inflation-jumps-to-8-1-in-october/",
-          "tag": "Inflation"
+          "title": "S&P upgrades South Africa to BB+, one step from investment grade",
+          "summary": "S&P lifted SA's foreign-currency rating from BB with a stable outlook, citing improving public finances and a fourth straight primary surplus. Treasury says debt peaked at 74.6% of GDP; Fitch reviews SA on 11 December.",
+          "source": "Reuters",
+          "url": "https://kfgo.com/2026/11/27/sp-lifts-south-africa-ratings-on-improving-fiscal-position/",
+          "tag": "Ratings"
         },
         {
-          "title": "Rand bounces off its weakest level of the year",
-          "summary": "The rand slid to about R17.73 per dollar overnight before recovering to around R17.54 on Thursday afternoon, as US rate-hike expectations weigh on emerging markets.",
-          "source": "The National",
-          "url": "https://thenational.co.za/news/2026-11-26-rand-recovers-from-2026-low-as-black-friday-shoppers-face-mounting-financial-pressure/",
-          "tag": "Rand"
-        },
-        {
-          "title": "Record petrol cut of over R3 a litre on the cards for December",
-          "summary": "Mid-month Central Energy Fund data point to inland 95 petrol falling about R3.43 a litre and diesel by up to 88c, partly offset by reduced fuel levy relief from 1 December. Official prices are due around 2 December.",
-          "source": "CAR Magazine",
-          "url": "https://www.carmag.co.za/news/industry-news/december-2026-fuel-price-forecast-record-petrol-price-cuts/",
+          "title": "Big petrol price cut expected next week, diesel roughly flat",
+          "summary": "Mid-month data pointed to petrol 93 falling about R3 a litre to around R27.31 in December, partly offset by the end of fuel tax relief; diesel 0.05% may edge higher. Final prices are announced only days before the change.",
+          "source": "BusinessTech",
+          "url": "https://businesstech.co.za/news/energy/884434/here-is-the-expected-petrol-price-for-december-9/",
           "tag": "Fuel"
-        },
-        {
-          "title": "Black Friday becomes 'Black November' as Takealot leads the charge",
-          "summary": "Retailers have stretched discounts across the month, with Takealot reporting strong first-half growth. Credit bureau data show many consumers expect to miss a payment, raising debt concerns.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-26-forget-black-friday-takealot-leads-the-battle-for-black-november/",
-          "tag": "Retail"
         }
       ]
     },
@@ -167,24 +143,24 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Springboks face France in Nations Championship final on Sunday",
-          "summary": "The Boks meet France at Twickenham at 18:40 SA time, with Manie Libbok at flyhalf and Sacha Feinberg-Mngomezulu at fullback in place of the injured Damian Willemse.",
-          "source": "ESPN",
-          "url": "https://africa.espn.com/espn/story/_/id/50590503/south-africa-vs-france-nations-championship-final-kick-team-news-how-watch",
-          "tag": "Rugby"
-        },
-        {
-          "title": "Mulder and Ackerman power Proteas' winning summer",
-          "summary": "After beating Australia 2-1 and sweeping Bangladesh 2-0, South Africa's Test side has been lifted by Wiaan Mulder's all-round play and opener Marques Ackerman's 470 runs. England tour next for three Tests.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-26-mulder-and-ackerman-epitomise-the-ethos-of-the-proteas-team-first-approach/",
+          "title": "Proteas crush Bangladesh by an innings to sweep Test series 2-0",
+          "summary": "South Africa won the Centurion Test by an innings and 219 runs, with Wiaan Mulder scoring a century and taking 7/31. An ODI series follows next week.",
+          "source": "The Citizen",
+          "url": "https://www.citizen.co.za/sport/cricket/proteas-thump-bangladesh-test-series-victory/",
           "tag": "Cricket"
         },
         {
-          "title": "Europa League: Bournemouth stay perfect, Milan fight back",
-          "summary": "Ten-man Bournemouth beat Celta 2-1 for a fifth straight win, Milan came from 2-0 down to win 4-2 at Olympiacos, and Viktoria Plzeň thrashed Benfica 4-0.",
-          "source": "UEFA",
-          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-222a8b7281ee-613f6f283146-1000--europa-league-matchday-5-highlights-and-round-up-bournemou/",
+          "title": "Proteas turn focus to home Tests against England from 17 December",
+          "summary": "The three-Test series opens in Johannesburg, with Temba Bavuma expected back from injury. SA have not beaten England in a home series since 2000.",
+          "source": "ICC",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/mace-defence-on-track-as-proteas-turn-attention-to-england",
+          "tag": "Cricket"
+        },
+        {
+          "title": "Pirates lead the Premiership; AmaZulu host Milford at Moses Mabhida today",
+          "summary": "Unbeaten Pirates top the log on 28 points, two clear of Sundowns, with third-placed AmaZulu in action in Durban. Stellenbosch beat TS Galaxy 1-0 on Friday, and Chiefs meet Pirates in the Carling Knockout final on 12 December.",
+          "source": "The National",
+          "url": "https://thenational.co.za/sport/2026-11-27-title-tension-top-four-clashes-and-relegation-scraps-five-betway-premiership-talking-points/",
           "tag": "Football"
         }
       ]
@@ -194,18 +170,18 @@
       "label": "Tech & Science",
       "items": [
         {
-          "title": "FCC clears SpaceX for up to a million satellites for orbital AI computing",
-          "summary": "US regulators authorised SpaceX to deploy a vast constellation for a proposed space-based AI computing network; nothing near that scale has been launched yet.",
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/",
+          "title": "Nvidia halts AI server shipments to four Southeast Asian countries",
+          "summary": "Under tighter US export controls, Nvidia reportedly told partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia, putting data-centre investments in doubt.",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
           "tag": "AI"
         },
         {
-          "title": "El Niño pushes up global prices of cocoa, coffee, rice and fish",
-          "summary": "Futures for several crops have risen sharply since El Niño was declared in June, and Peruvian fish catches have slumped. SA food inflation remains low so far, but seafood prices are climbing.",
-          "source": "Daily Maverick",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-26-from-cocoa-to-fish-el-nino-hits-home-as-global-food-prices-surge/",
-          "tag": "Climate"
+          "title": "Google to require AI agents to use MCP for Workspace from February",
+          "summary": "Agents working with Gmail, Drive, Docs and other Workspace apps must switch to Google's MCP servers instead of direct API calls from 1 February 2027.",
+          "source": "AI Tools Recap",
+          "url": "https://aitoolsrecap.com/Blog/google-workspace-agents-must-use-mcp",
+          "tag": "AI"
         }
       ]
     }
